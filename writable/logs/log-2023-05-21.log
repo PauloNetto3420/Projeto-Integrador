@@ -1,0 +1,704 @@
+CRITICAL - 2023-05-21 06:39:46 --> syntax error, unexpected token "->", expecting ":"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:40:58 --> syntax error, unexpected token "->", expecting ":"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:40:58 --> syntax error, unexpected token "->", expecting ":"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:40:59 --> syntax error, unexpected token "->", expecting ":"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:41:21 --> syntax error, unexpected token "->", expecting ":"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:41:55 --> syntax error, unexpected token "->", expecting ":"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:43:12 --> syntax error, unexpected token "->", expecting ":"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:43:44 --> syntax error, unexpected token "->", expecting ":"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:44:14 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:44:15 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:46:09 --> syntax error, unexpected variable "$this", expecting ":"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:48:08 --> syntax error, unexpected variable "$this", expecting ":"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:48:08 --> syntax error, unexpected variable "$this", expecting ":"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:51:33 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:51:40 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\Dados.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:51:49 --> Unclosed '{' on line 10 does not match ')'
+in APPPATH\Controllers\Dados.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:51:56 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Dados.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:52:32 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Dados.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:52:37 --> syntax error, unexpected token "function"
+in APPPATH\Controllers\Dados.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:52:47 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Dados.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:52:52 --> Unclosed '{' on line 13
+in APPPATH\Controllers\Dados.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:53:03 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Dados.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:58:40 --> syntax error, unexpected token "{", expecting "("
+in APPPATH\Controllers\Dados.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:59:02 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\Dados.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 06:59:29 --> syntax error, unexpected token "{", expecting "("
+in APPPATH\Controllers\Dados.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 07:04:52 --> syntax error, unexpected token "}"
+in APPPATH\Models\Model_DAO.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Models\\Model_DAO.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Model_DAO')
+ 3 APPPATH\Controllers\Dados.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Model_DAO')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 07:06:20 --> Class "App\Models\Model_DAO" not found
+in APPPATH\Controllers\Dados.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 07:07:19 --> Class "App\Models\Model_DAO" not found
+in APPPATH\Controllers\Dados.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 07:08:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'ColaboraHub', 3306, '', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ColaboraHub\app\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...')
+#4 C:\xampp\htdocs\ColaboraHub\app\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gm...', 'Paulin3420', 'kukinha27', 'Paulo Netto', NULL, 'Masculino', 'https://files.t...')
+#5 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ColaboraHub\app\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\app\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gm...', 'Paulin3420', 'kukinha27', 'Paulo Netto', NULL, 'Masculino', 'https://files.t...')
+#4 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+#5 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-21 07:08:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'kukinha27\', \'Paulo Netto\', \'\', \'Masculino\', \'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png\',)')
+ 3 APPPATH\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gmail.com', 'Paulin3420', 'kukinha27', 'Paulo Netto', null, 'Masculino', 'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 07:08:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost:3346', '', Object(SensitiveParameterValue), 'ColaboraHub', 3306, '', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ColaboraHub\app\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...')
+#4 C:\xampp\htdocs\ColaboraHub\app\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gm...', 'Paulin3420', 'kukinha27', 'Paulo Netto', NULL, 'Masculino', 'https://files.t...')
+#5 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ColaboraHub\app\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\app\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gm...', 'Paulin3420', 'kukinha27', 'Paulo Netto', NULL, 'Masculino', 'https://files.t...')
+#4 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+#5 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-21 07:08:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'kukinha27\', \'Paulo Netto\', \'\', \'Masculino\', \'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png\',)')
+ 3 APPPATH\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gmail.com', 'Paulin3420', 'kukinha27', 'Paulo Netto', null, 'Masculino', 'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 07:08:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES ('onethesniper@gmail.com', 'Paulin3420', 'kukinha27', 'Paulo Netto',...' at line 1 in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\app\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...')
+#4 C:\xampp\htdocs\ColaboraHub\app\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gm...', 'Paulin3420', 'kukinha27', 'Paulo Netto', NULL, 'Masculino', 'https://files.t...')
+#5 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-21 07:08:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES ('onethesniper@gmail.com', 'Paulin3420', 'kukinha27', 'Paulo Netto',...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'kukinha27\', \'Paulo Netto\', \'\', \'Masculino\', \'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png\',)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'kukinha27\', \'Paulo Netto\', \'\', \'Masculino\', \'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png\',)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'kukinha27\', \'Paulo Netto\', \'\', \'Masculino\', \'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png\',)')
+ 4 APPPATH\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'kukinha27\', \'Paulo Netto\', \'\', \'Masculino\', \'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png\',)')
+ 5 APPPATH\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gmail.com', 'Paulin3420', 'kukinha27', 'Paulo Netto', null, 'Masculino', 'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 07:09:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'colaborahub', 3306, '', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ColaboraHub\app\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...')
+#4 C:\xampp\htdocs\ColaboraHub\app\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gm...', 'Paulin3420', 'kukinha27', 'Paulo Netto', NULL, 'Masculino', 'https://files.t...')
+#5 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ColaboraHub\app\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\app\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gm...', 'Paulin3420', 'kukinha27', 'Paulo Netto', NULL, 'Masculino', 'https://files.t...')
+#4 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+#5 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-21 07:09:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'kukinha27\', \'Paulo Netto\', \'\', \'Masculino\', \'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png\',)')
+ 3 APPPATH\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gmail.com', 'Paulin3420', 'kukinha27', 'Paulo Netto', null, 'Masculino', 'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 07:10:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES ('onethesniper@gmail.com', 'Paulin3420', 'kukinha27', 'Paulo Netto',...' at line 1 in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\app\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...')
+#4 C:\xampp\htdocs\ColaboraHub\app\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gm...', 'Paulin3420', 'kukinha27', 'Paulo Netto', NULL, 'Masculino', 'https://files.t...')
+#5 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-21 07:10:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES ('onethesniper@gmail.com', 'Paulin3420', 'kukinha27', 'Paulo Netto',...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'kukinha27\', \'Paulo Netto\', \'\', \'Masculino\', \'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png\',)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'kukinha27\', \'Paulo Netto\', \'\', \'Masculino\', \'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png\',)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'kukinha27\', \'Paulo Netto\', \'\', \'Masculino\', \'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png\',)')
+ 4 APPPATH\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'kukinha27\', \'Paulo Netto\', \'\', \'Masculino\', \'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png\',)')
+ 5 APPPATH\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gmail.com', 'Paulin3420', 'kukinha27', 'Paulo Netto', null, 'Masculino', 'https://files.tecnoblog.net/wp-content/uploads/2022/04/o-que-e-url-destaque-1060x596.png')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 07:10:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES ('onethesniper@gmail.com', 'Paulin3420', '', 'Paulo Netto', '', 'Mas...' at line 1 in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\app\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...')
+#4 C:\xampp\htdocs\ColaboraHub\app\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gm...', 'Paulin3420', '', 'Paulo Netto', NULL, 'Masculino', '')
+#5 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-21 07:10:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES ('onethesniper@gmail.com', 'Paulin3420', '', 'Paulo Netto', '', 'Mas...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\',)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\',)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\',)')
+ 4 APPPATH\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\',)')
+ 5 APPPATH\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gmail.com', 'Paulin3420', '', 'Paulo Netto', null, 'Masculino', '')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 07:10:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES ('onethesniper@gmail.com', 'Paulin3420', '', 'Paulo Netto', '', 'Mas...' at line 1 in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\app\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...')
+#4 C:\xampp\htdocs\ColaboraHub\app\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gm...', 'Paulin3420', '', 'Paulo Netto', NULL, 'Masculino', '')
+#5 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-21 07:10:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES ('onethesniper@gmail.com', 'Paulin3420', '', 'Paulo Netto', '', 'Mas...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\')')
+ 4 APPPATH\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\')')
+ 5 APPPATH\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gmail.com', 'Paulin3420', '', 'Paulo Netto', null, 'Masculino', '')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 07:10:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES ('onethesniper@gmail.com', 'Paulin3420', '', 'Paulo Netto', '', 'Mas...' at line 1 in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\app\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...')
+#4 C:\xampp\htdocs\ColaboraHub\app\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gm...', 'Paulin3420', '', 'Paulo Netto', NULL, 'Masculino', '')
+#5 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-21 07:10:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES ('onethesniper@gmail.com', 'Paulin3420', '', 'Paulo Netto', '', 'Mas...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\')')
+ 4 APPPATH\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`, ) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\')')
+ 5 APPPATH\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gmail.com', 'Paulin3420', '', 'Paulo Netto', null, 'Masculino', '')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 07:10:50 --> mysqli_sql_exception: Unknown column 'Senha' in 'field list' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\app\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...')
+#4 C:\xampp\htdocs\ColaboraHub\app\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gm...', 'Paulin3420', '', 'Paulo Netto', NULL, 'Masculino', '')
+#5 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-21 07:10:50 --> Unknown column 'Senha' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\')')
+ 4 APPPATH\Models\Model_DAO.php(10): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_usuario` (`Email`, `Login`, `Senha`, `Nome`, `Data_Nasc`, `Genero`, `Url`) VALUES (\'onethesniper@gmail.com\', \'Paulin3420\', \'\', \'Paulo Netto\', \'\', \'Masculino\', \'\')')
+ 5 APPPATH\Controllers\Dados.php(15): App\Models\Model_DAO->addUser('onethesniper@gmail.com', 'Paulin3420', '', 'Paulo Netto', null, 'Masculino', '')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 07:13:59 --> Invalid file: "inserir_Usuariotopo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inserir_Usuariotopo.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inserir_Usuariotopo', [], true)
+ 3 APPPATH\Controllers\Dados.php(29): view('inserir_Usuariotopo')
+ 4 APPPATH\Controllers\Dados.php(24): App\Controllers\Dados->formUser()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 07:15:24 --> Invalid file: "inserir_Usuariotopo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inserir_Usuariotopo.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inserir_Usuariotopo', [], true)
+ 3 APPPATH\Controllers\Dados.php(29): view('inserir_Usuariotopo')
+ 4 APPPATH\Controllers\Dados.php(24): App\Controllers\Dados->formUser()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 07:15:24 --> Invalid file: "inserir_Usuariotopo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inserir_Usuariotopo.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inserir_Usuariotopo', [], true)
+ 3 APPPATH\Controllers\Dados.php(29): view('inserir_Usuariotopo')
+ 4 APPPATH\Controllers\Dados.php(24): App\Controllers\Dados->formUser()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 07:15:25 --> Invalid file: "inserir_Usuariotopo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inserir_Usuariotopo.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inserir_Usuariotopo', [], true)
+ 3 APPPATH\Controllers\Dados.php(29): view('inserir_Usuariotopo')
+ 4 APPPATH\Controllers\Dados.php(24): App\Controllers\Dados->formUser()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 07:15:25 --> Invalid file: "inserir_Usuariotopo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inserir_Usuariotopo.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inserir_Usuariotopo', [], true)
+ 3 APPPATH\Controllers\Dados.php(29): view('inserir_Usuariotopo')
+ 4 APPPATH\Controllers\Dados.php(24): App\Controllers\Dados->formUser()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 07:16:02 --> Invalid file: "<!-- DEBUG-VIEW START 1 APPPATH\Views\topo.php -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="login.php">Login</a>
+    <a href="inserir_Usuario">Cadastro</a>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\topo.php -->
+<!-- DEBUG-VIEW START 2 APPPATH\Views\inserir_Usuario.php -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+</head>
+<body>
+    <form action="inser_u" method="post">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text" name="login" placeholder="Login">
+        <input type="password" name="senha" placeholder="Senha">
+        <input type="text" name="nome" placeholder="Nome">
+        <input type="date" name="data_nascimento" placeholder="Data de nascimento">
+        <input type="text" name="genero" placeholder="Gênero">
+        <input type="url" name="url" placeholder="Upload da foto">
+        <input type="submit" name="name" value="Cadastrar">
+    </form>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 2 APPPATH\Views\inserir_Usuario.php -->
+"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\topo.php -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="login.php">Login</a>
+    <a href="inserir_Usuario">Cadastro</a>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\topo.php -->
+<!-- DEBUG-VIEW START 2 APPPATH\\Views\\inserir_Usuario.php -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+</head>
+<body>
+    <form action="inser_u" method="post">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text" name="login" placeholder="Login">
+        <input type="password" name="senha" placeholder="Senha">
+        <input type="text" name="nome" placeholder="Nome">
+        <input type="date" name="data_nascimento" placeholder="Data de nascimento">
+        <input type="text" name="genero" placeholder="Gênero">
+        <input type="url" name="url" placeholder="Upload da foto">
+        <input type="submit" name="name" value="Cadastrar">
+    </form>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 2 APPPATH\\Views\\inserir_Usuario.php -->
+')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\topo.php -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="login.php">Login</a>
+    <a href="inserir_Usuario">Cadastro</a>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\topo.php -->
+<!-- DEBUG-VIEW START 2 APPPATH\\Views\\inserir_Usuario.php -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+</head>
+<body>
+    <form action="inser_u" method="post">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text" name="login" placeholder="Login">
+        <input type="password" name="senha" placeholder="Senha">
+        <input type="text" name="nome" placeholder="Nome">
+        <input type="date" name="data_nascimento" placeholder="Data de nascimento">
+        <input type="text" name="genero" placeholder="Gênero">
+        <input type="url" name="url" placeholder="Upload da foto">
+        <input type="submit" name="name" value="Cadastrar">
+    </form>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 2 APPPATH\\Views\\inserir_Usuario.php -->
+', [], true)
+ 3 APPPATH\Controllers\Dados.php(29): view('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\topo.php -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="login.php">Login</a>
+    <a href="inserir_Usuario">Cadastro</a>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\topo.php -->
+<!-- DEBUG-VIEW START 2 APPPATH\\Views\\inserir_Usuario.php -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+</head>
+<body>
+    <form action="inser_u" method="post">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text" name="login" placeholder="Login">
+        <input type="password" name="senha" placeholder="Senha">
+        <input type="text" name="nome" placeholder="Nome">
+        <input type="date" name="data_nascimento" placeholder="Data de nascimento">
+        <input type="text" name="genero" placeholder="Gênero">
+        <input type="url" name="url" placeholder="Upload da foto">
+        <input type="submit" name="name" value="Cadastrar">
+    </form>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 2 APPPATH\\Views\\inserir_Usuario.php -->
+')
+ 4 APPPATH\Controllers\Dados.php(24): App\Controllers\Dados->formUser()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->addUser()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 07:17:40 --> syntax error, unexpected double-quoted string "Dados::formUser", expecting ")"
+in APPPATH\Config\Routes.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
