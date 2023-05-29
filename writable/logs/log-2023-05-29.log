@@ -1,0 +1,42 @@
+CRITICAL - 2023-05-29 06:23:27 --> Undefined variable $data
+in APPPATH\Controllers\controller_Cad.php on line 75.
+ 1 APPPATH\Controllers\controller_Cad.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_Cad.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_Cad->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_Cad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:24:26 --> Undefined variable $data
+in APPPATH\Controllers\controller_Cad.php on line 75.
+ 1 APPPATH\Controllers\controller_Cad.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_Cad.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_Cad->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_Cad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:24:26 --> Undefined variable $data
+in APPPATH\Controllers\controller_Cad.php on line 75.
+ 1 APPPATH\Controllers\controller_Cad.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_Cad.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_Cad->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_Cad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:24:27 --> Undefined variable $data
+in APPPATH\Controllers\controller_Cad.php on line 75.
+ 1 APPPATH\Controllers\controller_Cad.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_Cad.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_Cad->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_Cad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:24:28 --> Undefined variable $data
+in APPPATH\Controllers\controller_Cad.php on line 75.
+ 1 APPPATH\Controllers\controller_Cad.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_Cad.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_Cad->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_Cad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 06:25:03 --> Undefined variable $data
+in APPPATH\Controllers\controller_Cad.php on line 76.
+ 1 APPPATH\Controllers\controller_Cad.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_Cad.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_Cad->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_Cad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

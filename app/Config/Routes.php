@@ -33,8 +33,9 @@ $routes->get('/', 'Home::index');
 $routes->get("formU", "Dados::formUser");
 $routes->get("inserir_Usuario", "Dados::formUser");
 $routes->post("inser_u", "Dados::addUser");
-$routes->get('/login', 'Login::index', ['as' => 'login']);
-$routes->post('/login', 'Login::store', ['as' => 'login.store']);
+$routes->get('/cadastrar', 'controller_Cad::cadastrar');
+$routes->post('/cadastrar', 'controller_Cad::cadastrar');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
