@@ -40,17 +40,31 @@ class controller_login extends BaseController
                 if (filter_var($login, FILTER_VALIDATE_EMAIL)) {
                     $userModel = new model_Cad();
                     $user = $userModel->where('email', $login)->first();
-                } else 
+                } else {
                     $userModel = new model_Cad();
                     $user = $userModel->where('login', $login)->first();
                 }
 
                 // Verifica se o usuário existe e a senha está correta
-                if ($user && password_verify($senha, $user['senha'])) {
-                    // Autenticação bem-sucedida, armazene os detalhes do usuário na sessão ou cookies
+                if ($user && password_verify($senha, $user['Senha'])) {
+                    // Autenticação bem-sucedida, armazene os detalhes do usuário na sessão
+
+                    // Obtenha uma instância da sessão
+                    $session = session();
+
+                    // Armazene os dados do usuário na sessão
+                    $userData = [
+                        'Id_Usuario' => $user['Id_Usuario'],
+                        'Nome' => $user['Nome'],
+                        'Genero' => $user['Genero'],
+                        'Email' => $user['Email'],
+                        'Data_Nasc' => $user['Data_Nasc'],
+                        // Adicione outros dados do usuário que você deseja armazenar na sessão
+                    ];
+                    $session->set($userData);
 
                     // Redireciona para a página principal ou para a página de criação/entrada de equipe
-                    return redirect()->to('/');
+                    return redirect()->to('/home');
                 } else {
                     // Credenciais inválidas, exiba uma mensagem de erro
                     $data['error'] = 'Credenciais inválidas. Verifique o login (ou email) e a senha.';
@@ -62,6 +76,7 @@ class controller_login extends BaseController
         }
 
         // Carrega a view do formulário de login
-        echo view('login', $data);
+        echo view('view_login');
     }
+
 }

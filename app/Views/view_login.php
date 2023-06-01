@@ -24,7 +24,7 @@
         <form action="" method="post">
             <div class="mb-3">
                 <label class="form-label">Login ou Email</label>
-                <input type="text" class="form-control" name="login" value="<?= set_value('login') ?>">
+                <input type="text" class="form-control" name="login">
             </div>
             <div class="mb-3">
                 <label class="form-label">Senha</label>
