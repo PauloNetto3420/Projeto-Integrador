@@ -37,8 +37,10 @@
         <div class="mt-4">
             <h5>Opções:</h5>
             <ul>
-                <li><a href="/equipes">Hub de Equipes</a></li>
-                <li><a href="/perfil">Meu Perfil</a></li>
+                <li><a href="equipes">Hub de Equipes</a></li>
+                <li><a href="perfil">Meu Perfil</a></li>
+                <li><a href="login">Login</a></li>
+                <li><a href="cadastrar">Cadastro</a></li>
                 <?php if ($session->get('equipe_id')) : ?>
                     <li><a href="/equipe/<?php echo $session->get('equipe_id'); ?>">Minha Equipe</a></li>
                 <?php endif; ?>
