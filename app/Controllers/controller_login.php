@@ -81,4 +81,12 @@ class controller_login extends BaseController
         echo view('view_login', $data);
     }
 
+    public function perfil(){
+     $data = [];
+
+    // Carrega a view do perfil do usuário
+    echo view('view_perfil', $data);
+}
+
+
 }

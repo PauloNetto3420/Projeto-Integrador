@@ -35,6 +35,8 @@ $routes->post('/cadastrar', 'controller_Cad::cadastrar');
 $routes->get('/home', 'Home_controller::homepage');
 $routes->get('/login', 'controller_login::login');
 $routes->post('/login', 'controller_login::login');
+$routes->get('meu-perfil', 'controller_Perfil::perfil');
+$routes->post('meu-perfil/atualizar', 'controller_Perfil::atualizarPerfil');
 
 
 /*

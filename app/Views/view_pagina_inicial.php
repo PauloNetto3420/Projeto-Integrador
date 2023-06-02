@@ -37,12 +37,14 @@
         <div class="mt-4">
             <h5>Opções:</h5>
             <ul>
+                <?php if (!$session->get('Email')): ?>
+                    <li><a href="login">Login</a></li>
+                    <li><a href="cadastrar">Cadastro</a></li>
+                <?php endif; ?>
                 <li><a href="equipes">Hub de Equipes</a></li>
-                <li><a href="perfil">Meu Perfil</a></li>
-                <li><a href="login">Login</a></li>
-                <li><a href="cadastrar">Cadastro</a></li>
+                <li><a href="meu-perfil">Meu Perfil</a></li>
                 <?php if ($session->get('equipe_id')) : ?>
-                    <li><a href="/equipe/<?php echo $session->get('equipe_id'); ?>">Minha Equipe</a></li>
+                    <li><a href="equipe<?php echo $session->get('equipe_id'); ?>">Minha Equipe</a></li>
                 <?php endif; ?>
             </ul>
         </div>
