@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\model_Cad;
-use App\Models\UserModel;
+
 
 class controller_login extends BaseController
 {
@@ -55,6 +55,7 @@ class controller_login extends BaseController
                     // Armazene os dados do usuário na sessão
                     $userData = [
                         'Id_Usuario' => $user['Id_Usuario'],
+                        'Login' => $user['Login'],
                         'Nome' => $user['Nome'],
                         'Genero' => $user['Genero'],
                         'Email' => $user['Email'],
@@ -62,7 +63,6 @@ class controller_login extends BaseController
                         // Adicione outros dados do usuário que você deseja armazenar na sessão
                     ];
                     $session->set($userData);
-
                     // Redireciona para a página principal ou para a página de criação/entrada de equipe
                     return redirect()->to('/home');
                 } else {
@@ -79,4 +79,69 @@ class controller_login extends BaseController
         echo view('view_login');
     }
 
+    public function perfil(){
+    $session = session();
+    $data['usuario'] = [
+        'nome' => $session->get('Nome'),
+        'email' => $session->get('Email'),
+        'login' => $session->get('Login'),
+        'genero' => $session->get('Genero'),
+        'data_nasc' => $session->get('Data_Nasc'),
+        // Outros dados do perfil do usuário
+    ];
+
+    // Carrega a view do perfil do usuário
+    echo view('view_perfil', $data);
+}
+
+public function atualizarPerfil()
+{
+    // Carrega o helper de formulários e validação
+    helper(['form', 'url']);
+    $data[]= "";
+    // Verifica se os dados do formulário foram submetidos
+    if ($this->request->getMethod() === 'post') {
+        // Define as regras de validação para cada campo
+        $rules = [
+            'nome' => 'required',
+            'email' => 'required|valid_email'
+            // Outras regras de validação para os campos do perfil
+        ];
+
+        // Define as mensagens de erro personalizadas para cada regra
+        $errors = [
+            'nome' => [
+                'required' => 'O campo Nome é obrigatório.'
+            ],
+            'email' => [
+                'required' => 'O campo Email é obrigatório.',
+                'valid_email' => 'Insira um Email válido.'
+            ]
+            // Mensagens de erro personalizadas para outros campos
+        ];
+
+        // Valida os dados do formulário
+        if ($this->validate($rules, $errors)) {
+            // Se a validação passar, atualiza os dados no banco de dados
+            $session = session();
+            $userModel = new model_Cad();
+            $userData = [
+                'nome' => $this->request->getPost('nome'),
+                'email' => $this->request->getPost('email')
+                // Outros campos do perfil
+            ];
+            // Atualize os dados do perfil no banco de dados usando o ID do usuário
+            
+            $userModel->update($session->get('Id_Usuario'), $userData);
+            // Redireciona para a página de sucesso ou exibe uma mensagem
+            return redirect()->to('perfil')->with('success', 'Informações atualizadas com sucesso.');
+        } else {
+            // Se a validação falhar, exibe os erros de validação
+            $data['validation'] = $this->validator;
+        }
+    }
+
+    // Carrega a view do formulário de edição do perfil
+    echo view('view_editar_perfil', $data);
+}
 }

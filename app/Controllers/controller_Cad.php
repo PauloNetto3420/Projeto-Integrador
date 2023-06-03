@@ -65,7 +65,7 @@ class controller_Cad extends BaseController
                 $userModel->insert($userData);
 
                 // Redireciona para a página de sucesso ou exibe uma mensagem
-                return redirect()->to('cadastrar/sucesso');
+                return redirect()->to('home');
             } else {
                 // Se a validação falhar, exibe os erros de validação
                 $data['validation'] = $this->validator;
