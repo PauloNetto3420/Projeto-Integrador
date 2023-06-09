@@ -1,0 +1,546 @@
+INFO - 2023-06-09 00:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:07:37 --> Undefined array key "id_equipe"
+in APPPATH\Controllers\controller_login.php on line 63.
+ 1 APPPATH\Controllers\controller_login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_equipe"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:14:28 --> Undefined variable $data
+in APPPATH\Controllers\controller_equipe.php on line 97.
+ 1 APPPATH\Controllers\controller_equipe.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_equipe.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->cadastrarEquipe()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:15:17 --> Undefined variable $session
+in APPPATH\Controllers\controller_equipe.php on line 85.
+ 1 APPPATH\Controllers\controller_equipe.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_equipe.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->cadastrarEquipe()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:38:19 --> Invalid file: "view_perfil_equipe.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_perfil_equipe.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfil_equipe', [], true)
+ 3 APPPATH\Controllers\controller_equipe.php(127): view('view_perfil_equipe', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:38:33 --> Undefined array key "nome"
+in APPPATH\Views\view_perfilEquipe.php on line 49.
+ 1 APPPATH\Views\view_perfilEquipe.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(127): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:39:13 --> Undefined array key "nome"
+in APPPATH\Views\view_perfilEquipe.php on line 49.
+ 1 APPPATH\Views\view_perfilEquipe.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(127): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:41:11 --> Undefined variable $participantes
+in APPPATH\Views\view_perfilEquipe.php on line 58.
+ 1 APPPATH\Views\view_perfilEquipe.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $participantes', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(127): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:43:04 --> Call to undefined method App\Models\model_usuarioEquipe::getParticipantesPorEquipe
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\controller_equipe.php(127): CodeIgniter\Model->__call('getParticipantesPorEquipe', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-09 00:45:10 --> mysqli_sql_exception: Unknown table 'colaborahub.usuarios' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ColaboraHub\app\Models\model_usuarioEquipe.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(127): App\Models\model_usuarioEquipe->getParticipantesPorEquipe(8)
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#10 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-09 00:45:10 --> Unknown table 'colaborahub.usuarios'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuarios`.*
+FROM `tbl_participacao`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_usuario`.`id_usuario`
+WHERE `tbl_equipe`.`id_equipe` = 8', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*
+FROM `tbl_participacao`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_usuario`.`id_usuario`
+WHERE `tbl_equipe`.`id_equipe` = 8')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*
+FROM `tbl_participacao`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_usuario`.`id_usuario`
+WHERE `tbl_equipe`.`id_equipe` = 8')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `tbl_participacao`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_usuario`.`id_usuario`
+WHERE `tbl_equipe`.`id_equipe` = :tbl_equipe.id_equipe:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\model_usuarioEquipe.php(26): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\controller_equipe.php(127): App\Models\model_usuarioEquipe->getParticipantesPorEquipe(8)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-09 00:45:26 --> mysqli_sql_exception: Unknown column 'tbl_equipe.id_equipe' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_usu...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usu...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usu...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usu...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ColaboraHub\app\Models\model_usuarioEquipe.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(127): App\Models\model_usuarioEquipe->getParticipantesPorEquipe(8)
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#10 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-09 00:45:26 --> Unknown column 'tbl_equipe.id_equipe' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_usuario`.*
+FROM `tbl_participacao`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_usuario`.`id_usuario`
+WHERE `tbl_equipe`.`id_equipe` = 8', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usuario`.*
+FROM `tbl_participacao`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_usuario`.`id_usuario`
+WHERE `tbl_equipe`.`id_equipe` = 8')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usuario`.*
+FROM `tbl_participacao`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_usuario`.`id_usuario`
+WHERE `tbl_equipe`.`id_equipe` = 8')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usuario`.*
+FROM `tbl_participacao`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_usuario`.`id_usuario`
+WHERE `tbl_equipe`.`id_equipe` = :tbl_equipe.id_equipe:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\model_usuarioEquipe.php(26): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\controller_equipe.php(127): App\Models\model_usuarioEquipe->getParticipantesPorEquipe(8)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:45:52 --> Undefined variable $participantes
+in APPPATH\Views\view_perfilEquipe.php on line 58.
+ 1 APPPATH\Views\view_perfilEquipe.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $participantes', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(129): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:46:41 --> Undefined variable $participantes
+in APPPATH\Views\view_perfilEquipe.php on line 58.
+ 1 APPPATH\Views\view_perfilEquipe.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $participantes', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(129): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:46:42 --> Undefined variable $participantes
+in APPPATH\Views\view_perfilEquipe.php on line 58.
+ 1 APPPATH\Views\view_perfilEquipe.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $participantes', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(129): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:46:42 --> Undefined variable $participantes
+in APPPATH\Views\view_perfilEquipe.php on line 58.
+ 1 APPPATH\Views\view_perfilEquipe.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $participantes', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(129): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:47:32 --> Undefined array key "data_entrada"
+in APPPATH\Views\view_perfilEquipe.php on line 62.
+ 1 APPPATH\Views\view_perfilEquipe.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data_entrada"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(129): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:47:51 --> Undefined array key "Data_Entrada"
+in APPPATH\Views\view_perfilEquipe.php on line 62.
+ 1 APPPATH\Views\view_perfilEquipe.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Data_Entrada"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(129): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 00:47:52 --> Undefined array key "Data_Entrada"
+in APPPATH\Views\view_perfilEquipe.php on line 62.
+ 1 APPPATH\Views\view_perfilEquipe.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Data_Entrada"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(129): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 00:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 00:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 01:10:56 --> Cannot use object of type App\Models\model_usuarioEquipe as array
+in APPPATH\Controllers\controller_login.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 01:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 01:11:54 --> Cannot use object of type App\Models\model_usuarioEquipe as array
+in APPPATH\Controllers\controller_login.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 01:17:15 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\controller_login.php on line 91.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\controller_login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\controller_login')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\controller_login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 01:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 01:17:30 --> Call to undefined method App\Models\model_usuarioEquipe::getEquipeIdPorUsuario
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\controller_login.php(69): CodeIgniter\Model->__call('getEquipeIdPorUsuario', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 01:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 01:33:30 --> Undefined array key "id_usuario"
+in APPPATH\Controllers\controller_login.php on line 69.
+ 1 APPPATH\Controllers\controller_login.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 01:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 01:36:32 --> session_start(): Failed to decode session object. Session has been destroyed
+in SYSTEMPATH\Session\Session.php on line 928.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_start(): Failed to decode session object. Session has been destroyed', 'C:\\xampp\\htdocs\\ColaboraHub\\system\\Session\\Session.php', 928)
+ 2 SYSTEMPATH\Session\Session.php(928): session_start()
+ 3 SYSTEMPATH\Session\Session.php(250): CodeIgniter\Session\Session->startSession()
+ 4 SYSTEMPATH\Config\Services.php(674): CodeIgniter\Session\Session->start()
+ 5 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 6 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 7 SYSTEMPATH\Config\Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session()
+ 9 SYSTEMPATH\Common.php(988): CodeIgniter\Config\BaseService::__callStatic('session', [])
+10 APPPATH\Views\view_hubequipes.php(1): session()
+11 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_hubequipes.php')
+12 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+13 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_hubequipes', [], true)
+14 APPPATH\Controllers\controller_equipe.php(105): view('view_hubequipes')
+15 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->homeEquipe()
+16 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+17 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 01:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-09 01:37:27 --> session_start(): Failed to decode session object. Session has been destroyed
+in SYSTEMPATH\Session\Session.php on line 928.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_start(): Failed to decode session object. Session has been destroyed', 'C:\\xampp\\htdocs\\ColaboraHub\\system\\Session\\Session.php', 928)
+ 2 SYSTEMPATH\Session\Session.php(928): session_start()
+ 3 SYSTEMPATH\Session\Session.php(250): CodeIgniter\Session\Session->startSession()
+ 4 SYSTEMPATH\Config\Services.php(674): CodeIgniter\Session\Session->start()
+ 5 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 6 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 7 SYSTEMPATH\Config\Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session()
+ 9 SYSTEMPATH\Common.php(988): CodeIgniter\Config\BaseService::__callStatic('session', [])
+10 APPPATH\Views\view_pagina_inicial.php(1): session()
+11 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_pagina_inicial.php')
+12 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+13 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_pagina_inicial', [], true)
+14 APPPATH\Controllers\Home_controller.php(10): view('view_pagina_inicial')
+15 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home_controller->homepage()
+16 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home_controller))
+17 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-09 01:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-09 01:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

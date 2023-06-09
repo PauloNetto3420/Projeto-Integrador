@@ -35,9 +35,16 @@ $routes->post('/cadastrar', 'controller_Cad::cadastrar');
 $routes->get('/home', 'Home_controller::homepage');
 $routes->get('/login', 'controller_login::login');
 $routes->post('/login', 'controller_login::login');
+$routes->match(['get', 'post'], 'logout', 'controller_login::logout');
 $routes->get('perfil', 'controller_login::perfil');
 $routes->get('perfil/editar', 'controller_login::atualizarPerfil');
 $routes->post('perfil/atualizar', 'controller_login::atualizarPerfil');
+$routes->get('perfil/excluir', 'controller_login::excluir');
+$routes->get('equipes', 'controller_equipe::homeEquipe');
+$routes->get('equipes/cadastrar', 'controller_equipe::cadastrarEquipe');
+$routes->post('equipes/cadastrarEquipe', 'controller_equipe::cadastrarEquipe');
+$routes->get('equipes/sucesso', 'controller_equipe::sucesso');
+$routes->get('equipe/perfil', 'controller_equipe::perfil');
 
 
 

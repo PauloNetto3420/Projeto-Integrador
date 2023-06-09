@@ -48,7 +48,7 @@
             </div>
             <a href="home">Home</a>
             <a href="<?php echo base_url('public/perfil/editar'); ?>" class="btn btn-primary">Editar Perfil</a>
-
+            <a href="perfil/excluir" class="btn btn-danger">Excluir Perfil</a>        
         </div>
     </div>
 

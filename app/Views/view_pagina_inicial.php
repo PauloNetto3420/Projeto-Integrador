@@ -43,8 +43,14 @@
                 <?php endif; ?>
                 <li><a href="equipes">Hub de Equipes</a></li>
                 <li><a href="perfil">Meu Perfil</a></li>
-                <?php if ($session->get('equipe_id')) : ?>
-                    <li><a href="equipe<?php echo $session->get('equipe_id'); ?>">Minha Equipe</a></li>
+                <?php if ($session->get('id_equipe')) : ?>
+                    <li><a href="equipe/perfil">Minha Equipe</a></li>
+                <?php endif; ?>
+                
+                <?php if ($session->get('Email')) : ?>
+                <form action="logout" method="post">
+                <button type="submit" class="btn btn-danger">Logout</button>
+                </form>
                 <?php endif; ?>
             </ul>
         </div>

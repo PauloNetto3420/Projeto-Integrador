@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\model_Cad;
-
+use App\Models\model_usuarioEquipe;
 
 class controller_login extends BaseController
 {
@@ -47,12 +47,12 @@ class controller_login extends BaseController
 
                 // Verifica se o usuário existe e a senha está correta
                 if ($user && password_verify($senha, $user['Senha'])) {
-                    // Autenticação bem-sucedida, armazene os detalhes do usuário na sessão
+                    // Autenticação bem-sucedida, armazena os detalhes do usuário na sessão
 
                     // Obtenha uma instância da sessão
                     $session = session();
 
-                    // Armazene os dados do usuário na sessão
+                    // Armazena os dados do usuário na sessão
                     $userData = [
                         'Id_Usuario' => $user['Id_Usuario'],
                         'Login' => $user['Login'],
@@ -63,10 +63,18 @@ class controller_login extends BaseController
                         // Adicione outros dados do usuário que você deseja armazenar na sessão
                     ];
                     $session->set($userData);
+
+                    // Recupera o ID da equipe do usuário, se existir
+                    $usuarioEquipeModel = new model_usuarioEquipe();
+                    $equipeId = $usuarioEquipeModel->getEquipeIdPorUsuario($user['Id_Usuario']);
+
+                    // Armazena o ID da equipe na sessão
+                    $session->set('Id_Equipe', $equipeId);
+
                     // Redireciona para a página principal ou para a página de criação/entrada de equipe
                     return redirect()->to('/home');
                 } else {
-                    // Credenciais inválidas, exiba uma mensagem de erro
+                    // Credenciais inválidas, exibe uma mensagem de erro
                     $data['error'] = 'Credenciais inválidas. Verifique o login (ou email) e a senha.';
                 }
             } else {
@@ -78,6 +86,7 @@ class controller_login extends BaseController
         // Carrega a view do formulário de login
         echo view('view_login');
     }
+
 
     public function perfil(){
     $session = session();
@@ -127,14 +136,22 @@ public function atualizarPerfil()
             $userModel = new model_Cad();
             $userData = [
                 'nome' => $this->request->getPost('nome'),
-                'email' => $this->request->getPost('email')
+                'email' => $this->request->getPost('email'),
+                'login' => $this->request->getPost('login'),
+                'genero' => $this->request->getPost('genero'),
+                'data_nasc' => $session->get('data_nasc')
                 // Outros campos do perfil
             ];
-            // Atualize os dados do perfil no banco de dados usando o ID do usuário
+            
             
             $userModel->update($session->get('Id_Usuario'), $userData);
+            $session->set('Nome', $this->request->getPost('nome'));
+            $session->set('Email', $this->request->getPost('email'));
+            $session->set('login', $this->request->getPost('login'));
+            $session->set('genero', $this->request->getPost('genero'));
+            $session->set('data_nasc', $this->request->getPost('data_nasc'));
             // Redireciona para a página de sucesso ou exibe uma mensagem
-            return redirect()->to('perfil')->with('success', 'Informações atualizadas com sucesso.');
+            return redirect()->to('perfil')->with('view_success', 'Informações atualizadas com sucesso.');
         } else {
             // Se a validação falhar, exibe os erros de validação
             $data['validation'] = $this->validator;
@@ -144,4 +161,27 @@ public function atualizarPerfil()
     // Carrega a view do formulário de edição do perfil
     echo view('view_editar_perfil', $data);
 }
+public function excluir()
+{
+    // Recupere o ID do usuário logado da sessão
+    $userID = session()->get('id_usuario');
+
+    // Exclua o perfil do usuário usando o ID
+    $userModel = new model_Cad();
+    $userModel->delete($userID);
+
+    // Limpe a sessão e redirecione para a página de login
+    session()->destroy();
+    return redirect()->to('view_login');
+}
+
+public function logout()
+    {
+        // Realize a ação de logout, por exemplo, destrua a sessão
+        session()->destroy();
+
+        // Redirecione o usuário para a página de login ou qualquer outra página desejada
+        return redirect()->to('home');
+    }
+
 }
