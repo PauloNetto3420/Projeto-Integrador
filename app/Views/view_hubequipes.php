@@ -30,7 +30,7 @@
 <body>
     <div class="container">
         <h1>Hub de Equipes</h1>
-        <?php if (!$session->get('id_equipe')) : ?>
+        <?php if (!$session->get('Id_Equipe')) : ?>
             <p>Você ainda não está em uma equipe. Crie uma equipe ou procure por equipes disponíveis:</p>
             <div class="mb-4">
                 <a href="equipes/cadastrar" class="btn btn-primary">Criar Equipe</a>
@@ -41,7 +41,7 @@
             <p>Selecione uma opção:</p>
             <ul>
                 <li><a href="equipe/perfil">Perfil da Equipe</a></li>
-                <li><a href="equipe/procurar">Procurar Equipes</a></li>
+                <li><a href="equipe/pesquisar">Procurar Equipes</a></li>
             </ul>
         <?php endif; ?>
     </div>

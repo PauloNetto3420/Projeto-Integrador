@@ -42,8 +42,10 @@
                     <li><a href="cadastrar">Cadastro</a></li>
                 <?php endif; ?>
                 <li><a href="equipes">Hub de Equipes</a></li>
+                <?php if ($session->get('Email')) : ?>
                 <li><a href="perfil">Meu Perfil</a></li>
-                <?php if ($session->get('id_equipe')) : ?>
+                <?php endif; ?>
+                <?php if ($session->get('Id_Equipe')) : ?>
                     <li><a href="equipe/perfil">Minha Equipe</a></li>
                 <?php endif; ?>
                 

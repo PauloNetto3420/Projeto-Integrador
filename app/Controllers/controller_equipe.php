@@ -11,18 +11,18 @@ class controller_equipe extends BaseController
 {
     public function cadastrarEquipe()
     {
-        // Verifica se o usuário está logado
-        /*if (!session()->get('logged_in')) {
+        
+        if (!session()->get('Id_Usuario')) {
             // Redireciona para a página de login
             return redirect()->to('login');
         }
-        */
+        
         $usuarioModel = new model_Cad();
         $equipeModel = new model_equipe();
         $usuarioEquipeModel = new model_usuarioEquipe();
 
-        $data[]= "";
-        
+        $data[] = "";
+
         // Verifica se o usuário já está vinculado a uma equipe
         $usuarioId = session()->get('Id_Usuario');
         if ($usuarioEquipeModel->existeVinculoEquipe($usuarioId)) {
@@ -49,12 +49,12 @@ class controller_equipe extends BaseController
                 'descricao' => [
                     'required' => 'O campo Descrição da equipe é obrigatório.'
                 ],
-                'contato' =>[ 
-                    'required' =>'Você precisa pelo menos colocar uma forma de contato'
+                'contato' => [
+                    'required' => 'Você precisa pelo menos colocar uma forma de contato'
 
                 ],
-                'quantidade' =>[ 
-                    'required' =>'Você precisa espeficar quantas pessoas sua equipe terá'
+                'quantidade' => [
+                    'required' => 'Você precisa espeficar quantas pessoas sua equipe terá'
 
                 ]
 
@@ -62,35 +62,39 @@ class controller_equipe extends BaseController
 
             // Valida os dados do formulário
             if ($this->validate($rules, $errors)) {
-                
+
                 // Se a validação passar, insere os dados da equipe na tabela 'equipes'
                 $equipeData = [
-                    'nome' => $this->request->getPost('nome'),
-                    'descricao' => $this->request->getPost('descricao'),
-                    'contato' => $this->request->getPost('contato'),
-                    'quantidade' => $this->request->getPost('quantidade'),
-                    'url_foto' => $this->request->getPost('url_foto')
+                    'Nome' => $this->request->getPost('Nome'),
+                    'Descricao' => $this->request->getPost('Descricao'),
+                    'Contato' => $this->request->getPost('Contato'),
+                    'Quantidade' => $this->request->getPost('Quantidade'),
+                    'Url_Foto' => $this->request->getPost('Url_Foto')
                 ];
                 $equipeId = $equipeModel->insert($equipeData);
-                
-                
+
+
                 // Cria o vínculo entre o usuário e a equipe na tabela 'usuario_equipe'
                 $usuarioEquipeData = [
-                    'id_usuario' => $usuarioId,
-                    'id_equipe' => $equipeId,
-                    'data_hora' => date('Y-m-d H:i:s')
-                    
+                    'Id_Usuario' => $usuarioId,
+                    'Id_Equipe' => $equipeId,
+                    'Data_Hora' => date('Y-m-d H:i:s')
+
                 ];
 
-                
+                if ($equipeId && $usuarioId == $equipeData['id_administrador']) {
+                    // O usuário é o administrador da equipe
+                    // Exiba a opção de promover moderadores
+                }
+
+
                 $usuarioEquipeModel->insert($usuarioEquipeData);
 
                 // Grava o ID da equipe na sessão do usuário
                 //session()->set('id_equipe', $equipeId);
-                
+
                 // Redireciona para a página de sucesso ou exibe uma mensagem
                 return redirect()->to('equipes/sucesso');
-                
             } else {
                 // Se a validação falhar, exibe os erros de validação
                 $data['validation'] = $this->validator;
@@ -101,7 +105,8 @@ class controller_equipe extends BaseController
         echo view('view_cadastrar_equipe', $data);
     }
 
-    public function homeEquipe(){
+    public function homeEquipe()
+    {
         echo view('view_hubequipes');
     }
 
@@ -113,7 +118,7 @@ class controller_equipe extends BaseController
     public function perfil()
     {
         // Obtém o ID da equipe da sessão
-        $equipeId = session()->get('id_equipe');
+        $equipeId = session()->get('Id_Equipe');
 
         // Crie uma instância do modelo da equipe
         $equipeModel = new model_equipe();
@@ -134,6 +139,43 @@ class controller_equipe extends BaseController
             // A equipe não foi encontrada, redirecione para uma página de erro ou exiba uma mensagem de erro
             return redirect()->to('pagina_de_erro');
         }
+    }
+
+    public function pesquisarEquipes()
+    {
+        // Obtenha o ID do usuário logado a partir da sessão
+        $userId = session()->get('Id_Usuario');
+
+        // Consulte o banco de dados para obter as equipes disponíveis para o usuário entrar
+        $equipeModel = new model_equipe();
+        $equipes = $equipeModel->getEquipesDisponiveisParaUsuario($userId);
+
+        // Carregue a view responsável por exibir as equipes disponíveis
+        echo view('view_pesquisarEquipes', ['equipes' => $equipes]);
+    }
+
+    public function solicitarEntrarEquipe($equipeId)
+    {
+        // Verifica se o usuário está logado
+        if (!session()->get('Id_Usuario')) {
+            // Redireciona para a página de login
+            return redirect()->to('login');
+        }
+
+        $equipeModel = new model_equipe();
+        $usuarioEquipeModel = new model_usuarioEquipe();
+
+        $usuarioId = session()->get('Id_Usuario');
+
+        // Verifica se o usuário já está vinculado a uma equipe
+        if ($usuarioEquipeModel->existeVinculoEquipe($usuarioId)) {
+            // O usuário já está em uma equipe, redireciona para outra página
+            return redirect()->to('outra_pagina');
+        }
+
+        // Obtém as equipes disponíveis para o usuário
+        $equipesDisponiveis = $equipeModel->getEquipesDisponiveis($usuarioId);
+    }
+
     
-}
 }

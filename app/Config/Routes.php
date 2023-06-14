@@ -45,6 +45,9 @@ $routes->get('equipes/cadastrar', 'controller_equipe::cadastrarEquipe');
 $routes->post('equipes/cadastrarEquipe', 'controller_equipe::cadastrarEquipe');
 $routes->get('equipes/sucesso', 'controller_equipe::sucesso');
 $routes->get('equipe/perfil', 'controller_equipe::perfil');
+$routes->get('/equipe/pesquisar', 'controller_equipe::pesquisarEquipes');
+$routes->get('/equipe/solicitarEntrar/(:num)', 'controller_equipe::solicitarEntrarEquipe/$1');
+
 
 
 
