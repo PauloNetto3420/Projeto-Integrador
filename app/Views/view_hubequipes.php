@@ -33,8 +33,8 @@
         <?php if (!$session->get('Id_Equipe')) : ?>
             <p>Você ainda não está em uma equipe. Crie uma equipe ou procure por equipes disponíveis:</p>
             <div class="mb-4">
-                <a href="equipes/cadastrar" class="btn btn-primary">Criar Equipe</a>
-                <a href="equipes/procurar" class="btn btn-primary">Procurar Equipes</a>
+                <a href="equipe/cadastrar" class="btn btn-primary">Criar Equipe</a>
+                <a href="equipe/pesquisar" class="btn btn-primary">Procurar Equipes</a>
             </div>
         <?php else : ?>
             <p>Você está atualmente na equipe <?php echo $session->get('Nome'); ?>.</p>

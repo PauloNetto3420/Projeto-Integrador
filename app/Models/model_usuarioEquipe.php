@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class model_usuarioEquipe extends Model
 {
     protected $table = 'tbl_participacao';
-    protected $allowedFields = ['Id_usuario', 'Id_Equipe', 'Data_Entrada'];
+    protected $allowedFields = ['Id_Usuario', 'Id_Equipe', 'Data_Entrada', 'Tipo'];
 
     public function existeVinculoEquipe($usuarioId)
     {
@@ -57,12 +57,4 @@ class model_usuarioEquipe extends Model
         $db->table('tbl_participacao')->insert($data);
     }
 
-    public function promoverModerador($usuarioEquipeId)
-    {
-        $data = [
-            'cargo' => 'Moderador'
-        ];
-
-        return $this->update($usuarioEquipeId, $data);
-    }
 }

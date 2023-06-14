@@ -12,24 +12,24 @@
     <?php endif; ?>
 
     <form action="<?= site_url('equipes/cadastrarEquipe') ?>" method="post" enctype="multipart/form-data">
-        <label for="nome">Nome da Equipe:</label>
-        <input type="text" name="nome" id="nome" required>
+        <label for="Nome">Nome da Equipe:</label>
+        <input type="text" name="Nome" id="Nome" required>
         <br>
 
-        <label for="descricao">Descrição da Equipe:</label>
-        <textarea name="descricao" id="descricao" required></textarea>
+        <label for="Descricao">Descrição da Equipe:</label>
+        <textarea name="Descricao" id="Descricao" required></textarea>
         <br>
 
-        <label for="contato">Contato:</label>
-        <input type="text" name="contato" id="contato" required>
+        <label for="Contato">Contato:</label>
+        <input type="text" name="Contato" id="Contato" required>
         <br>
 
-        <label for="foto">Foto:</label>
-        <input type="file" name="foto" id="foto">
+        <label for="Foto">Foto:</label>
+        <input type="file" name="Foto" id="Foto">
         <br>
 
-        <label for="quantidade">Quantidade da Equipe:</label>
-        <select name="quantidade" id="quantidade">
+        <label for="Quantidade">Quantidade da Equipe:</label>
+        <select name="Quantidade" id="Quantidade">
             <option value="5">5</option>
             <option value="10">10</option>
             <option value="15">15</option>

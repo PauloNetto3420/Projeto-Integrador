@@ -8,7 +8,7 @@
             <strong>Nome da Equipe:</strong> <?php echo $equipe['Nome']; ?><br>
             <strong>Descrição:</strong> <?php echo $equipe['Descricao']; ?><br>
             <!-- Adicione outras informações relevantes sobre a equipe -->
-            <a href="/equipe/solicitarEntrar/<?php echo $equipe['Id_Equipe']; ?>">Solicitar Entrar</a>
+            <a href="solicitarEntrar/<?php echo $equipe['Id_Equipe']; ?>">Solicitar Entrar</a>
         </li>
     <?php endforeach; ?>
 </ul>

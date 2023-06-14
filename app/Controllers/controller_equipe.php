@@ -34,34 +34,47 @@ class controller_equipe extends BaseController
         if ($this->request->getMethod() === 'post') {
             // Define as regras de validação para cada campo
             $rules = [
-                'nome' => 'required|is_unique[tbl_equipe.nome]',
-                'descricao' => 'required',
-                'contato' => 'required',
-                'quantidade' => 'required'
+                'Nome' => 'required|is_unique[tbl_equipe.nome]',
+                'Descricao' => 'required',
+                'Contato' => 'required',
+                'Quantidade' => 'required',
+                'Foto' => 'uploaded[Foto]|max_size[Foto,2048]|is_image[Foto]'
             ];
 
             // Define as mensagens de erro personalizadas para cada regra
             $errors = [
-                'nome' => [
+                'Nome' => [
                     'required' => 'O campo Nome da equipe é obrigatório.',
                     'is_unique' => 'Esse nome de equipe ja esta em uso.'
                 ],
-                'descricao' => [
+                'Descricao' => [
                     'required' => 'O campo Descrição da equipe é obrigatório.'
                 ],
-                'contato' => [
+                'Contato' => [
                     'required' => 'Você precisa pelo menos colocar uma forma de contato'
 
                 ],
-                'quantidade' => [
+                'Quantidade' => [
                     'required' => 'Você precisa espeficar quantas pessoas sua equipe terá'
 
+                ],
+
+                'Foto' => [
+                    'uploaded' => 'Falha no upload da foto da equipe.',
+                    'max_size' => 'A foto da equipe deve ter no máximo 2MB.',
+                    'is_image' => 'A foto da equipe deve ser um arquivo de imagem válido.'
                 ]
 
             ];
 
             // Valida os dados do formulário
             if ($this->validate($rules, $errors)) {
+                $equipeModel = new model_equipe();
+                $foto = $this->request->getFile('Foto');
+
+                // Move a foto para o diretório de destino
+                $newName = $foto->getRandomName();
+                $foto->move(ROOTPATH . 'public/uploads', $newName);
 
                 // Se a validação passar, insere os dados da equipe na tabela 'equipes'
                 $equipeData = [
@@ -69,7 +82,7 @@ class controller_equipe extends BaseController
                     'Descricao' => $this->request->getPost('Descricao'),
                     'Contato' => $this->request->getPost('Contato'),
                     'Quantidade' => $this->request->getPost('Quantidade'),
-                    'Url_Foto' => $this->request->getPost('Url_Foto')
+                    'Url_Foto' => $newName,
                 ];
                 $equipeId = $equipeModel->insert($equipeData);
 
@@ -82,10 +95,6 @@ class controller_equipe extends BaseController
 
                 ];
 
-                if ($equipeId && $usuarioId == $equipeData['id_administrador']) {
-                    // O usuário é o administrador da equipe
-                    // Exiba a opção de promover moderadores
-                }
 
 
                 $usuarioEquipeModel->insert($usuarioEquipeData);
@@ -161,21 +170,38 @@ class controller_equipe extends BaseController
             // Redireciona para a página de login
             return redirect()->to('login');
         }
-
+    
         $equipeModel = new model_equipe();
         $usuarioEquipeModel = new model_usuarioEquipe();
-
+    
         $usuarioId = session()->get('Id_Usuario');
-
+    
         // Verifica se o usuário já está vinculado a uma equipe
         if ($usuarioEquipeModel->existeVinculoEquipe($usuarioId)) {
             // O usuário já está em uma equipe, redireciona para outra página
             return redirect()->to('outra_pagina');
         }
-
-        // Obtém as equipes disponíveis para o usuário
-        $equipesDisponiveis = $equipeModel->getEquipesDisponiveis($usuarioId);
+    
+        // Verifica se a equipe existe
+        $equipe = $equipeModel->find($equipeId);
+        if (!$equipe) {
+            // A equipe não existe, redireciona para outra página ou exibe uma mensagem de erro
+            return redirect()->to('outra_pagina')->with('error', 'Equipe não encontrada');
+        }
+    
+        // Insere o vínculo entre o usuário e a equipe
+        $dadosVinculo = [
+            'Id_Usuario' => $usuarioId,
+            'Id_Equipe' => $equipeId,
+            'data_hora_entrada' => date('Y-m-d H:i:s'),
+            'tipo' => 1 // Define o tipo como membro (ou outro valor apropriado)
+        ];
+        $usuarioEquipeModel->insert($dadosVinculo);
+    
+        // Redireciona para uma página de sucesso ou exibe uma mensagem de sucesso
+        return redirect()->to('')->with('success', 'Você entrou na equipe com sucesso');
     }
+    
 
     
 }

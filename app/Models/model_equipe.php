@@ -8,18 +8,9 @@ class model_equipe extends Model
 {
     protected $table = 'tbl_equipe';
     protected $primaryKey = 'Id_Equipe';
-    protected $allowedFields = ['Nome', 'Descricao', 'Contato', 'Foto', 'Quantidade', 'Id_Adminstrador'];
+    protected $allowedFields = ['Nome', 'Descricao', 'Contato', 'Foto', 'Quantidade'];
 
-    public function getEquipeById($id)
-    {
-        return $this->find($id);
-    }
 
-    public function getEquipesDisponiveis($usuarioId)
-    {
-        return $this->where('Id_Administrador !=', $usuarioId)
-            ->findAll();
-    }
 
 
 
