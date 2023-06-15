@@ -91,6 +91,7 @@ class controller_equipe extends BaseController
                 $usuarioEquipeData = [
                     'Id_Usuario' => $usuarioId,
                     'Id_Equipe' => $equipeId,
+                    'Tipo' => 1,
                     'Data_Hora' => date('Y-m-d H:i:s')
 
                 ];
@@ -139,10 +140,12 @@ class controller_equipe extends BaseController
         if ($equipe) {
             $participacaoModel = new model_usuarioEquipe();
             $participantes = $participacaoModel->getParticipantesPorEquipe($equipeId);
+            $Tipo = session()->get('Tipo');
             // Carregue a view 'view_perfil_equipe' e passe os dados da equipe para a view
             echo view('view_perfilEquipe', [
                 'equipe' => $equipe,
-                'participantes' => $participantes
+                'participantes' => $participantes,
+                'Tipo' => $Tipo
             ]);
         } else {
             // A equipe não foi encontrada, redirecione para uma página de erro ou exiba uma mensagem de erro
@@ -163,43 +166,36 @@ class controller_equipe extends BaseController
         echo view('view_pesquisarEquipes', ['equipes' => $equipes]);
     }
 
-    public function solicitarEntrarEquipe($equipeId)
+    public function gerenciarEquipe()
     {
+        $equipeModel = new model_equipe();
+        $usuarioEquipeModel = new model_usuarioEquipe();
+
         // Verifica se o usuário está logado
         if (!session()->get('Id_Usuario')) {
             // Redireciona para a página de login
             return redirect()->to('login');
         }
-    
-        $equipeModel = new model_equipe();
-        $usuarioEquipeModel = new model_usuarioEquipe();
-    
+
         $usuarioId = session()->get('Id_Usuario');
-    
-        // Verifica se o usuário já está vinculado a uma equipe
-        if ($usuarioEquipeModel->existeVinculoEquipe($usuarioId)) {
-            // O usuário já está em uma equipe, redireciona para outra página
+        $equipeId = session()->get('Id_Equipe');
+
+        // Verifica se o usuário é o capitão da equipe
+        $Tipo = $usuarioEquipeModel->getTipoUsuario($usuarioId, $equipeId);
+        if ($Tipo != 1) {
+            // Redireciona para outra página, pois apenas o capitão tem acesso
             return redirect()->to('outra_pagina');
         }
-    
-        // Verifica se a equipe existe
+
+        // Obtém a equipe e a lista de jogadores candidatos
         $equipe = $equipeModel->find($equipeId);
-        if (!$equipe) {
-            // A equipe não existe, redireciona para outra página ou exibe uma mensagem de erro
-            return redirect()->to('outra_pagina')->with('error', 'Equipe não encontrada');
-        }
-    
-        // Insere o vínculo entre o usuário e a equipe
-        $dadosVinculo = [
-            'Id_Usuario' => $usuarioId,
-            'Id_Equipe' => $equipeId,
-            'data_hora_entrada' => date('Y-m-d H:i:s'),
-            'tipo' => 1 // Define o tipo como membro (ou outro valor apropriado)
-        ];
-        $usuarioEquipeModel->insert($dadosVinculo);
-    
-        // Redireciona para uma página de sucesso ou exibe uma mensagem de sucesso
-        return redirect()->to('')->with('success', 'Você entrou na equipe com sucesso');
+        $jogadoresCandidatos = $usuarioEquipeModel->getJogadoresCandidatos($equipeId);
+
+        // Carrega a view de gerenciamento da equipe
+        return view('view_gerenciar_equipe', [
+            'equipe' => $equipe,
+            'jogadoresCandidatos' => $jogadoresCandidatos
+        ]);
     }
     
 

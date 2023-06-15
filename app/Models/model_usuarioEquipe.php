@@ -50,11 +50,28 @@ class model_usuarioEquipe extends Model
         $data = [
             'Id_Usuario' => $userId,
             'Id_Equipe' => $equipeId,
-            'status' => 'pendente' // ou qualquer outro status desejado
+            'Tipo' => '0' // ou qualquer outro status desejado
         ];
 
         $db = db_connect();
         $db->table('tbl_participacao')->insert($data);
+    }
+
+    public function getTipoUsuario($usuarioId, $equipeId)
+    {
+        $row = $this->where('Id_Usuario', $usuarioId)
+            ->where('Id_Equipe', $equipeId)
+            ->select('Tipo')
+            ->get()
+            ->getFirstRow();
+        return $row ? $row->Tipo : 1;
+    }
+
+    public function getJogadoresCandidatos($equipeId)
+    {
+        return $this->where('Id_Equipe', $equipeId)
+            ->where('Tipo', 0) // Jogadores candidatos (Tipo = 0)
+            ->findAll();
     }
 
 }

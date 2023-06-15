@@ -64,6 +64,12 @@
                 <?php endforeach; ?>
             </ul>
         </div>
+        <?php if ($Tipo == 1): ?>
+        <a href="<?php echo base_url('public/equipe/gerenciar'); ?>" class="btn btn-primary">Gerenciar Equipe</a>
+        <?php endif; ?>
+        <div>
+
+        </div>
     </div>
 
     <!-- Inclua os arquivos JavaScript do Bootstrap -->

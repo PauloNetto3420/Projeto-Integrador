@@ -71,6 +71,17 @@ class controller_login extends BaseController
                     // Armazena o ID da equipe na sessão
                     $session->set('Id_Equipe', $equipeId);
 
+
+                    // Armazena o ID da equipe na sessão
+                    $session->set('Id_Equipe', $equipeId);
+
+                    // Recupera o tipo do usuário na tabela de participação
+                    $participacaoModel = new model_usuarioEquipe();
+                    $tipoUsuario = $participacaoModel->getTipoUsuario($user['Id_Usuario'], $equipeId);
+
+                    // Armazena o tipo do usuário na sessão
+                    $session->set('Tipo', $tipoUsuario);
+
                     // Redireciona para a página principal ou para a página de criação/entrada de equipe
                     return redirect()->to('/home');
                 } else {
@@ -88,94 +99,95 @@ class controller_login extends BaseController
     }
 
 
-    public function perfil(){
-    $session = session();
-    $data['usuario'] = [
-        'nome' => $session->get('Nome'),
-        'email' => $session->get('Email'),
-        'login' => $session->get('Login'),
-        'genero' => $session->get('Genero'),
-        'data_nasc' => $session->get('Data_Nasc'),
-        // Outros dados do perfil do usuário
-    ];
-
-    // Carrega a view do perfil do usuário
-    echo view('view_perfil', $data);
-}
-
-public function atualizarPerfil()
-{
-    // Carrega o helper de formulários e validação
-    helper(['form', 'url']);
-    $data[]= "";
-    // Verifica se os dados do formulário foram submetidos
-    if ($this->request->getMethod() === 'post') {
-        // Define as regras de validação para cada campo
-        $rules = [
-            'nome' => 'required',
-            'email' => 'required|valid_email'
-            // Outras regras de validação para os campos do perfil
+    public function perfil()
+    {
+        $session = session();
+        $data['usuario'] = [
+            'nome' => $session->get('Nome'),
+            'email' => $session->get('Email'),
+            'login' => $session->get('Login'),
+            'genero' => $session->get('Genero'),
+            'data_nasc' => $session->get('Data_Nasc'),
+            // Outros dados do perfil do usuário
         ];
 
-        // Define as mensagens de erro personalizadas para cada regra
-        $errors = [
-            'nome' => [
-                'required' => 'O campo Nome é obrigatório.'
-            ],
-            'email' => [
-                'required' => 'O campo Email é obrigatório.',
-                'valid_email' => 'Insira um Email válido.'
-            ]
-            // Mensagens de erro personalizadas para outros campos
-        ];
-
-        // Valida os dados do formulário
-        if ($this->validate($rules, $errors)) {
-            // Se a validação passar, atualiza os dados no banco de dados
-            $session = session();
-            $userModel = new model_Cad();
-            $userData = [
-                'nome' => $this->request->getPost('nome'),
-                'email' => $this->request->getPost('email'),
-                'login' => $this->request->getPost('login'),
-                'genero' => $this->request->getPost('genero'),
-                'data_nasc' => $session->get('data_nasc')
-                // Outros campos do perfil
-            ];
-            
-            
-            $userModel->update($session->get('Id_Usuario'), $userData);
-            $session->set('Nome', $this->request->getPost('nome'));
-            $session->set('Email', $this->request->getPost('email'));
-            $session->set('login', $this->request->getPost('login'));
-            $session->set('genero', $this->request->getPost('genero'));
-            $session->set('data_nasc', $this->request->getPost('data_nasc'));
-            // Redireciona para a página de sucesso ou exibe uma mensagem
-            return redirect()->to('perfil')->with('view_success', 'Informações atualizadas com sucesso.');
-        } else {
-            // Se a validação falhar, exibe os erros de validação
-            $data['validation'] = $this->validator;
-        }
+        // Carrega a view do perfil do usuário
+        echo view('view_perfil', $data);
     }
 
-    // Carrega a view do formulário de edição do perfil
-    echo view('view_editar_perfil', $data);
-}
-public function excluir()
-{
-    // Recupere o ID do usuário logado da sessão
-    $userID = session()->get('id_usuario');
+    public function atualizarPerfil()
+    {
+        // Carrega o helper de formulários e validação
+        helper(['form', 'url']);
+        $data[] = "";
+        // Verifica se os dados do formulário foram submetidos
+        if ($this->request->getMethod() === 'post') {
+            // Define as regras de validação para cada campo
+            $rules = [
+                'nome' => 'required',
+                'email' => 'required|valid_email'
+                // Outras regras de validação para os campos do perfil
+            ];
 
-    // Exclua o perfil do usuário usando o ID
-    $userModel = new model_Cad();
-    $userModel->delete($userID);
+            // Define as mensagens de erro personalizadas para cada regra
+            $errors = [
+                'nome' => [
+                    'required' => 'O campo Nome é obrigatório.'
+                ],
+                'email' => [
+                    'required' => 'O campo Email é obrigatório.',
+                    'valid_email' => 'Insira um Email válido.'
+                ]
+                // Mensagens de erro personalizadas para outros campos
+            ];
 
-    // Limpe a sessão e redirecione para a página de login
-    session()->destroy();
-    return redirect()->to('view_login');
-}
+            // Valida os dados do formulário
+            if ($this->validate($rules, $errors)) {
+                // Se a validação passar, atualiza os dados no banco de dados
+                $session = session();
+                $userModel = new model_Cad();
+                $userData = [
+                    'nome' => $this->request->getPost('nome'),
+                    'email' => $this->request->getPost('email'),
+                    'login' => $this->request->getPost('login'),
+                    'genero' => $this->request->getPost('genero'),
+                    'data_nasc' => $session->get('data_nasc')
+                    // Outros campos do perfil
+                ];
 
-public function logout()
+
+                $userModel->update($session->get('Id_Usuario'), $userData);
+                $session->set('Nome', $this->request->getPost('nome'));
+                $session->set('Email', $this->request->getPost('email'));
+                $session->set('login', $this->request->getPost('login'));
+                $session->set('genero', $this->request->getPost('genero'));
+                $session->set('data_nasc', $this->request->getPost('data_nasc'));
+                // Redireciona para a página de sucesso ou exibe uma mensagem
+                return redirect()->to('perfil')->with('view_success', 'Informações atualizadas com sucesso.');
+            } else {
+                // Se a validação falhar, exibe os erros de validação
+                $data['validation'] = $this->validator;
+            }
+        }
+
+        // Carrega a view do formulário de edição do perfil
+        echo view('view_editar_perfil', $data);
+    }
+    public function excluir()
+    {
+        // Recupere o ID do usuário logado da sessão
+        $userID = session()->get('id_usuario');
+
+        // Exclua o perfil do usuário usando o ID
+        $userModel = new model_Cad();
+        $userModel->delete($userID);
+
+        // Limpe a sessão e redirecione para a página de login
+        session()->destroy();
+        return redirect()->to('view_login');
+    }
+
+    public function logout()
     {
         // Realize a ação de logout, por exemplo, destrua a sessão
         session()->destroy();
@@ -183,5 +195,4 @@ public function logout()
         // Redirecione o usuário para a página de login ou qualquer outra página desejada
         return redirect()->to('home');
     }
-
 }
