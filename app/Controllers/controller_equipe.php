@@ -91,14 +91,15 @@ class controller_equipe extends BaseController
                 $usuarioEquipeData = [
                     'Id_Usuario' => $usuarioId,
                     'Id_Equipe' => $equipeId,
+                    'Data_Hora' => date('Y-m-d'),
                     'Tipo' => 1,
-                    'Data_Hora' => date('Y-m-d H:i:s')
-
                 ];
 
 
 
                 $usuarioEquipeModel->insert($usuarioEquipeData);
+                $equipeId = $usuarioEquipeModel->getEquipeIdPorUsuario($user['Id_Usuario']);
+                $session->set('Id_Equipe', $equipeId);
 
                 // Grava o ID da equipe na sessão do usuário
                 //session()->set('id_equipe', $equipeId);
@@ -198,6 +199,47 @@ class controller_equipe extends BaseController
         ]);
     }
     
+    public function solicitarEntrarEquipe($equipeId)
+{
+    // Verifica se o usuário está logado
+    if (!session()->get('Id_Usuario')) {
+        // Redireciona para a página de login
+        return redirect()->to('login');
+    }
+
+    $equipeModel = new model_equipe();
+    $usuarioEquipeModel = new model_usuarioEquipe();
+
+    $usuarioId = session()->get('Id_Usuario');
+
+    // Verifica se o usuário já está vinculado a uma equipe
+    if ($usuarioEquipeModel->existeVinculoEquipe($usuarioId)) {
+        // O usuário já está em uma equipe, redireciona para outra página
+        return redirect()->to('outra_pagina');
+    }
+
+    // Verifica se a equipe existe
+    $equipe = $equipeModel->find($equipeId);
+    if (!$equipe) {
+        // A equipe não existe, redireciona para outra página ou exibe uma mensagem de erro
+        return redirect()->to('outra_pagina')->with('error', 'Equipe não encontrada');
+    }
+
+    // Insere o vínculo entre o usuário e a equipe
+    $dadosVinculo = [
+        'Id_Usuario' => $usuarioId,
+        'Id_Equipe' => $equipeId,
+        'Data_Entrada' => date('Y-m-d H:i:s'),
+        'Tipo' => 3// Define o tipo como membro (ou outro valor apropriado)
+    ];
+
+
+    $usuarioEquipeModel->insert($dadosVinculo);
+
+    // Redireciona para uma página de sucesso ou exibe uma mensagem de sucesso
+    return redirect()->to('outra_pagina')->with('success', 'Você entrou na equipe com sucesso');
+}
+
 
     
 }

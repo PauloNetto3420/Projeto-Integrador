@@ -38,6 +38,8 @@
             <option value="30">30</option>
         </select>
         <br>
+        
+        <input type="hidden" name="Tipo" id="Tipo" value="1">
 
         <input type="submit" value="Cadastrar Equipe">
     </form>
