@@ -8,7 +8,7 @@ class model_equipe extends Model
 {
     protected $table = 'tbl_equipe';
     protected $primaryKey = 'Id_Equipe';
-    protected $allowedFields = ['Nome', 'Descricao', 'Contato', 'Foto', 'Quantidade'];
+    protected $allowedFields = ['Nome', 'Descricao', 'Contato', 'Url_Foto', 'Quantidade'];
 
 
 

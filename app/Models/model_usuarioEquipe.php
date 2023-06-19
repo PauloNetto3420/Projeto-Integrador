@@ -7,12 +7,16 @@ use CodeIgniter\Model;
 class model_usuarioEquipe extends Model
 {
     protected $table = 'tbl_participacao';
-    protected $allowedFields = ['Id_Usuario', 'Id_Equipe', 'Data_Entrada', 'Tipo'];
+    protected $allowedFields = ['Id_Usuario', 'Id_Equipe', 'Tipo', 'Data_Entrada'];
 
+    
+    
+    
+    
     public function existeVinculoEquipe($usuarioId)
     {
         // Verifica se existe um registro na tabela 'usuario_equipe' com o 'usuario_id' fornecido
-        return $this->where('id_usuario', $usuarioId)->countAllResults() > 0;
+        return $this->where('Id_Usuario', $usuarioId)->countAllResults() > 0;
     }
 
 
@@ -30,7 +34,7 @@ class model_usuarioEquipe extends Model
 
     public function getEquipeIdPorUsuario($usuarioId)
     {
-        return $this->where('id_usuario', $usuarioId)->first()['Id_Equipe'] ?? null;
+        return $this->where('Id_Usuario', $usuarioId)->first()['Id_Equipe'] ?? null;
     }
 
     public function isUsuarioInEquipe($userId)
