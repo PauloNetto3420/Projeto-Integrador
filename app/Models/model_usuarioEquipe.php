@@ -64,7 +64,7 @@ class model_usuarioEquipe extends Model
             ->select('Tipo')
             ->get()
             ->getFirstRow();
-        return $row ? $row->Tipo : 1;
+        return $row ? $row->Tipo : null;
     }
 
     public function getJogadoresCandidatos($equipeId)
