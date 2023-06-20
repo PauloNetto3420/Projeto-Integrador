@@ -12,6 +12,8 @@ class controller_Cad extends BaseController
         // Carrega o helper de formulários e validação
         helper(['form', 'url']);
 
+        $data[] = "";
+
         // Verifica se os dados do formulário foram submetidos
         if ($this->request->getMethod() === 'post') {
             // Define as regras de validação para cada campo
@@ -73,6 +75,6 @@ class controller_Cad extends BaseController
         }
 
         // Carrega a view do formulário de cadastro
-        echo view('view_cadastrar');
+        echo view('view_cadastrar' $data);
     }
 }
