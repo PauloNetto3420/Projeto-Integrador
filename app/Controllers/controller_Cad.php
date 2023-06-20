@@ -55,12 +55,12 @@ class controller_Cad extends BaseController
                 // Se a validação passar, insere os dados no banco de dados
                 $userModel = new model_Cad();
                 $userData = [
-                    'login' => $this->request->getPost('login'),
-                    'email' => $this->request->getPost('email'),
-                    'senha' => password_hash($this->request->getPost('senha'), PASSWORD_DEFAULT),
-                    'nome' => $this->request->getPost('nome'),
-                    'data_nasc' => $this->request->getPost('data_nasc'),
-                    'genero' => $this->request->getPost('genero')
+                    'Login' => $this->request->getPost('login'),
+                    'Email' => $this->request->getPost('email'),
+                    'Senha' => password_hash($this->request->getPost('senha'), PASSWORD_DEFAULT),
+                    'Nome' => $this->request->getPost('nome'),
+                    'Data_Nasc' => $this->request->getPost('data_nasc'),
+                    'Genero' => $this->request->getPost('genero')
                 ];
                 $userModel->insert($userData);
 
