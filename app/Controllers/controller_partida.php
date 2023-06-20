@@ -7,9 +7,16 @@ use App\Models\model_partida;
 
 
 class controller_partida extends BaseController
+
 {
-    public function criar()
-{
+
+    function viewP(){
+
+        echo view('view_criar_partida');
+
+    }
+
+    public function criar() {
     // Obtenha os dados enviados pelo formulário
     $jogo = $this->request->getPost('Tipo_Jogo');
     $quantidadeJogadores = $this->request->getPost('Qntd_Jogadores');
@@ -19,8 +26,8 @@ class controller_partida extends BaseController
 
     // Insira a partida no banco de dados
     $partidaData = [
-        'Tipo_Jogo' => 'Warzone 2.0',
-        'Qntd_Jogadores' => '5'
+        'Tipo_Jogo' => $jogo,
+        'Qntd_Jogadores' => $quantidadeJogadores
     ];
     $partidaId = $partidaModel->insert($partidaData);
 
@@ -39,7 +46,8 @@ class controller_partida extends BaseController
     $agendaModel->insert($agendaData);
 
     // Redirecione para uma página de sucesso ou exiba uma mensagem de sucesso
-    return redirect()->to(base_url('partida/sucesso'));
+    return redirect()->to(base_url('public/partida/sucesso'));
+
 }
 
 

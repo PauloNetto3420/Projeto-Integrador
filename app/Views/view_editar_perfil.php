@@ -55,8 +55,8 @@
                 </select>
             <!-- Outros campos do formulário de edição de perfil -->
             <div class="mb-3">
-                <label for="foto" class="form-label">Foto</label>
-                <input type="file" class="form-control" id="foto" name="foto">
+                <label for="Foto" class="form-label">Foto</label>
+                <input type="file" class="form-control" id="Foto" name="Foto">
             </div>
             <button type="submit" class="btn btn-primary">Atualizar</button>
         </form>

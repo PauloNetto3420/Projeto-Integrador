@@ -32,8 +32,8 @@
         <h1>Meu Perfil</h1>
         <div class="row">
             <div class="col-md-4">
-                <?php if (isset($usuario['foto'])) : ?>
-                    <img src="<?php echo base_url('uploads/' . $usuario['foto']); ?>" alt="Foto do Perfil" class="img-thumbnail">
+                <?php if (isset($usuario['Foto'])) : ?>
+                    <img src="<?php echo base_url('uploads/' . $usuario['Foto']); ?>" alt="Foto do Perfil" class="img-thumbnail">
                 <?php else : ?>
                     <img src="<?php echo base_url('assets/images/default-profile-image.jpg'); ?>" alt="Foto do Perfil" class="img-thumbnail">
                 <?php endif; ?>

@@ -41,9 +41,11 @@
             <p>Selecione uma opção:</p>
             <ul>
                 <li><a href="equipe/perfil">Perfil da Equipe</a></li>
+
                 <li><a href="equipe/pesquisar">Procurar Equipes</a></li>
+                <?php endif; ?>
+                
             </ul>
-        <?php endif; ?>
     </div>
 
     <!-- Inclua os arquivos JavaScript do Bootstrap -->

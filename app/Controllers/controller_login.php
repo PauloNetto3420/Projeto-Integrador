@@ -60,6 +60,7 @@ class controller_login extends BaseController
                         'Genero' => $user['Genero'],
                         'Email' => $user['Email'],
                         'Data_Nasc' => $user['Data_Nasc'],
+                        'Foto' => $user['Url_Foto']
                         // Adicione outros dados do usuário que você deseja armazenar na sessão
                     ];
                     $session->set($userData);
@@ -108,6 +109,7 @@ class controller_login extends BaseController
             'login' => $session->get('Login'),
             'genero' => $session->get('Genero'),
             'data_nasc' => $session->get('Data_Nasc'),
+            'Foto' => $session->get('Foto'),
             // Outros dados do perfil do usuário
         ];
 
@@ -126,7 +128,7 @@ class controller_login extends BaseController
         $rules = [
             'nome' => 'required',
             'email' => 'required|valid_email',
-            'Foto' => 'uploaded[Foto]|max_size[Foto,1024]|mime_in[Foto,image/png,image/jpg,image/jpeg]'
+            'Url_Foto' => 'uploaded[Foto]|max_size[Foto,1024]|mime_in[Foto,image/png,image/jpg,image/jpeg]'
             // Outras regras de validação para os campos do perfil
         ];
 
@@ -149,27 +151,27 @@ class controller_login extends BaseController
 
         // Valida os dados do formulário
         if ($this->validate($rules, $errors)) {
-            // Se a validação passar, atualiza os dados no banco de dados
             $session = session();
             $userModel = new model_Cad();
-            $userData = [
-                'nome' => $this->request->getPost('nome'),
-                'email' => $this->request->getPost('email'),
-                'login' => $this->request->getPost('login'),
-                'genero' => $this->request->getPost('genero'),
-                'data_nasc' => $session->get('data_nasc')
-                // Outros campos do perfil
-            ];
-
+            
             // Verifica se foi enviado um arquivo de foto
             $foto = $this->request->getFile('Foto');
             if ($foto && $foto->isValid() && !$foto->hasMoved()) {
                 // Move o arquivo de foto para a pasta desejada
                 $newName = $foto->getRandomName();
-                $foto->move(ROOTPATH . 'public/uploads', $newName);
-                $userData['Foto'] = $newName;
+                $foto->move(ROOTPATH .'/uploads', $newName);
             }
 
+            // Se a validação passar, atualiza os dados no banco de dados
+            $userData = [
+                'nome' => $this->request->getPost('nome'),
+                'email' => $this->request->getPost('email'),
+                'login' => $this->request->getPost('login'),
+                'genero' => $this->request->getPost('genero'),
+                'data_nasc' => $session->get('data_nasc'),
+                'Url_Foto' => $newName
+                // Outros campos do perfil
+            ];
             $userModel->update($session->get('Id_Usuario'), $userData);
             $session->set('Nome', $this->request->getPost('nome'));
             $session->set('Email', $this->request->getPost('email'));
@@ -177,7 +179,7 @@ class controller_login extends BaseController
             $session->set('genero', $this->request->getPost('genero'));
             $session->set('data_nasc', $this->request->getPost('data_nasc'));
             // Redireciona para a página de sucesso ou exibe uma mensagem
-            return redirect()->to('perfil')->with('view_success', 'Informações atualizadas com sucesso.');
+            return redirect()->to('perfil')->with('view_success','Informações atualizadas com sucesso.');
         } else {
             // Se a validação falhar, exibe os erros de validação
             $data['validation'] = $this->validator;

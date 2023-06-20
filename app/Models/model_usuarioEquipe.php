@@ -74,7 +74,7 @@ class model_usuarioEquipe extends Model
     public function getJogadoresCandidatos($equipeId)
     {
         return $this->where('Id_Equipe', $equipeId)
-            ->where('Tipo', 0) // Jogadores candidatos (Tipo = 0)
+            ->where('Tipo', 3) // Jogadores candidatos (Tipo = 0)
             ->findAll();
     }
 
