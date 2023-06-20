@@ -11,12 +11,12 @@ class controller_equipe extends BaseController
 {
     public function cadastrarEquipe()
     {
-        
+
         if (!session()->get('Id_Usuario')) {
             // Redireciona para a página de login
             return redirect()->to('login');
         }
-        
+
         $usuarioModel = new model_Cad();
         $equipeModel = new model_equipe();
         $usuarioEquipeModel = new model_usuarioEquipe();
@@ -171,6 +171,7 @@ class controller_equipe extends BaseController
     {
         $equipeModel = new model_equipe();
         $usuarioEquipeModel = new model_usuarioEquipe();
+        $jogadorModel = new model_Cad(); // Substitua "model_jogador" pelo nome do seu modelo de jogadores
 
         // Verifica se o usuário está logado
         if (!session()->get('Id_Usuario')) {
@@ -192,69 +193,74 @@ class controller_equipe extends BaseController
         $equipe = $equipeModel->find($equipeId);
         $jogadoresCandidatos = $usuarioEquipeModel->getJogadoresCandidatos($equipeId);
 
-        // Carrega a view de gerenciamento da equipe
+        // Obtém os nomes dos jogadores candidatos
+        $nomesJogadoresCandidatos = [];
+        foreach ($jogadoresCandidatos as $jogador) {
+            $jogadorData = $jogadorModel->find($jogador['Id_Usuario']); // Substitua "id_jogador" pelo nome correto do campo na tabela de jogadores
+            $nomesJogadoresCandidatos[] = $jogadorData['Nome']; // Substitua "nome" pelo nome correto do campo na tabela de jogadores
+        }
+
+        // Carrega a view de gerenciamento da equipe, passando o nome dos jogadores
         return view('view_gerenciar_equipe', [
             'equipe' => $equipe,
-            'jogadoresCandidatos' => $jogadoresCandidatos
+            'jogadoresCandidatos' => $jogadoresCandidatos,
+            'nomesJogadoresCandidatos' => $nomesJogadoresCandidatos
         ]);
     }
-    
+
+
     public function solicitarEntrarEquipe($equipeId)
-{
-    // Verifica se o usuário está logado
-    if (!session()->get('Id_Usuario')) {
-        // Redireciona para a página de login
-        return redirect()->to('login');
+    {
+        // Verifica se o usuário está logado
+        if (!session()->get('Id_Usuario')) {
+            // Redireciona para a página de login
+            return redirect()->to('login');
+        }
+
+        $equipeModel = new model_equipe();
+        $usuarioEquipeModel = new model_usuarioEquipe();
+
+        $usuarioId = session()->get('Id_Usuario');
+
+        // Verifica se o usuário já está vinculado a uma equipe
+        if ($usuarioEquipeModel->existeVinculoEquipe($usuarioId)) {
+            // O usuário já está em uma equipe, redireciona para outra página
+            return redirect()->to('outra_pagina');
+        }
+
+        // Verifica se a equipe existe
+        $equipe = $equipeModel->find($equipeId);
+        if (!$equipe) {
+            // A equipe não existe, redireciona para outra página ou exibe uma mensagem de erro
+            return redirect()->to('outra_pagina')->with('error', 'Equipe não encontrada');
+        }
+
+        // Insere o vínculo entre o usuário e a equipe
+        $dadosVinculo = [
+            'Id_Usuario' => $usuarioId,
+            'Id_Equipe' => $equipeId,
+            'Data_Entrada' => date('Y-m-d H:i:s'),
+            'Tipo' => 3 // Define o tipo como membro (ou outro valor apropriado)
+        ];
+
+
+        $usuarioEquipeModel->insert($dadosVinculo);
+
+        // Redireciona para uma página de sucesso ou exibe uma mensagem de sucesso
+        return redirect()->to('outra_pagina')->with('success', 'Você entrou na equipe com sucesso');
     }
 
-    $equipeModel = new model_equipe();
-    $usuarioEquipeModel = new model_usuarioEquipe();
+    public function aprovar()
+    {
+        // Obtém os dados submetidos do formulário
+        $usuarioId = $this->request->getPost('Id_Usuario');
+        $equipeId = $this->request->getPost('Id_Equipe');
 
-    $usuarioId = session()->get('Id_Usuario');
+        // Atualiza o tipo do jogador no banco de dados
+        $participacaoModel = new model_usuarioEquipe();
+        $participacaoModel->updateTipo($usuarioId, $equipeId, 2);
 
-    // Verifica se o usuário já está vinculado a uma equipe
-    if ($usuarioEquipeModel->existeVinculoEquipe($usuarioId)) {
-        // O usuário já está em uma equipe, redireciona para outra página
-        return redirect()->to('outra_pagina');
+        // Redireciona de volta para a página de gerenciamento da equipe
+        return redirect()->to('/equipe/gerenciar')->with('success', 'Jogador aprovado com sucesso.');
     }
-
-    // Verifica se a equipe existe
-    $equipe = $equipeModel->find($equipeId);
-    if (!$equipe) {
-        // A equipe não existe, redireciona para outra página ou exibe uma mensagem de erro
-        return redirect()->to('outra_pagina')->with('error', 'Equipe não encontrada');
-    }
-
-    // Insere o vínculo entre o usuário e a equipe
-    $dadosVinculo = [
-        'Id_Usuario' => $usuarioId,
-        'Id_Equipe' => $equipeId,
-        'Data_Entrada' => date('Y-m-d H:i:s'),
-        'Tipo' => 3// Define o tipo como membro (ou outro valor apropriado)
-    ];
-
-
-    $usuarioEquipeModel->insert($dadosVinculo);
-
-    // Redireciona para uma página de sucesso ou exibe uma mensagem de sucesso
-    return redirect()->to('outra_pagina')->with('success', 'Você entrou na equipe com sucesso');
-}
-
-public function aprovar()
-{
-    // Obtém os dados submetidos do formulário
-    $usuarioId = $this->request->getPost('Id_Usuario');
-    $equipeId = $this->request->getPost('Id_Equipe');
-
-    // Atualiza o tipo do jogador no banco de dados
-    $participacaoModel = new model_usuarioEquipe();
-    $participacaoModel->updateTipo($usuarioId, $equipeId, 2);
-
-    // Redireciona de volta para a página de gerenciamento da equipe
-    return redirect()->to('/equipe/gerenciar')->with('success', 'Jogador aprovado com sucesso.');
-}
-
-
-
-    
 }
