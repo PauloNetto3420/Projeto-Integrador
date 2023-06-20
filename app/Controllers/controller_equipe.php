@@ -230,7 +230,7 @@ class controller_equipe extends BaseController
         'Id_Usuario' => $usuarioId,
         'Id_Equipe' => $equipeId,
         'Data_Entrada' => date('Y-m-d H:i:s'),
-        'Tipo' => 3// Define o tipo como membro (ou outro valor apropriado)
+        'Tipo' => 2// Define o tipo como membro (ou outro valor apropriado)
     ];
 
 
