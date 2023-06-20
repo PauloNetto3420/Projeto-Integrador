@@ -104,11 +104,11 @@ class controller_login extends BaseController
     {
         $session = session();
         $data['usuario'] = [
-            'nome' => $session->get('Nome'),
-            'email' => $session->get('Email'),
-            'login' => $session->get('Login'),
-            'genero' => $session->get('Genero'),
-            'data_nasc' => $session->get('Data_Nasc'),
+            'Nome' => $session->get('Nome'),
+            'Email' => $session->get('Email'),
+            'Login' => $session->get('Login'),
+            'Genero' => $session->get('Genero'),
+            'Data_Nasc' => $session->get('Data_Nasc'),
             'Foto' => $session->get('Foto'),
             // Outros dados do perfil do usuário
         ];
@@ -164,20 +164,20 @@ class controller_login extends BaseController
 
             // Se a validação passar, atualiza os dados no banco de dados
             $userData = [
-                'nome' => $this->request->getPost('nome'),
-                'email' => $this->request->getPost('email'),
-                'login' => $this->request->getPost('login'),
-                'genero' => $this->request->getPost('genero'),
-                'data_nasc' => $session->get('data_nasc'),
+                'Nome' => $this->request->getPost('nome'),
+                'Email' => $this->request->getPost('email'),
+                'Login' => $this->request->getPost('login'),
+                'Genero' => $this->request->getPost('genero'),
+                'Data_Nasc' => $session->get('data_nasc'),
                 'Url_Foto' => $newName
                 // Outros campos do perfil
             ];
             $userModel->update($session->get('Id_Usuario'), $userData);
             $session->set('Nome', $this->request->getPost('nome'));
             $session->set('Email', $this->request->getPost('email'));
-            $session->set('login', $this->request->getPost('login'));
-            $session->set('genero', $this->request->getPost('genero'));
-            $session->set('data_nasc', $this->request->getPost('data_nasc'));
+            $session->set('Login', $this->request->getPost('login'));
+            $session->set('Genero', $this->request->getPost('genero'));
+            $session->set('Data_Nasc', $this->request->getPost('data_nasc'));
             // Redireciona para a página de sucesso ou exibe uma mensagem
             return redirect()->to('perfil')->with('view_success','Informações atualizadas com sucesso.');
         } else {

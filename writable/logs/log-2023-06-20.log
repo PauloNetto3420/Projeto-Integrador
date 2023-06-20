@@ -854,3 +854,122 @@ in SYSTEMPATH\BaseModel.php on line 762.
  6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 INFO - 2023-06-20 19:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 19:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 19:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 19:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 19:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 19:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 19:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 19:56:04 --> Undefined array key "nome"
+in APPPATH\Views\view_perfil.php on line 42.
+ 1 APPPATH\Views\view_perfil.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfil', [], true)
+ 5 APPPATH\Controllers\controller_login.php(117): view('view_perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-20 19:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 19:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 19:56:09 --> Undefined array key "nome"
+in APPPATH\Views\view_perfil.php on line 42.
+ 1 APPPATH\Views\view_perfil.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfil', [], true)
+ 5 APPPATH\Controllers\controller_login.php(117): view('view_perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-20 19:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 19:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 19:57:03 --> Undefined array key "nome"
+in APPPATH\Views\view_perfil.php on line 42.
+ 1 APPPATH\Views\view_perfil.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfil', [], true)
+ 5 APPPATH\Controllers\controller_login.php(117): view('view_perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-20 19:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 19:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 19:57:14 --> Undefined array key "nome"
+in APPPATH\Views\view_perfil.php on line 42.
+ 1 APPPATH\Views\view_perfil.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfil', [], true)
+ 5 APPPATH\Controllers\controller_login.php(117): view('view_perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-20 19:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 19:57:43 --> Undefined array key "Data_Nasc"
+in APPPATH\Views\view_perfil.php on line 45.
+ 1 APPPATH\Views\view_perfil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Data_Nasc"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfil', [], true)
+ 5 APPPATH\Controllers\controller_login.php(117): view('view_perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-20 19:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 19:58:49 --> Undefined array key "Data_Nasc"
+in APPPATH\Views\view_perfil.php on line 45.
+ 1 APPPATH\Views\view_perfil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Data_Nasc"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfil', [], true)
+ 5 APPPATH\Controllers\controller_login.php(117): view('view_perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-20 19:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 19:58:50 --> Undefined array key "Data_Nasc"
+in APPPATH\Views\view_perfil.php on line 45.
+ 1 APPPATH\Views\view_perfil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Data_Nasc"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfil', [], true)
+ 5 APPPATH\Controllers\controller_login.php(117): view('view_perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-20 19:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 19:59:33 --> Undefined array key "Data_Nasc"
+in APPPATH\Views\view_perfil.php on line 45.
+ 1 APPPATH\Views\view_perfil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Data_Nasc"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfil', [], true)
+ 5 APPPATH\Controllers\controller_login.php(117): view('view_perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-20 19:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 19:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 20:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 20:00:00 --> Undefined array key "Data_Nasc"
+in APPPATH\Views\view_perfil.php on line 45.
+ 1 APPPATH\Views\view_perfil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Data_Nasc"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfil', [], true)
+ 5 APPPATH\Controllers\controller_login.php(117): view('view_perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-20 20:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

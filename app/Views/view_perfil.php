@@ -39,11 +39,11 @@
                 <?php endif; ?>
             </div>
             <div class="col-md-8">
-                <p><strong>Nome:</strong> <?php echo $usuario['nome']; ?></p>
-                <p><strong>Email:</strong> <?php echo $usuario['email']; ?></p>
-                <p><strong>Login:</strong> <?php echo $usuario['login']; ?></p>
-                <p><strong>Data de nascimento:</strong> <?php echo $usuario['data_nasc']; ?></p>
-                <p><strong>Genêro:</strong> <?php echo $usuario['genero']; ?></p>
+                <p><strong>Nome:</strong> <?php echo $usuario['Nome']; ?></p>
+                <p><strong>Email:</strong> <?php echo $usuario['Email']; ?></p>
+                <p><strong>Login:</strong> <?php echo $usuario['Login']; ?></p>
+                <p><strong>Data de nascimento:</strong> <?php echo $usuario['Data_Nasc']; ?></p>
+                <p><strong>Genêro:</strong> <?php echo $usuario['Genero']; ?></p>
                 <!-- Outros dados do perfil -->
             </div>
             <a href="home">Home</a>
