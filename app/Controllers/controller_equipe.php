@@ -240,6 +240,21 @@ class controller_equipe extends BaseController
     return redirect()->to('outra_pagina')->with('success', 'Você entrou na equipe com sucesso');
 }
 
+public function aprovar()
+{
+    // Obtém os dados submetidos do formulário
+    $usuarioId = $this->request->getPost('Id_Usuario');
+    $equipeId = $this->request->getPost('Id_Equipe');
+
+    // Atualiza o tipo do jogador no banco de dados
+    $participacaoModel = new model_usuarioEquipe();
+    $participacaoModel->updateTipo($usuarioId, $equipeId, 2);
+
+    // Redireciona de volta para a página de gerenciamento da equipe
+    return redirect()->to('/equipe/gerenciar')->with('success', 'Jogador aprovado com sucesso.');
+}
+
+
 
     
 }

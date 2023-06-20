@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Minha Equipe - Colaborahub</title>
     <!-- Inclua os arquivos CSS do Bootstrap -->
@@ -37,12 +38,13 @@
             margin-bottom: 10px;
         }
     </style>
+
 </head>
+
 <body>
     <div class="container">
         <h1>Minha Equipe</h1>
         <p>Aqui estão os detalhes da equipe:</p>
-
         <div class="row">
             <div class="col-md-6">
                 <h5>Dados da Equipe:</h5>
@@ -56,23 +58,29 @@
             <h5>Participantes:</h5>
             <ul class="participant-list">
                 <?php foreach ($participantes as $participante) : ?>
-                    <li class="participant-item">
-                        <strong>Nome:</strong> <?php echo $participante['Nome']; ?><br>
-                        <strong>Email:</strong> <?php echo $participante['Email']; ?><br>
-                        
-                    </li>
+                    <?php if ($Tipo == 1 || $Tipo == 2) : ?>
+                        <li class="participant-item">
+                            <strong>Nome:</strong> <?php echo $participante['Nome']; ?><br>
+                            <strong>Email:</strong> <?php echo $participante['Email']; ?><br>
+                        </li>
+                    <?php endif; ?>
                 <?php endforeach; ?>
             </ul>
         </div>
-        <?php if ($Tipo == 1): ?>
-        <a href="<?php echo base_url('public/equipe/gerenciar'); ?>" class="btn btn-primary">Gerenciar Equipe</a>
-        <?php endif; ?>
-        <div>
 
+        <?php if ($Tipo == 1) : ?>
+            <a href="<?php echo base_url('public/equipe/gerenciar'); ?>" class="btn btn-primary">Gerenciar Equipe</a>
+        <?php endif; ?>
+
+        <div class="mt-4">
+            <h5>Ações:</h5>
+            <a href="<?php echo base_url('public/partidas/disponiveis'); ?>" class="btn btn-success">Ver Partidas Disponíveis</a>
+            <a href="<?php echo base_url('public/partidas/criar'); ?>" class="btn btn-primary">Criar Partida</a>
         </div>
     </div>
 
     <!-- Inclua os arquivos JavaScript do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+
+    </body>
 </html>
