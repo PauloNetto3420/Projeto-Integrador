@@ -10,7 +10,7 @@ class controller_Cad extends BaseController
     public function cadastrar()
     {
         // Carrega o helper de formulários e validação
-        helper(['form', 'url']);aaa
+        helper(['form', 'url']);
 
         // Verifica se os dados do formulário foram submetidos
         if ($this->request->getMethod() === 'post') {
