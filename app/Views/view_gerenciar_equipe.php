@@ -36,12 +36,12 @@
         <h2>Jogadores Candidatos</h2>
         <?php if (count($jogadoresCandidatos) > 0): ?>
             <ul>
-                <?php foreach ($jogadoresCandidatos as $jogador): ?>
+            <?php foreach ($participantes as $participante) : ?>
                     <li>
-                        <?php echo $jogador['Nome']; ?>
+                        <?php echo $participante['Nome']; ?>
                         <form action="<?php echo base_url('public/equipe/aprovar'); ?>" method="post" style="display: inline;">
-                            <input type="hidden" name="usuarioId" value="<?php echo $jogador['Id_Usuario']; ?>">
-                            <input type="hidden" name="equipeId" value="<?php echo $equipe['Id_Equipe']; ?>">
+                            <input type="hidden" name="usuarioId" value="<?php echo $participante['Id_Usuario']; ?>">
+                            <input type="hidden" name="equipeId" value="<?php echo $equipe['Id_Equipe']; ?>"> 
                             <button type="submit" class="btn btn-primary">Aprovar</button>
                         </form>
                     </li>
