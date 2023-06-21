@@ -132,30 +132,38 @@ class controller_equipe extends BaseController
     public function perfil()
     {
         // Obtém o ID da equipe da sessão
-        $equipeId = session()->get('Id_Equipe');
-
+        $equipeId = session('Id_Equipe');
+    
         // Crie uma instância do modelo da equipe
         $equipeModel = new model_equipe();
-
+    
         // Busque os dados da equipe com base no ID
         $equipe = $equipeModel->find($equipeId);
-
+    
         // Verifique se a equipe foi encontrada
         if ($equipe) {
             $participacaoModel = new model_usuarioEquipe();
             $participantes = $participacaoModel->getParticipantesPorEquipe($equipeId);
-            $Tipo = session()->get('Tipo');
-            // Carregue a view 'view_perfil_equipe' e passe os dados da equipe para a view
-            echo view('view_perfilEquipe', [
+            $tipoUsuario = session('Tipo');
+            
+            // Filtra os participantes por tipo 1 ou 2
+            $participantesFiltrados = array_filter($participantes, function ($participante) {
+                $tipo = $participante['Tipo'];
+                return $tipo == 1 || $tipo == 2;
+            });
+            
+            // Carregue a view 'view_perfilEquipe' e passe os dados da equipe e participantes para a view
+            return view('view_perfilEquipe', [
                 'equipe' => $equipe,
-                'participantes' => $participantes,
-                'Tipo' => $Tipo
+                'participantes' => $participantesFiltrados,
+                'tipoUsuario' => $tipoUsuario
             ]);
         } else {
             // A equipe não foi encontrada, redirecione para uma página de erro ou exiba uma mensagem de erro
             return redirect()->to('pagina_de_erro');
         }
     }
+    
 
     public function pesquisarEquipes()
     {
@@ -234,7 +242,7 @@ class controller_equipe extends BaseController
         'Id_Usuario' => $usuarioId,
         'Id_Equipe' => $equipeId,
         'Data_Entrada' => date('Y-m-d H:i:s'),
-        'Tipo' => 2// Define o tipo como membro (ou outro valor apropriado)
+        'Tipo' => 0// Define o tipo como membro (ou outro valor apropriado)
     ];
 
 
