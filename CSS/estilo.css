@@ -208,11 +208,13 @@ body * {
 /* FOOTER */
 
 .footer{
+    height: 240px;
     padding-top: 20px;
     background-color: #201B2C;
 }
 
 .link-footer{
+    margin-bottom: 16px;
     font-weight: 800;
     text-decoration: none;
     margin-right: 16px;
@@ -220,6 +222,7 @@ body * {
 }
 
 .item-footer{
+    margin-bottom: 8px;
     text-decoration: none;
     color: #FFFFFF;
 }
