@@ -10,7 +10,7 @@ class model_usuarioEquipe extends Model
     protected $allowedFields = ['Id_Usuario', 'Id_Equipe', 'Tipo', 'Data_Entrada'];
 
     
-    
+
     
     
     public function existeVinculoEquipe($usuarioId)
@@ -23,13 +23,14 @@ class model_usuarioEquipe extends Model
 
     public function getParticipantesPorEquipe($equipeId)
     {
-        // Consulta para obter os participantes da equipe com base no ID da equipe
-        $this->select('tbl_usuario.*')
-            ->join('tbl_usuario', 'tbl_usuario.id_usuario = tbl_participacao.id_usuario')
-            ->where('tbl_participacao.id_equipe', $equipeId);
-
-        return $this->findAll();
+        $builder = $this->db->table('tbl_participacao');
+        $builder->select('tbl_usuario.*, tbl_participacao.Tipo');
+        $builder->join('tbl_usuario', 'tbl_usuario.Id_Usuario = tbl_participacao.Id_Usuario');
+        $builder->where('tbl_participacao.Id_Equipe', $equipeId);
+        $query = $builder->get();
+        return $query->getResultArray();
     }
+    
 
 
     public function getEquipeIdPorUsuario($usuarioId)
@@ -74,8 +75,10 @@ class model_usuarioEquipe extends Model
     public function getJogadoresCandidatos($equipeId)
     {
         return $this->where('Id_Equipe', $equipeId)
-            ->where('Tipo', 3) // Jogadores candidatos (Tipo = 0)
+            ->where('Tipo', 0) // Jogadores candidatos (Tipo = 0)
             ->findAll();
     }
+
+    
 
 }

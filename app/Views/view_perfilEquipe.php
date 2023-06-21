@@ -46,29 +46,30 @@
         <div class="row">
             <div class="col-md-6">
                 <h5>Dados da Equipe:</h5>
-                <p><strong>Nome da Equipe:</strong> <?php echo $equipe['Nome']; ?></p>
-                <p><strong>Contato:</strong> <?php echo $equipe['Contato']; ?></p>
-                <p><strong>Quantidade de Membros:</strong> <?php echo $equipe['Quantidade']; ?></p>
+                <p><strong>Nome da Equipe:</strong> <?= $equipe['Nome']; ?></p>
+                <p><strong>Contato:</strong> <?= $equipe['Contato']; ?></p>
+                <p><strong>Quantidade de Membros:</strong> <?= $equipe['Quantidade']; ?></p>
             </div>
         </div>
 
         <div class="mt-4">
-    <h5>Participantes:</h5>
-    <ul class="participant-list">
-        <?php foreach ($participantes as $participante) : ?>
-            <?php if (isset($participante['Tipo']) && ($participante['Tipo'] == 1 || $participante['Tipo'] == 2)) : ?>
-                <li class="participant-item">
-                    <strong>Nome:</strong> <?php echo $participante['Nome']; ?><br>
-                    <strong>Email:</strong> <?php echo $participante['Email']; ?><br>
-                </li>
+            <h5>Participantes:</h5>
+            <?php if (!empty($participantes)) : ?>
+                <ul class="participant-list">
+                    <?php foreach ($participantes as $participante) : ?>
+                        <li class="participant-item">
+                            <strong>Nome:</strong> <?= $participante['Nome']; ?><br>
+                            <strong>Email:</strong> <?= $participante['Email']; ?><br>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            <?php else : ?>
+                <p>Nenhum participante encontrado.</p>
             <?php endif; ?>
-        <?php endforeach; ?>
-    </ul>
-</div>
+        </div>
 
-
-        <?php if ($Tipo == 1): ?>
-            <a href="<?php echo base_url('public/equipe/gerenciar'); ?>" class="btn btn-primary">Gerenciar Equipe</a>
+        <?php if ($tipoUsuario == 1): ?>
+            <a href="<?= base_url('public/equipe/gerenciar'); ?>" class="btn btn-primary">Gerenciar Equipe</a>
         <?php endif; ?>
     </div>
 

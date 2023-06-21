@@ -261,6 +261,7 @@ INFO - 2023-06-21 02:06:12 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-06-21 02:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-21 02:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-21 02:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+<<<<<<< HEAD
 INFO - 2023-06-21 13:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-21 13:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-21 13:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
@@ -677,3 +678,913 @@ INFO - 2023-06-21 20:03:08 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-06-21 20:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-21 20:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-21 20:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+=======
+INFO - 2023-06-21 16:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:19:57 --> Cannot access offset of type string on string
+in APPPATH\Views\view_perfilEquipe.php on line 59.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 4 APPPATH\Controllers\controller_equipe.php(159): view('view_perfilEquipe', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:24:19 --> Undefined variable $tipoUsuario
+in APPPATH\Views\view_perfilEquipe.php on line 69.
+ 1 APPPATH\Views\view_perfilEquipe.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipoUsuario', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(159): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:27:52 --> Undefined array key "Tipo"
+in APPPATH\Views\view_perfilEquipe.php on line 59.
+ 1 APPPATH\Views\view_perfilEquipe.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(152): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:29:08 --> syntax error, unexpected end of file
+in APPPATH\Views\view_perfilEquipe.php on line 79.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 3 APPPATH\Controllers\controller_equipe.php(152): view('view_perfilEquipe', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:29:16 --> Undefined variable $participacaoModel
+in APPPATH\Views\view_perfilEquipe.php on line 59.
+ 1 APPPATH\Views\view_perfilEquipe.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $participacaoModel', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(152): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:30:31 --> Undefined variable $usuarioEquipeModel
+in APPPATH\Views\view_perfilEquipe.php on line 59.
+ 1 APPPATH\Views\view_perfilEquipe.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioEquipeModel', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(152): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:30:32 --> Undefined variable $usuarioEquipeModel
+in APPPATH\Views\view_perfilEquipe.php on line 59.
+ 1 APPPATH\Views\view_perfilEquipe.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioEquipeModel', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(152): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:31:11 --> Undefined variable $usuarioEquipeModel
+in APPPATH\Views\view_perfilEquipe.php on line 59.
+ 1 APPPATH\Views\view_perfilEquipe.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioEquipeModel', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(152): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:32:46 --> Undefined variable $Tipo
+in APPPATH\Views\view_perfilEquipe.php on line 69.
+ 1 APPPATH\Views\view_perfilEquipe.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tipo', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(151): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:33:03 --> Undefined array key "Tipo"
+in APPPATH\Views\view_perfilEquipe.php on line 69.
+ 1 APPPATH\Views\view_perfilEquipe.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(151): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:34:09 --> Undefined variable $tipoUsuario
+in APPPATH\Views\view_perfilEquipe.php on line 71.
+ 1 APPPATH\Views\view_perfilEquipe.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipoUsuario', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(151): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 17:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 17:44:51 --> Class "App\Controllers\ModelEquipe" not found
+in APPPATH\Controllers\controller_equipe.php on line 138.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 17:45:06 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 17:45:06 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 17:51:31 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 17:51:31 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 17:55:50 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 17:55:50 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 17:57:42 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 17:57:42 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 17:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 17:59:54 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 17:59:54 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:00:13 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:00:13 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:01:41 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:01:41 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:01:42 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:01:42 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:01:43 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:01:43 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:01:43 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:01:43 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:01:43 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:01:43 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:01:44 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:01:44 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:01:47 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:01:47 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:02:34 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:02:34 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:02:35 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:02:35 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:02:35 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:02:35 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:02:35 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:02:35 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:02:35 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:02:35 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 18:04:07 --> mysqli_sql_exception: Unknown column 'tbl_participacao.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-21 18:04:07 --> Unknown column 'tbl_participacao.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_participacao`
+WHERE `tbl_participacao`.`id` = :tbl_participacao.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH\Controllers\controller_equipe.php(141): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 18:04:31 --> Undefined variable $tipoUsuario
+in APPPATH\Views\view_perfilEquipe.php on line 71.
+ 1 APPPATH\Views\view_perfilEquipe.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipoUsuario', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(152): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 18:05:28 --> Undefined variable $tipoUsuario
+in APPPATH\Views\view_perfilEquipe.php on line 71.
+ 1 APPPATH\Views\view_perfilEquipe.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipoUsuario', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(152): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 18:05:29 --> Undefined variable $tipoUsuario
+in APPPATH\Views\view_perfilEquipe.php on line 71.
+ 1 APPPATH\Views\view_perfilEquipe.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipoUsuario', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(152): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 18:05:29 --> Undefined variable $tipoUsuario
+in APPPATH\Views\view_perfilEquipe.php on line 71.
+ 1 APPPATH\Views\view_perfilEquipe.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipoUsuario', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(152): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-21 18:05:29 --> Undefined variable $tipoUsuario
+in APPPATH\Views\view_perfilEquipe.php on line 71.
+ 1 APPPATH\Views\view_perfilEquipe.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipoUsuario', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfilEquipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfilEquipe', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(152): view('view_perfilEquipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-21 18:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 18:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+>>>>>>> 43c1262502d453c6bd415a267ee93d34823463d0
