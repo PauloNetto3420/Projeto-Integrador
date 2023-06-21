@@ -147,8 +147,8 @@ body * {
 /* HEADER   */
 
 .header{
-    margin-bottom: 56px;
     background-color: #201B2C;
+    height: 10vh;
 }
 
 .btn-busca{
@@ -205,8 +205,37 @@ body * {
     border-color: #201B2C;
     
 }
+/* FOOTER */
 
+.footer{
+    padding-top: 20px;
+    background-color: #201B2C;
+}
 
+.link-footer{
+    font-weight: 800;
+    text-decoration: none;
+    margin-right: 16px;
+    color: #FFFFFF;
+}
+
+.item-footer{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.link-logo{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+/* CONTENT*/
+
+.content{
+    padding-top: 56px;
+    height: 70vh;
+    background-color: #F3F1F1;
+}
 
 @media only screen and (max-width: 1450px){
     

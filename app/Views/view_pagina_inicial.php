@@ -9,8 +9,8 @@
 </head>
 <body>
     
+<main class="content" >
     <div class="container">
-
         <h1>Bem-vindo ao Colaborahub</h1>
         <p>Seja bem-vindo, <?php echo $session->get('Nome'); ?>!</p>
         <p>Aqui está um resumo das suas atividades:</p>
@@ -39,7 +39,7 @@
             </ul>
         </div>
     </div>
-
+</main>
     <!-- Inclua os arquivos JavaScript do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

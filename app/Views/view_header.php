@@ -9,11 +9,8 @@
 
 </head>
 <body>
-
-<main class="header">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg header">
         <div class="container">
-            
            <a href="home"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="72" height="72" alt="Logo"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +39,7 @@
 
         </div>
     </nav>
-</main>
+
 
 </body>
 </html>
