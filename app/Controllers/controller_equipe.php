@@ -113,16 +113,19 @@ class controller_equipe extends BaseController
         }
 
         // Carrega a view do formulário de cadastro da equipe
+        echo view('view_header');
         echo view('view_cadastrar_equipe', $data);
     }
 
     public function homeEquipe()
     {
+        echo view('view_header');
         echo view('view_hubequipes');
     }
 
     public function sucesso()
     {
+        
         return view('view_sucesso_equipe');
     }
 
@@ -164,6 +167,7 @@ class controller_equipe extends BaseController
         $equipes = $equipeModel->getEquipesDisponiveisParaUsuario($userId);
 
         // Carregue a view responsável por exibir as equipes disponíveis
+        echo view('view_header');
         echo view('view_pesquisarEquipes', ['equipes' => $equipes]);
     }
 

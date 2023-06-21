@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css">
 </head>
 <body>
+    
     <div class="container">
         <h2>Cadastro</h2>
 
