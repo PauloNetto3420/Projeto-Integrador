@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             
-            <img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="72" height="72" alt="Logo" class="logo">
+           <a href="home"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="72" height="72" alt="Logo"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,9 +24,12 @@
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <form class="d-flex form-busca" role="search" >
-                            <input class="form-control me-2 text-center input-busca" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn-busca" type="submit">💛</button>
+                            <input class="form-control me-2 text-center input-busca" type="search" placeholder="Buscar" aria-label="Search">
+                            <span class="fundo-btn-busca"><button class="btn-busca" type="submit"><img src="<?php echo base_url('arquivo/icones/pesquisa.png'); ?>" width="20" height="20" alt="Logo"></button></span>
                         </form>
+                    </li>
+                    <li>
+                        <a href="home"><img src="<?php echo base_url('arquivo/icones/notificacao.png'); ?>" width="40" height="40" alt="Logo"></a>
                     </li>
                 </ul>
 
@@ -34,7 +37,7 @@
             </div>
 
             <div class="justify-content-end">
-                <button type="button" class="btn btn-primary">LOGIN</button>
+                <button type="submit" class="button-login" name="button-login">LOGIN</button>
             </div> 
 
         </div>

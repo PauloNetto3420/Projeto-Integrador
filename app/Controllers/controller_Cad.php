@@ -75,6 +75,7 @@ class controller_Cad extends BaseController
         }
 
         // Carrega a view do formulário de cadastro
+        echo view('view_header');
         echo view('view_cadastrar', $data);
     }
 }

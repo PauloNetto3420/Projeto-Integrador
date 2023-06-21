@@ -152,18 +152,61 @@ body * {
 }
 
 .btn-busca{
-    border-radius: 100px;
+    border-radius: 20px;
+    border-color: #201B2C;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: 32px;
+}
+
+.btn-busca :active{
+    width: 15px;
+    height: 15px;
+}
+
+.fundo-btn-busca :hover{
+    background-color: #C3ECD9;
+}
+
+.fundo-btn-busca :active{
+    background-color: #08F185;
+}
+
+.button-login{
+    width: 112px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 800;
+}
+
+.button-login:active{
+    background-color: #08F185;
+}
+
+.button-login:hover{
+    background-color: #C3ECD9;
+}
+
+.form-busca{
+    margin-right: 56px;
 }
 
 .form-busca ::placeholder{
     color: #201B2C;
+    
 }
 
 .input-busca{
     width: 400px;
+    height: 40px;
     border-radius: 50px;
     border-color: #201B2C;
+    
 }
+
+
 
 @media only screen and (max-width: 1450px){
     
