@@ -3,15 +3,16 @@
 <head>
     <title>Login</title>
     <!-- Inclua os arquivos CSS do Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo base_url('CSS/estilo.css') ?>">
 </head>
 <body>
+    
 <main class="login">
 
 <div class="left-login">
 
-    <img src="<?php echo base_url('arquivo/cute-alien-animate.svg') ?>" class="left-img-login" alt="">
+    <img src="<?php echo base_url('arquivo/login/cute-alien-animate.svg') ?>" class="left-img-login" alt="">
 
 </div>
     <div class="container">
@@ -33,7 +34,7 @@
 
             <div class="card-login">
 
-                <h1>Bem-vindo ao ColaboraHub</h1>
+                <h1>Fazer login</h1>
                 
 
             <div class="textfield">

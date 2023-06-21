@@ -7,9 +7,10 @@
 }
 
 body * {
-
     box-sizing: border-box;
 }
+
+/*LOGIN*/
 
 .login{
     width: 100vw;
@@ -31,6 +32,7 @@ body * {
 
 .left-login > h1{
     color: #77ffc0;
+    font-weight: 800;
 }
 
 .left-img-login{
@@ -141,6 +143,28 @@ body * {
     color: white;
 }
 
+
+/* HEADER   */
+
+.header{
+    margin-bottom: 56px;
+    background-color: #201B2C;
+}
+
+.btn-busca{
+    border-radius: 100px;
+}
+
+.form-busca ::placeholder{
+    color: #201B2C;
+}
+
+.input-busca{
+    width: 400px;
+    border-radius: 50px;
+    border-color: #201B2C;
+}
+
 @media only screen and (max-width: 1450px){
     
     .card-login{
@@ -186,3 +210,4 @@ body * {
         font-size: 32pt;
     }
 }
+
