@@ -205,24 +205,23 @@ body * {
     border-color: #201B2C;
     
 }
+
+
 /* FOOTER */
 
 .footer{
-    height: 240px;
     padding-top: 20px;
     background-color: #201B2C;
 }
 
 .link-footer{
-    margin-bottom: 16px;
     font-weight: 800;
     text-decoration: none;
-    margin-right: 16px;
+
     color: #FFFFFF;
 }
 
 .item-footer{
-    margin-bottom: 8px;
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -231,28 +230,30 @@ body * {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 32px;
-    
 }
+/* CONTENT*/
 
 .content{
     padding-top: 56px;
-    padding-bottom: 56px;
     background-color: #F3F1F1;
 }
 
-#art1 > h2{
-    color: #201B2C;
-}
-
-#art1 > p{
-    color: #201B2C;
-}
-
 .persona{
-    
     width: 250px;
 }
 
+.background-home{
+    width: 2560px;
+    height: 1080px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media only screen and (max-width: 1450px){
     
     .card-login{

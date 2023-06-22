@@ -26,7 +26,7 @@ class Database extends Config
      */
     public array $default = [
         'DSN'      => '',
-        'hostname' => 'localhost:3307',
+        'hostname' => 'localhost:3346',
         'username' => 'root',
         'password' => '',
         'database' => 'colaborahub',
@@ -41,7 +41,7 @@ class Database extends Config
         'compress' => false,
         'strictOn' => false,
         'failover' => [],
-        'port'     => 3307,
+        'port'     => 3346,
     ];
 
     /**
@@ -65,7 +65,7 @@ class Database extends Config
         'compress'    => false,
         'strictOn'    => false,
         'failover'    => [],
-        'port'        => 3307,
+        'port'        => 3346,
         'foreignKeys' => true,
         'busyTimeout' => 1000,
     ];

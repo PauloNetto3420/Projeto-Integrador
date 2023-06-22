@@ -1,15 +1,10 @@
 <?php $session = session(); ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Colaborahub - Página Principal</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url('CSS/estilo.css') ?>">
-</head>
-<body>
-  
-<section>
-    <img class="img-fluid" src="<?php echo base_url('arquivo/background/2560x1080.jpg'); ?>" alt="Background">
+
+<section class="background-home" style="background-image: url('<?php echo base_url('arquivo/background/2560x1080.jpg'); ?>');">
+  <div class="">
+    <h1 style="color: white;" class="text-center">ColaboraHub</h1>
+    <p style="color: white;" class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate nostrum vitae distinctio aliquam iusto autem? Voluptas est, explicabo ex consequatur consequuntur odit ullam dolorem temporibus? Magni dolorum perferendis natus nulla.</p> 
+  </div>
 </section>
 
 <main class="content">
@@ -28,79 +23,74 @@
       <section id="sec2" class="row" style="margin-top: 32px; margin-bottom: 115px;">
 
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 20rem;">
           <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Overwatch_02.jpeg'); ?>" alt="Background">
             <div class="card-body card-fundo">
-              <p class="text-center">Overwatch 2</p>
+              <h5 class="text-center"><strong>Overwatch 2</strong></h5>
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 20rem;">
           <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/LeagueOfLegends_02.jpeg'); ?>" alt="Background">
             <div class="card-body card-fundo">
-              <p class="text-center">League of Legends</p>
+              <h5 class="text-center"><strong>League of Legends</strong></h5>
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 20rem;">
           <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/RocketLeague_01.jpeg'); ?>" alt="Background">
             <div class="card-body card-fundo">
-              <p class="text-center">Rocket League</p>
+              <h5 class="text-center"><strong>Rocket League</strong></h5>
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 20rem;">
           <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Fortnite_02.jpeg'); ?>" alt="Background">
             <div class="card-body card-fundo">
-              <p class="text-center">Fortnite</p>
+              <h5 class="text-center"><strong>Fortnite</strong></h5>
             </div>
           </div>
         </div>
-
       </section>
+
 
       <section id="sec3">
 
       <div class="row">
         <article class="col-md-12">
-          <h2 class="text-center"><strong>Explore e busque por equipes</strong></h2>
+          <h2 style="margin-bottom: 16px;"class="text-center"><strong>Explore e busque por equipes</strong></h2>
         </article>
       </div>
 
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="<?php echo base_url('arquivo/equipes/Equipes_01.jpg'); ?>" class="d-block w-100" alt="...">
-        </div>
-        
-        <div class="carousel-item">
-            <img src="<?php echo base_url('arquivo/jogos/Equipes_01.jpg'); ?>" class="d-block w-100" alt="...">
-        </div>
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="<?php echo base_url('arquivo/equipes/Equipes_01.jpg'); ?>" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="<?php echo base_url('arquivo/equipes/Equipes_01.jpg'); ?>" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="<?php echo base_url('arquivo/equipes/Equipes_01.jpg'); ?>" class="d-block w-100" alt="...">
+    </div>
+  </div>
 
-        <div class="carousel-item">
-            <img src="<?php echo base_url('arquivo/equipes/Equipes_01.jpg'); ?>" class="d-block w-100" alt="...">
-        </div>
-
-        </div>
-
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            
-        </a>
-
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
-
-        </div>
-
-            
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+   
         <div class="row">
             <article style="margin-top: 16px;" class="col-md-12">
                 <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis
@@ -109,8 +99,6 @@
             </article>
         </div>
       </section>
-
-      
 
         <h1>Bem-vindo ao Colaborahub</h1>
         <p>Seja bem-vindo, <?php echo $session->get('Nome'); ?>!</p>
@@ -140,7 +128,7 @@
         </div>
     </div>
 
-<div class="container-fluid" style="background: linear-gradient(to bottom, #201B2C, #0A080D, #201B2C);">
+<div class="container-fluid" style="background: linear-gradient(to bottom, #201B2C, #0A080D, #201B2C); margin-bottom: 48px;">
 
     <section id="sec4" class="container">
 
@@ -156,21 +144,21 @@
                 <div class="col d-flex align-items-center justify-content-center">
                     <div class="persona">
                         <h5 class="text-center"><strong>Alan Ferreira</strong></h5>
-                        <img src="<?php echo base_url('arquivo/jogadores/model_06.jpg'); ?>" class="img-fluid rounded-circle" alt="...">
+                        <img style="border: 2px solid white;"src="<?php echo base_url('arquivo/jogadores/model_06.jpg'); ?>" class="img-fluid rounded-circle" alt="...">
             </div>
             </div>
 
             <div class="col d-flex align-items-center justify-content-center">
                 <div class="persona">
                     <h5 class="text-center"><strong>Julia Alves</strong></h5>
-                    <img src="<?php echo base_url('arquivo/jogadores/model_01.jpg'); ?>" class="img-fluid rounded-circle" alt="...">
+                    <img style="border: 2px solid white;" src="<?php echo base_url('arquivo/jogadores/model_01.jpg'); ?>" class="img-fluid rounded-circle" alt="...">
                 </div>
             </div>
 
             <div class="col d-flex align-items-center justify-content-center">
                 <div class="persona">
                     <h5 class="text-center"><strong>Lucas José</strong></h5>
-                    <img src="<?php echo base_url('arquivo/jogadores/model_02.jpg'); ?>" class="img-fluid rounded-circle" alt="...">    
+                    <img style="border: 2px solid white;"src="<?php echo base_url('arquivo/jogadores/model_02.jpg'); ?>" class="img-fluid rounded-circle" alt="...">    
                 </div>
             </div>
             </div>
@@ -180,9 +168,4 @@
       </section>
 </div>
 </main>
-    <!-- Inclua os arquivos JavaScript do Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
-
-<!-- -->
+    
