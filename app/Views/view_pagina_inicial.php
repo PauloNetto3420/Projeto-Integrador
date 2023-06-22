@@ -1,10 +1,10 @@
 <?php $session = session(); ?>
 
-<section class="background-home" style="background-image: url('<?php echo base_url('arquivo/background/2560x1080.jpg'); ?>');">
-  <div class="">
-    <h1 style="color: white;" class="text-center">ColaboraHub</h1>
-    <p style="color: white;" class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate nostrum vitae distinctio aliquam iusto autem? Voluptas est, explicabo ex consequatur consequuntur odit ullam dolorem temporibus? Magni dolorum perferendis natus nulla.</p> 
-  </div>
+<section class="background-home" style="background-image: url('<?php echo base_url('arquivo/background/2560x1440.jpg'); ?>');">
+    <h1 class="text-center titulo">ColaboraHub</h1>
+    <p class="text-center subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ducimus iste blanditiis similique odit suscipit harum accusantium distinctio ad dignissimos itaque hic, <br>repellendus voluptatibus amet aliquam, iure atque vero, soluta aut.</p>    
+    <p class="text-center subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ducimus iste blanditiis similique odit suscipit harum accusantium distinctio ad dignissimos itaque hic, <br>repellendus voluptatibus amet aliquam, iure atque vero, soluta aut.</p>    
+
 </section>
 
 <main class="content">
