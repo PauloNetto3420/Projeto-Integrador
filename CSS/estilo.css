@@ -240,6 +240,19 @@ body * {
     background-color: #F3F1F1;
 }
 
+#art1 > h2{
+    color: #201B2C;
+}
+
+#art1 > p{
+    color: #201B2C;
+}
+
+.persona{
+    
+    width: 250px;
+}
+
 @media only screen and (max-width: 1450px){
     
     .card-login{
