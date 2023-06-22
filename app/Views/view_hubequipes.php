@@ -8,6 +8,7 @@
     
 </head>
 <body>
+<main class="content">
     <div class="container">
         <h1>Hub de Equipes</h1>
         <?php if (!$session->get('Id_Equipe')) : ?>
@@ -24,10 +25,9 @@
 
                 <li><a href="equipe/pesquisar">Procurar Equipes</a></li>
                 <?php endif; ?>
-                
             </ul>
     </div>
-
+</main>
     <!-- Inclua os arquivos JavaScript do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

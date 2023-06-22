@@ -231,12 +231,12 @@ body * {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 32px;
+    
 }
-/* CONTENT*/
 
 .content{
     padding-top: 56px;
-    height: 70vh;
+    padding-bottom: 56px;
     background-color: #F3F1F1;
 }
 

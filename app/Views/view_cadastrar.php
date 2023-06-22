@@ -7,6 +7,7 @@
 </head>
 <body>
     
+<main class="content">
     <div class="container">
         <h2>Cadastro</h2>
 
@@ -48,7 +49,7 @@
             <button type="submit" class="btn btn-primary">Cadastrar</button>
         </form>
     </div>
-
+</main>
     <!-- Inclua os arquivos JavaScript do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

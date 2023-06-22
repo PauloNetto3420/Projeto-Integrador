@@ -3,18 +3,22 @@
 <html>
 <head>
     <title>Colaborahub - Página Principal</title>
-    <!-- Inclua os arquivos CSS do Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="<?php echo base_url('CSS/estilo.css') ?>">
 </head>
 <body>
     
-<main class="content" >
+<div>
+    <img class="img-fluid" src="<?php echo base_url('arquivo/background/2560x1080.jpg'); ?>" alt="Background">
+</div>
+
+<main class="content">
+
     <div class="container">
+
         <h1>Bem-vindo ao Colaborahub</h1>
         <p>Seja bem-vindo, <?php echo $session->get('Nome'); ?>!</p>
         <p>Aqui está um resumo das suas atividades:</p>
-        <!-- Inclua o conteúdo do resumo aqui -->
 
         <div class="mt-4">
             <h5>Opções:</h5>
@@ -44,3 +48,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+<!-- -->
