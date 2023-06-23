@@ -24,9 +24,9 @@
 
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
           <div class="card" style="width: 20rem;">
-          <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Overwatch_02.jpeg'); ?>" alt="Background">
+          <a href="overwatch2"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Overwatch_02.jpeg'); ?>" alt="Background"></a>
             <div class="card-body card-fundo">
-              <h5 class="text-center"><strong>Overwatch 2</strong></h5>
+              <a style="text-decoration: none; color: #201B2C;" href="overwatch2"><h5 class="text-center"><strong>Overwatch 2</strong></h5></a>
             </div>
           </div>
         </div>

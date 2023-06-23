@@ -300,3 +300,19 @@ body * {
     }
 }
 
+.banner{
+    height: 60vh;
+    width: 100vw;
+}
+
+.background-banner{
+    height: 520px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatar{
+    border-radius: 200px;
+
+}
+

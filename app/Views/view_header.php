@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo base_url('CSS/estilo.css') ?>">
   </head>
-  <body>
+  <body style="background-color: #f3f1f1;">
     <nav class="navbar navbar-expand-lg header">
         <div class="container">
            <a href="home"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="72" height="72" alt="Logo"></a>
