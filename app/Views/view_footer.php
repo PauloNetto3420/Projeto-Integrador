@@ -6,15 +6,15 @@
            
             <div class="row" style="margin-bottom: 32px; ">
                 <div class="col-lg-4">
-                    <a class="link-logo" href="home"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="128" height="128" alt="Logo"><strong>ColaboraHub</strong></a>
+                    <a class="link-logo" href="#head"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="128" height="128" alt="Logo"><strong>ColaboraHub</strong></a>
                 </div>
 
                 <div class="col-md-3">
                    <ul style="list-style: none;">
                         <li class="link-footer"></a>Contatos</li>
-                        <li class="item-footer"><a href="home"><img style="margin-right: 8px;"src="<?php echo base_url('arquivo/icones/fone.png'); ?>" width="16" height="16" alt="Logo"></a>(19) 9999-9999</li>
-                        <li class="item-footer"><a href="home"><img style="margin-right: 8px;"src="<?php echo base_url('arquivo/icones/whatsapp.png'); ?>" width="16" height="16" alt="Logo"></a>(19) 9999-9999</li>
-                        <li class="item-footer"><a href="home"><img style="margin-right: 8px;"src="<?php echo base_url('arquivo/icones/email.png'); ?>" width="16" height="16" alt="Logo"></a>contato@colaborahub.com.br</li>
+                        <li class="item-footer"><img style="margin-right: 8px;"src="<?php echo base_url('arquivo/icones/fone.png'); ?>" width="16" height="16" alt="Logo">(19) 9999-9999</li>
+                        <li class="item-footer"><img style="margin-right: 8px;"src="<?php echo base_url('arquivo/icones/whatsapp.png'); ?>" width="16" height="16" alt="Logo">(19) 9999-9999</li>
+                        <li class="item-footer"><img style="margin-right: 8px;"src="<?php echo base_url('arquivo/icones/email.png'); ?>" width="16" height="16" alt="Logo">contato@colaborahub.com.br</li>
                    </ul>
                 </div>
 
@@ -33,7 +33,7 @@
                 <div class="col-md-2">
                     <ul style="list-style: none;">
                         <li style="margin-bottom: 12px;"><a class="link-footer" href="">Redes sociais</a></li>
-                        <li><a href="home"><img style="margin-right: 16px;"src="<?php echo base_url('arquivo/icones/facebook.png'); ?>" width="16" height="16" alt="Logo"></a><a class="rede-logo" href="home"><img src="<?php echo base_url('arquivo/icones/instagram.png'); ?>" width="16" height="16" alt="Logo"></a></li>
+                        <li><a href="https://www.facebook.com/"><img style="margin-right: 16px;"src="<?php echo base_url('arquivo/icones/facebook.png'); ?>" width="16" height="16" alt="Logo"></a><a class="rede-logo" href="https://www.instagram.com/"><img src="<?php echo base_url('arquivo/icones/instagram.png'); ?>" width="16" height="16" alt="Logo"></a></li>
                     </ul>
                 </div>
             </div>

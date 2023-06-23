@@ -146,6 +146,7 @@ body * {
 
 /* HEADER   */
 
+
 .header{
     background-color: #201B2C;
     height: 10vh;
@@ -173,11 +174,34 @@ body * {
     background-color: #08F185;
 }
 
+.button-cadastrar{
+    color: #FFFFFF;
+    background: none;
+    font-size: 10pt;
+    width: 112px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    font-weight: 800;
+}
+
 .button-login{
+    font-size: 10pt;
     width: 112px;
     height: 40px;
     border-radius: 50px;
     border: none;
+    font-weight: 800;
+}
+
+.button-logout{
+    color: #FFFFFF;
+    background: none;
+    font-size: 10pt;
+    width: 112px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
     font-weight: 800;
 }
 
@@ -252,6 +276,45 @@ body * {
 
 .subtitulo{
     color: #FFFFFF;
+}
+
+.btn-buscar-equipe{
+    width: 368px;
+    height: 80px;
+    font-size: 32px;
+    color: #FFFFFF;
+    background-color: #15C75C;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-criar-equipe{
+    width: 264px;
+    height: 80px;
+    font-size: 24px;
+    color: #15C75C;
+    background-color: none;
+    border: 2px solid #15C75C;
+    border-radius: 5px;
+}
+
+.sec5{
+    margin-top: 112px;
+}
+
+.sec6{
+    margin-top: 40px;
+
+}
+
+.sec7{
+    content: "";
+    display: inline-block;
+    margin-top: 75px;
+}
+
+.card{
+    border-radius: 25px;
 }
 
 @media only screen and (max-width: 1450px){

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="<?php echo base_url('CSS/estilo.css') ?>">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg header">
+    <nav id="head" class="navbar navbar-expand-lg header">
         <div class="container">
            <a href="home"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="72" height="72" alt="Logo"></a>
 
@@ -25,19 +25,39 @@
                             <span class="fundo-btn-busca"><button class="btn-busca" type="submit"><img src="<?php echo base_url('arquivo/icones/pesquisa.png'); ?>" width="20" height="20" alt="Logo"></button></span>
                         </form>
                     </li>
-                    <li>
-                        <a href="home"><img src="<?php echo base_url('arquivo/icones/notificacao.png'); ?>" width="40" height="40" alt="Logo"></a>
-                    </li>
-                </ul>
 
+                    <li style="margin-right: 32px;">
+                        <a  href="home"><img src="<?php echo base_url('arquivo/icones/notificacao.png'); ?>" width="40" height="40" alt="Logo"></a>
+                    </li>
+
+                    <li>
+
+                    <?php if ($session->get('Id_Equipe')) : ?>
+                        <div class="justify-content-end">
+                            <a href="perfil"><img src="<?php echo base_url('arquivo/icones/perfil.png'); ?>" width="40" height="40" alt="Logo"></a>
+                        </div>
+                    <?php endif; ?>
+
+                    </li>
+
+                </ul>
                 
             </div>
 
+
+            <?php if ($session->get('Login')) : ?>
+                <div style="margin-right: 16px; "class="justify-content-end">
+                    <form action="home">
+                        <button type="submit" class="button-logout" name="button-logout">SAIR</button>
+                    </form>
+                </div>
+            <?php endif; ?>
+            
             <div class="justify-content-end">
                 <form action="login">
-                <button type="submit" class="button-login" name="button-login">LOGIN</button>
+                    <button type="submit" class="button-login" name="button-login">LOGIN</button>
                 </form>
-            </div> 
-
+            </div>
+            
         </div>
     </nav>

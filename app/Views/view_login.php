@@ -15,7 +15,6 @@
     <img src="<?php echo base_url('arquivo/login/cute-alien-animate.svg') ?>" class="left-img-login" alt="">
 
 </div>
-    <div class="container">
 
         <?php if (isset($error)): ?>
             <div class="alert alert-danger">
@@ -45,15 +44,23 @@
             <input type="password" name="senha" placeholder="Senha">
             </div>
 
-            <span class="linha"></span>
+           
          <button type="submit" class="btn-login">Entrar</button>
 
+        </form>
 
-        </div>
+        <span class="linha"></span>
+        <p id="info-cadastro">Não tem cadastro?</p>
+        
+        <form action="cadastrar">
+            <button type="submit" class="btn-cadastro">CADASTRAR</button>
+        </form>
 
         </div>
         
-        </form>
+       
+
+        
     </div>
     </main>
     <!-- Inclua os arquivos JavaScript do Bootstrap -->
