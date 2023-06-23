@@ -16,4 +16,8 @@ class Home_controller extends BaseController{
         echo view('view_header') . view('view_overwatch2') . view('view_footer');
     }
 
+    public function lol(){
+        echo view('view_header') . view('view_lol') . view('view_footer');
+    }
+
 }

@@ -11,53 +11,6 @@
 
     <div class="container">
 
-    <section id="sec1" class="row">
-        <article id="art1" class="col-md-12">
-          <h2 class="text-center"><strong>Procure seu jogo favorito</strong></h2>
-          <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis
-            blanditiis, officiis aperiam ea magnam nisi accusamus accusantium est consequatur corrupti quam modi
-            perferendis quisquam earum facilis consequuntur? Assumenda, quo?</p>
-        </article>
-      </section>
-
-      <section id="sec2" class="row" style="margin-top: 32px; margin-bottom: 115px;">
-
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
-          <div class="card" style="width: 20rem;">
-          <a href="overwatch2"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Overwatch_02.jpeg'); ?>" alt="Background"></a>
-            <div class="card-body card-fundo">
-              <a style="text-decoration: none; color: #201B2C;" href="overwatch2"><h5 class="text-center"><strong>Overwatch 2</strong></h5></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
-          <div class="card" style="width: 20rem;">
-          <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/LeagueOfLegends_02.jpeg'); ?>" alt="Background">
-            <div class="card-body card-fundo">
-              <h5 class="text-center"><strong>League of Legends</strong></h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
-          <div class="card" style="width: 20rem;">
-          <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/RocketLeague_01.jpeg'); ?>" alt="Background">
-            <div class="card-body card-fundo">
-              <h5 class="text-center"><strong>Rocket League</strong></h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
-          <div class="card" style="width: 20rem;">
-          <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Fortnite_02.jpeg'); ?>" alt="Background">
-            <div class="card-body card-fundo">
-              <h5 class="text-center"><strong>Fortnite</strong></h5>
-            </div>
-          </div>
-        </div>
-      </section>
 
 
       <section id="sec3">
@@ -166,6 +119,54 @@
         </article>
 
       </section>
+
 </div>
+<section id="sec1" class="row">
+        <article id="art1" class="col-md-12">
+          <h2 class="text-center"><strong>Procure seu jogo favorito</strong></h2>
+          <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis
+            blanditiis, officiis aperiam ea magnam nisi accusamus accusantium est consequatur corrupti quam modi
+            perferendis quisquam earum facilis consequuntur? Assumenda, quo?</p>
+        </article>
+      </section>
+
+      <section id="sec2" class="row" style="margin-top: 32px; margin-bottom: 115px;">
+
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
+          <div class="card" style="width: 20rem;">
+          <a href="overwatch2"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Overwatch_02.jpeg'); ?>" alt="Background"></a>
+            <div class="card-body card-fundo">
+              <a style="text-decoration: none; color: #201B2C;" href="overwatch2"><h5 class="text-center"><strong>Overwatch 2</strong></h5></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
+          <div class="card" style="width: 20rem;">
+          <a href="lol"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/LeagueOfLegends_02.jpeg'); ?>" alt="Background"></a>
+            <div class="card-body card-fundo">
+            <a style="text-decoration: none; color: #201B2C;" href="lol"><h5 class="text-center"><strong>League of Legends</strong></h5></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
+          <div class="card" style="width: 20rem;">
+          <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/RocketLeague_01.jpeg'); ?>" alt="Background">
+            <div class="card-body card-fundo">
+              <h5 class="text-center"><strong>Rocket League</strong></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
+          <div class="card" style="width: 20rem;">
+          <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Fortnite_02.jpeg'); ?>" alt="Background">
+            <div class="card-body card-fundo">
+              <h5 class="text-center"><strong>Fortnite</strong></h5>
+            </div>
+          </div>
+        </div>
+      </section>
 </main>
     
