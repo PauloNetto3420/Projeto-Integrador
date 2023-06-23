@@ -152,9 +152,9 @@
 
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
           <div class="card" style="width: 20rem;">
-          <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/RocketLeague_01.jpeg'); ?>" alt="Background">
+          <a href="rocket"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/RocketLeague_01.jpeg'); ?>" alt="Background"></a>
             <div class="card-body card-fundo">
-              <h5 class="text-center"><strong>Rocket League</strong></h5>
+            <a style="text-decoration: none; color: #201B2C;" href="rocket"><h5 class="text-center"><strong>Rocket League</strong></h5></a>
             </div>
           </div>
         </div>

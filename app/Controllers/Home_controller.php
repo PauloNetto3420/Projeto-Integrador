@@ -20,4 +20,8 @@ class Home_controller extends BaseController{
         echo view('view_header') . view('view_lol') . view('view_footer');
     }
 
+    public function rocket(){
+        echo view('view_header') . view('view_rocket') . view('view_footer');
+    }
+
 }
