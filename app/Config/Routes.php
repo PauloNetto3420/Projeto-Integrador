@@ -35,6 +35,7 @@ $routes->post('/cadastrar', 'controller_Cad::cadastrar');
 $routes->get('/home', 'Home_controller::homepage');
 $routes->get('/overwatch2', 'Home_controller::overwatch');
 $routes->get('/lol',  'Home_controller::lol');
+$routes->get('/fornite',  'Home_controller::fortnite');
 $routes->get('/rocket',  'Home_controller::rocket');
 $routes->get('/login', 'controller_login::login');
 $routes->post('/login', 'controller_login::login');

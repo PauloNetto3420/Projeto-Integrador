@@ -161,9 +161,9 @@
 
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
           <div class="card" style="width: 20rem;">
-          <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Fortnite_02.jpeg'); ?>" alt="Background">
+          <a href="fornite"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Fortnite_02.jpeg'); ?>" alt="Background"></a>
             <div class="card-body card-fundo">
-              <h5 class="text-center"><strong>Fortnite</strong></h5>
+            <a style="text-decoration: none; color: #201B2C;" href="fornite"><h5 class="text-center"><strong>Fortnite</strong></h5></a>
             </div>
           </div>
         </div>
