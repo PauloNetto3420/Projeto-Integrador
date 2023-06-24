@@ -20,10 +20,10 @@
 
                 <div class="col-md-3">
                     <ul style="list-style: none;">
-                        <li style="margin-bottom: 12px;"><a class="link-footer" href="perfil">Meu perfil</a></li>
+                        <li style="margin-bottom: 12px;"><a class="link-footer" href="http://localhost/ColaboraHub/public/perfil">Meu perfil</a></li>
                         <?php if ($session->get('Id_Equipe')) : ?>
                             <li style="margin-bottom: 12px;">
-                                <a class="link-footer" href="equipe/perfil">Minha Equipe</a>
+                                <a class="link-footer" href="http://localhost/ColaboraHub/public/equipe/perfil">Minha Equipe</a>
                             </li>
                             <?php endif; ?>
                         <li><a class="link-footer" href="home">Sobre nós</a></li>

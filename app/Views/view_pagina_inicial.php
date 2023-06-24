@@ -92,7 +92,7 @@
       </div>
    
       <div class="row">
-        <article style="margin-top: 16px;" class="col-md-12">
+        <article style="margin-top: 16px; margin-bottom: 112px;" class="col-md-12">
           <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis
                         blanditiis, officiis aperiam ea magnam nisi accusamus accusantium est consequatur corrupti quam modi
                         perferendis quisquam earum facilis consequuntur? Assumenda, quo?</p>
@@ -100,33 +100,6 @@
       </div>
     </section>
 
-        <h1>Bem-vindo ao Colaborahub</h1>
-        <p>Seja bem-vindo, <?php echo $session->get('Nome'); ?>!</p>
-        <p>Aqui está um resumo das suas atividades:</p>
-
-        <div class="mt-4">
-            <h5>Opções:</h5>
-            <ul>
-                <?php if (!$session->get('Email')) : ?>
-                    <li><a href="login">Login</a></li>
-                    <li><a href="cadastrar">Cadastro</a></li>
-                <?php endif; ?>
-                <li><a href="equipes">Hub de Equipes</a></li>
-                <?php if ($session->get('Email')) : ?>
-                <li><a href="perfil">Meu Perfil</a></li>
-                <?php endif; ?>
-                <?php if ($session->get('Id_Equipe')) : ?>
-                    <li><a href="equipe/perfil">Minha Equipe</a></li>
-                <?php endif; ?>
-                
-                <?php if ($session->get('Email')) : ?>
-                <form action="logout" method="post">
-                <button type="submit" class="btn btn-danger">Logout</button>
-                </form>
-                <?php endif; ?>
-            </ul>
-        </div>
-        
     </div>
 
 <div class="container-fluid" style="background: linear-gradient(to bottom, #201B2C, #0A080D, #201B2C); margin-bottom: 48px;">

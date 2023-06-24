@@ -11,7 +11,7 @@
   <body>
     <nav id="head" class="navbar navbar-expand-lg header">
         <div class="container">
-           <a href="home"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="72" height="72" alt="Logo"></a>
+           <a href="http://localhost/ColaboraHub/public/home"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="72" height="72" alt="Logo"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,14 +27,14 @@
                     </li>
 
                     <li style="margin-right: 32px;">
-                        <a  href="home"><img src="<?php echo base_url('arquivo/icones/notificacao.png'); ?>" width="40" height="40" alt="Logo"></a>
+                        <a href="http://localhost/ColaboraHub/public/home"><img src="<?php echo base_url('arquivo/icones/notificacao.png'); ?>" width="40" height="40" alt="Logo"></a>
                     </li>
 
                     <li style="margin-right: 32px;">
 
                     <?php if ($session->get('Login')) : ?>
                         <div class="justify-content-end">
-                            <a href="perfil"><img src="<?php echo base_url('arquivo/icones/perfil.png'); ?>" width="40" height="40" alt="Logo"></a>
+                            <a href="http://localhost/ColaboraHub/public/perfil"><img src="<?php echo base_url('arquivo/icones/perfil.png'); ?>" width="40" height="40" alt="Logo"></a>
                         </div>
                     <?php endif; ?>
 
@@ -44,7 +44,7 @@
 
                     <?php if ($session->get('Id_Equipe')) : ?>
                         <div class="justify-content-end">
-                            <a href="equipe/perfil"><img src="<?php echo base_url('arquivo/icones/equipe.png'); ?>" width="40" height="40" alt="Logo"></a>
+                            <a href="http://localhost/ColaboraHub/public/equipe/perfil"><img src="<?php echo base_url('arquivo/icones/equipe.png'); ?>" width="40" height="40" alt="Logo"></a>
                         </div>
                     <?php endif; ?>
 
@@ -57,14 +57,14 @@
 
             <?php if ($session->get('Login')) : ?>
                 <div style="margin-right: 16px; "class="justify-content-end">
-                    <form action="logout" method="post">
+                    <form action="http://localhost/ColaboraHub/public/logout" method="post">
                         <button type="submit" class="button-logout" name="button-logout">SAIR</button>
                     </form>
                 </div>
             <?php endif; ?>
             
             <div class="justify-content-end">
-                <form action="login">
+                <form action="http://localhost/ColaboraHub/public/login">
                     <button type="submit" class="button-login" name="button-login">LOGIN</button>
                 </form>
             </div>
