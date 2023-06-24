@@ -488,6 +488,7 @@ body * {
 .titulo-perfil{
     font-size: 40pt;
     font-weight: 800;
+    margin-bottom: 48px;
 }
 
 .btn-editar-equipe{
@@ -497,9 +498,14 @@ body * {
     border-radius: 50px;
 }
 
+.btn:hover{
+    background-color: #514869;
+    color: white;
+}
+
 .btn-excluir-equipe{
     width: 152px;
-    background-color: #514869;
+    background-color: #201B2C;
     color: #FFFFFF;
     border-radius: 50px;
 }
@@ -510,6 +516,22 @@ body * {
 
 .info-user{
     font-size: 16pt;
+}
+
+.img-equipe{
+    width: 500px;
+    height: 500px;
+}
+
+#subtitulo-equipe{
+    font-size: 32pt;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+#info-equipe{
+    font-size: 12pt;
+    margin-bottom: 32px;
 }
 
 @media only screen and (max-width: 1450px){
