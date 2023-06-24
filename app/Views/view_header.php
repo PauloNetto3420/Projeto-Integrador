@@ -30,11 +30,21 @@
                         <a  href="home"><img src="<?php echo base_url('arquivo/icones/notificacao.png'); ?>" width="40" height="40" alt="Logo"></a>
                     </li>
 
+                    <li style="margin-right: 32px;">
+
+                    <?php if ($session->get('Login')) : ?>
+                        <div class="justify-content-end">
+                            <a href="perfil"><img src="<?php echo base_url('arquivo/icones/perfil.png'); ?>" width="40" height="40" alt="Logo"></a>
+                        </div>
+                    <?php endif; ?>
+
+                    </li>
+
                     <li>
 
                     <?php if ($session->get('Id_Equipe')) : ?>
                         <div class="justify-content-end">
-                            <a href="perfil"><img src="<?php echo base_url('arquivo/icones/perfil.png'); ?>" width="40" height="40" alt="Logo"></a>
+                            <a href="equipe/perfil"><img src="<?php echo base_url('arquivo/icones/equipe.png'); ?>" width="40" height="40" alt="Logo"></a>
                         </div>
                     <?php endif; ?>
 
@@ -47,7 +57,7 @@
 
             <?php if ($session->get('Login')) : ?>
                 <div style="margin-right: 16px; "class="justify-content-end">
-                    <form action="home">
+                    <form action="logout" method="post">
                         <button type="submit" class="button-logout" name="button-logout">SAIR</button>
                     </form>
                 </div>
