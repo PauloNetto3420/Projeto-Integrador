@@ -485,6 +485,33 @@ body * {
     border-radius: 25px;
 }
 
+.titulo-perfil{
+    font-size: 40pt;
+    font-weight: 800;
+}
+
+.btn-editar-equipe{
+    width: 304px;
+    background-color: #201B2C;
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.btn-excluir-equipe{
+    width: 152px;
+    background-color: #514869;
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.info-perfil{
+    margin-bottom: 16px;
+}
+
+.info-user{
+    font-size: 16pt;
+}
+
 @media only screen and (max-width: 1450px){
     
     .card-login{
