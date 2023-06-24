@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\model_agenda;
+use App\Models\model_Cad;
 use App\Models\model_partida;
 
 
@@ -10,56 +11,95 @@ class controller_partida extends BaseController
 
 {
 
-    function viewP(){
+    function viewP()
+    {
 
         echo view('view_criar_partida');
-
     }
 
-    public function criar() {
-    // Obtenha os dados enviados pelo formulário
-    $jogo = $this->request->getPost('Tipo_Jogo');
-    $quantidadeJogadores = $this->request->getPost('Qntd_Jogadores');
+    public function listarPartidas()
+    {
+        $partidaModel = new model_partida();
+        $partidas = $partidaModel->getPartidasDisponiveis();
 
-    // Crie uma instância do Model de partidas
-    $partidaModel = new model_partida();
+        return view('view_listar_partidas', ['partidas' => $partidas]);
+    }
 
-    // Insira a partida no banco de dados
-    $partidaData = [
-        'Tipo_Jogo' => $jogo,
-        'Qntd_Jogadores' => $quantidadeJogadores
-    ];
-    $partidaId = $partidaModel->insert($partidaData);
+    public function entrarPartida($idPartida)
+    {
+        $partidaModel = new model_partida();
+        $partida = $partidaModel->find($idPartida);
 
-    // Obtenha o ID da equipe
-    $equipeId = $this->getEquipeId();
+        if (!$partida) {
+            return redirect()->back()->with('error', 'Partida não encontrada.');
+        }
 
-    // Crie uma instância do Model de agenda
-    $agendaModel = new model_agenda();
+        $equipePartidaModel = new model_agenda();
+        $equipePartida = $equipePartidaModel->findPartidaByEquipe($idPartida, session()->get('Id_Equipe'));
 
-    // Insira o registro na tabela de agenda
-    $agendaData = [
-        'Id_Partida' => $partidaId,
-        'Id_Equipe' => $equipeId,
-        'Status' => 1 // Status aberto (1)
-    ];
-    $agendaModel->insert($agendaData);
+        if ($equipePartida) {
+            return redirect()->back()->with('error', 'Sua equipe já está participando dessa partida.');
+        }
 
-    // Redirecione para uma página de sucesso ou exiba uma mensagem de sucesso
-    return redirect()->to(base_url('public/partida/sucesso'));
+        $partidaModel->incrementarQuantidadeJogadores($idPartida);
 
-}
+        $data = [
+            'Id_Equipe' => session()->get('Id_Equipe'),
+            'Id_Partida' => $idPartida,
+            'Status' => 1
+        ];
 
+        $equipePartidaModel->insert($data);
+
+        return redirect()->to('/partida/visualizar/' . $idPartida);
+    }
+
+    public function visualizarPartida($idPartida)
+    {
+        $partidaModel = new model_partida();
+        $partida = $partidaModel->find($idPartida);
+
+        if (!$partida) {
+            return redirect()->back()->with('error', 'Partida não encontrada.');
+        }
+
+        $equipePartidaModel = new model_agenda();
+        $participantes = $equipePartidaModel->getParticipantes($idPartida);
+
+        return view('view_visualizar_partida', ['partida' => $partida, 'participantes' => $participantes]);
+    }
+
+    public function finalizarPartida($idPartida)
+    {
+        $partidaModel = new model_partida();
+        $partida = $partidaModel->find($idPartida);
+
+        if (!$partida) {
+            return redirect()->back()->with('error', 'Partida não encontrada.');
+        }
+
+        if ($partida['id_equipe'] != $this->session->get('Id_Equipe')) {
+            return redirect()->back()->with('error', 'Você não tem permissão para finalizar essa partida.');
+        }
+
+        $partidaModel->finalizarPartida($idPartida);
+
+        return redirect()->back()->with('success', 'Partida finalizada com sucesso.');
+    }
 
     protected function getEquipeId()
     {
-    // Verifique se o ID da equipe está presente na sessão
-    if (session()->has('Id_Equipe')) {
-        return session()->get('Id_Equipe');
+        // Verifique se o ID da equipe está presente na sessão
+        if (session()->has('Id_Equipe')) {
+            return session()->get('Id_Equipe');
+        }
+
+        // Caso contrário, redirecione para a página de erro ou faça o tratamento adequado
+        return redirect()->to('pagina_de_erro');
     }
-    
-    // Caso contrário, redirecione para a página de erro ou faça o tratamento adequado
-    return redirect()->to('pagina_de_erro');
-}
+    public function ver()
+    {
+        echo view('view_visualizar_Partida');
+    }
 
 }

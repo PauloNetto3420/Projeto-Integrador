@@ -9,4 +9,19 @@ class model_partida extends Model
     protected $table = 'tbl_partida';
     protected $primaryKey = 'Id_Partida';
     protected $allowedFields = ['Tipo_Jogo', 'Qntd_Jogadores'];
+
+    public function getPartidasDisponiveis()
+    {
+        return $this->where('Qntd_Jogadores <', 5)->findAll();
+    }
+
+    public function incrementarQuantidadeJogadores($idPartida)
+    {
+        $this->where('Id_Partida', $idPartida)->set('Qntd_Jogadores', 'Qntd_Jogadores + 1', false)->update();
+    }
+
+    public function finalizarPartida($idPartida)
+    {
+        $this->where('Id_Partida', $idPartida)->set('Status', 0)->update();
+    }
 }

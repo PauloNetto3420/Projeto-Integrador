@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Minha Equipe - Colaborahub</title>
+    <title>Detalhes da Partida</title>
     <!-- Inclua os arquivos CSS do Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css">
     <style>
@@ -35,30 +35,19 @@
             border-radius: 4px;
             padding: 10px;
             margin-bottom: 10px;
-            position: relative;
-        }
-
-        .participant-profile-link {
-            position: absolute;
-            top: 50%;
-            right: 10px;
-            transform: translateY(-50%);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Minha Equipe</h1>
-        <p>Aqui estão os detalhes da equipe:</p>
+        <h1>Detalhes da Partida</h1>
+        <p>Aqui estão os detalhes da partida:</p>
 
         <div class="row">
             <div class="col-md-6">
-                <h5>Dados da Equipe:</h5>
-                <p><strong>Nome da Equipe:</strong> <?= $equipe['Nome']; ?></p>
-                <p><strong>Contato:</strong> <?= $equipe['Contato']; ?></p>
-                <p><strong>Quantidade de Membros:</strong> <?= $equipe['Quantidade']; ?></p>
-                <a href="<?= base_url('public/partidas/listar/'); ?>" class="btn btn-primary">Ver Partidas Disponíveis</a>
-                <a href="<?= base_url('public/partidas/criar'); ?>" class="btn btn-primary">Criar Partida</a>
+                <h5>Dados da Partida:</h5>
+                <p><strong>Tipo de Jogo:</strong> <?= $partida['Tipo_Jogo']; ?></p>
+                <p><strong>Quantidade de Jogadores:</strong> <?= $partida['Qntd_Jogadores']; ?></p>
             </div>
         </div>
 
@@ -68,9 +57,8 @@
                 <ul class="participant-list">
                     <?php foreach ($participantes as $participante) : ?>
                         <li class="participant-item">
-                            <strong>Nome:</strong> <?= $participante['Nome']; ?><br>
-                            <strong>Email:</strong> <?= $participante['Email']; ?><br>
-                            <a href="<?= base_url('public/equipe/ver-perfil/' . $participante['Id_Usuario']); ?>" class="participant-profile-link">Ver Perfil</a>
+                            <strong>Nome:</strong> <?= $participante['nome']; ?><br>
+                            <strong>Email:</strong> <?= $participante['email']; ?><br>
                         </li>
                     <?php endforeach; ?>
                 </ul>
@@ -78,10 +66,6 @@
                 <p>Nenhum participante encontrado.</p>
             <?php endif; ?>
         </div>
-
-        <?php if ($tipoUsuario == 1): ?>
-            <a href="<?= base_url('equipe/gerenciar'); ?>" class="btn btn-primary">Gerenciar Equipe</a>
-        <?php endif; ?>
     </div>
 
     <!-- Inclua os arquivos JavaScript do Bootstrap -->
