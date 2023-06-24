@@ -261,4 +261,15 @@ class controller_equipe extends BaseController
         // Redireciona de volta para a página de gerenciamento da equipe
         return redirect()->to('/equipe/gerenciar')->with('success', 'Jogador aprovado com sucesso.');
     }
+
+    public function verPerfil($id)
+    {
+        $usuarioModel = new model_Cad();
+
+        // Obtém os dados do usuário com base no ID fornecido
+        $usuario = $usuarioModel->getUsuarioById($id);
+
+        // Carrega a view com os dados do perfil do usuário
+        return view('view_perfil_Usuario', ['usuario' => $usuario]);
+    }
 }

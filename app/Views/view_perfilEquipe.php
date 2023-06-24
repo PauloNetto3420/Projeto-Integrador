@@ -35,6 +35,14 @@
             border-radius: 4px;
             padding: 10px;
             margin-bottom: 10px;
+            position: relative;
+        }
+
+        .participant-profile-link {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
         }
     </style>
 </head>
@@ -60,6 +68,7 @@
                         <li class="participant-item">
                             <strong>Nome:</strong> <?= $participante['Nome']; ?><br>
                             <strong>Email:</strong> <?= $participante['Email']; ?><br>
+                            <a href="<?= base_url('public/equipe/ver-perfil/' . $participante['Id_Usuario']); ?>" class="participant-profile-link">Ver Perfil</a>
                         </li>
                     <?php endforeach; ?>
                 </ul>
@@ -69,7 +78,7 @@
         </div>
 
         <?php if ($tipoUsuario == 1): ?>
-            <a href="<?= base_url('public/equipe/gerenciar'); ?>" class="btn btn-primary">Gerenciar Equipe</a>
+            <a href="<?= base_url('equipe/gerenciar'); ?>" class="btn btn-primary">Gerenciar Equipe</a>
         <?php endif; ?>
     </div>
 

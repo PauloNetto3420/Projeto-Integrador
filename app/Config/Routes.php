@@ -56,6 +56,7 @@ $routes->post('/equipe/aprovar', 'controller_equipe::aprovar');
 $routes->get('partidas/criar', 'controller_partida::viewP');
 $routes->get('partidas/criar', 'controller_partida::criar');
 $routes->post('partidas/criar', 'controller_partida::criar');
+$routes->get('equipe/ver-perfil/(:num)', 'controller_equipe::verPerfil/$1');
 
 
 

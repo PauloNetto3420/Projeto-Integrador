@@ -10,4 +10,9 @@ class model_Cad extends Model
     protected $primaryKey = 'Id_Usuario';
     protected $allowedFields = ['Login', 'Email', 'Senha', 'Nome', 'Data_Nasc', 'Genero', 'Url_Foto'];
 
+
+    public function getUsuarioById($id)
+    {
+        return $this->find($id);
+    }
 }
