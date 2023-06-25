@@ -54,19 +54,28 @@ class controller_partida extends BaseController
 
 
     public function listarPartidas()
-{
-    // Obtém o ID da equipe do usuário
-    $equipeId = session()->get('Id_Equipe');
+    {
+        // Obtém o ID da equipe do usuário
+        $equipeId = session()->get('Id_Equipe');
 
-    // Obtém as partidas ativas da equipe do usuário
-    $partidaEquipeModel = new model_agenda();
-    $partidas = $partidaEquipeModel->getPartidasAtivasEquipe($equipeId);
+        // Obtém as partidas ativas da equipe do usuário
+        $partidaEquipeModel = new model_agenda();
+        $partidas = $partidaEquipeModel->getPartidasAtivasEquipe($equipeId);
 
-    // Carrega a view com a lista de partidas
-    return view('view_listar_partidas', ['partidas' => $partidas]);
-}
+        // Carrega a view header
+        $header = view('view_header');
 
-    
+        // Carrega a view footer
+        $footer = view('view_footer');
+
+        // Carrega a view da lista de partidas, estendendo com header e footer
+        $content = view('view_listar_partidas', ['partidas' => $partidas]);
+
+        // Retorna a view completa, com header, content e footer
+        return $header . $content . $footer;
+    }
+
+
 
     public function entrarPartida($idPartida)
     {
@@ -108,11 +117,17 @@ class controller_partida extends BaseController
         // Gerar código aleatório de 15 caracteres
         $codigo = $this->generateRandomCode(25);
 
-        return view('view_visualizar_partida', [
+        // Passar o header e o footer para a view
+        $header = view('view_header');
+        $content = view('view_visualizar_partida', [
             'partida' => $partida,
             'participantes' => $participantes,
             'codigo' => $codigo
         ]);
+        $footer = view('view_footer');
+
+        return $header . $content . $footer;
+    
     }
 
     private function generateRandomCode($length)
