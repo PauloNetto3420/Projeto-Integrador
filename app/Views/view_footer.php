@@ -26,7 +26,7 @@
                                 <a class="link-footer" href="equipe/perfil">Minha Equipe</a>
                             </li>
                             <?php endif; ?>
-                        <li><a class="link-footer" href="home">Sobre nós</a></li>
+                        <li><a class="link-footer" href="sobre-nos">Sobre nós</a></li>
                     </ul>
                 </div>
 

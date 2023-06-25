@@ -300,12 +300,8 @@ body * {
     }
 }
 
-.banner{
-    height: 60vh;
-    width: 100vw;
-}
-
 .background-banner{
+    width: 1280px;
     height: 520px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -316,3 +312,9 @@ body * {
 
 }
 
+.persona{
+    width: 356px;
+    border-radius: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}

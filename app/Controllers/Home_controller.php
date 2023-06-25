@@ -28,4 +28,7 @@ class Home_controller extends BaseController{
         echo view('view_header') . view('view_fortnite') . view('view_footer');
     }
 
+    public function sobrenos(){
+        echo view('view_header') . view('view_sobre_nos') . view('view_footer');
+    }
 }
