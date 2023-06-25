@@ -535,6 +535,36 @@ body * {
     margin-bottom: 32px;
 }
 
+.form-editar-perfil > label{
+    font-size: 16pt;
+    font-weight: 800;
+    color: #201B2C;
+}
+
+.form-editar-perfil > input{
+    width: 280px;
+    height: 56px;
+    border-radius: 30px;
+    color: #15C75C;
+    padding-left: 4%;
+    font-size: 12pt;
+}
+
+.form-editar-perfil > select{
+    width: 280px;
+    height: 56px;
+    border-radius: 30px;
+    color: #15C75C;
+    padding-left: 4%;
+    font-size: 12pt;
+}
+
+.form-editar-perfil > option{
+    width: 360px;
+    height: 56px;
+}
+
+
 @media only screen and (max-width: 1450px){
     
     .card-login{
