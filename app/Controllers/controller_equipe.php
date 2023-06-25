@@ -150,11 +150,11 @@ class controller_equipe extends BaseController
             });
             
             // Carregue a view 'view_perfilEquipe' e passe os dados da equipe e participantes para a view
-            return view('view_perfilEquipe', [
+            return view('view_header').view('view_perfilEquipe', [
                 'equipe' => $equipe,
                 'participantes' => $participantesFiltrados,
                 'tipoUsuario' => $tipoUsuario
-            ]);
+            ]).view('view_footer');
         } else {
             // A equipe não foi encontrada, redirecione para uma página de erro ou exiba uma mensagem de erro
             return redirect()->to('pagina_de_erro');
