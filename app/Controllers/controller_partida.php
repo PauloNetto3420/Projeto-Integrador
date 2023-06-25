@@ -49,19 +49,24 @@ class controller_partida extends BaseController
         ]);
 
         // Redireciona de volta para a página de partidas
-        return redirect()->to('partida/listar');
+        return redirect()->to('partidas/listar');
     }
 
 
     public function listarPartidas()
-    {
-        // Obtém a lista de partidas ativas
-        $partidaEquipeModel = new model_partida();
-        $partidas = $partidaEquipeModel->getPartidasAtivas();
+{
+    // Obtém o ID da equipe do usuário
+    $equipeId = session()->get('Id_Equipe');
 
-        // Carrega a view com a lista de partidas
-        return view('view_listar_partidas', ['partidas' => $partidas]);
-    }
+    // Obtém as partidas ativas da equipe do usuário
+    $partidaEquipeModel = new model_agenda();
+    $partidas = $partidaEquipeModel->getPartidasAtivasEquipe($equipeId);
+
+    // Carrega a view com a lista de partidas
+    return view('view_listar_partidas', ['partidas' => $partidas]);
+}
+
+    
 
     public function entrarPartida($idPartida)
     {

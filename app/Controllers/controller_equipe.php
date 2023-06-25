@@ -37,7 +37,6 @@ class controller_equipe extends BaseController
                 'Nome' => 'required|is_unique[tbl_equipe.nome]',
                 'Descricao' => 'required',
                 'Contato' => 'required',
-                'Quantidade' => 'required',
                 'Foto' => 'uploaded[Foto]|max_size[Foto,2048]|is_image[Foto]'
             ];
 
@@ -52,10 +51,6 @@ class controller_equipe extends BaseController
                 ],
                 'Contato' => [
                     'required' => 'Você precisa pelo menos colocar uma forma de contato'
-
-                ],
-                'Quantidade' => [
-                    'required' => 'Você precisa espeficar quantas pessoas sua equipe terá'
 
                 ],
 
@@ -81,7 +76,7 @@ class controller_equipe extends BaseController
                     'Nome' => $this->request->getPost('Nome'),
                     'Descricao' => $this->request->getPost('Descricao'),
                     'Contato' => $this->request->getPost('Contato'),
-                    'Quantidade' => $this->request->getPost('Quantidade'),
+                    'Quantidade' => 1,
                     'Url_Foto' => $newName,
                 ];
                 $equipeId = $equipeModel->insert($equipeData);
@@ -98,7 +93,7 @@ class controller_equipe extends BaseController
 
                 $usuarioEquipeModel->insert($usuarioEquipeData);
                 //$equipeId = $usuarioEquipeModel->getEquipeIdPorUsuario($user['Id_Usuario']);
-               
+
 
                 // Grava o ID da equipe na sessão do usuário
                 session()->set('Id_Equipe', $equipeId);
@@ -112,7 +107,7 @@ class controller_equipe extends BaseController
         }
 
         // Carrega a view do formulário de cadastro da equipe
-        echo view('view_header') . view('view_cadastrar_equipe', $data) . view('view_footer');
+        echo view('view_header', $data) . view('view_cadastrar_equipe', $data) . view('view_footer', $data);
     }
 
     public function homeEquipe()
@@ -205,7 +200,6 @@ class controller_equipe extends BaseController
             'jogadoresCandidatos' => $jogadoresCandidatos,
             'equipeId' => $equipeId // Adiciona o ID da equipe ao array
         ]);
-        
     }
     public function solicitarEntrarEquipe($equipeId)
     {
@@ -254,13 +248,35 @@ class controller_equipe extends BaseController
         $usuarioId = $this->request->getPost('Id_Usuario');
         $equipeId = $this->request->getPost('Id_Equipe');
 
+        // Verifica se o usuário e a equipe existem
+        $usuarioModel = new model_Cad();
+        $equipeModel = new model_equipe();
+        $usuario = $usuarioModel->find($usuarioId);
+        $equipe = $equipeModel->find($equipeId);
+
+        if (!$usuario || !$equipe) {
+            return redirect()->back()->with('error', 'Usuário ou equipe não encontrados.');
+        }
+
         // Atualiza o tipo do jogador no banco de dados
-        $participacaoModel = new model_usuarioEquipe();
-        $participacaoModel->updateTipo($usuarioId, $equipeId, 2);
+        $usuarioEquipeModel = new model_usuarioEquipe();
+        $usuarioEquipe = $usuarioEquipeModel->getParticipacao($usuarioId, $equipeId);
+
+        if (!$usuarioEquipe) {
+            return redirect()->back()->with('error', 'Participação do jogador não encontrada.');
+        }
+
+        $usuarioEquipe['Tipo'] = 2; // Defina o tipo apropriado de acordo com a sua lógica
+        $usuarioEquipeModel->update($usuarioEquipe['Id_Usuario'], $usuarioEquipe);
+
+        // Incrementa a quantidade de jogadores da equipe
+        $equipe['Quantidade'] += 1;
+        $equipeModel->update($equipeId, $equipe);
 
         // Redireciona de volta para a página de gerenciamento da equipe
         return redirect()->to('/equipe/gerenciar')->with('success', 'Jogador aprovado com sucesso.');
     }
+
 
     public function verPerfil($id)
     {

@@ -10,14 +10,14 @@ class model_usuarioEquipe extends Model
     protected $allowedFields = ['Id_Usuario', 'Id_Equipe', 'Data_Entrada', 'Tipo'];
 
     public function updateTipo($usuarioId, $equipeId, $tipo)
-{
-    $builder = $this->db->table('tbl_participacao');
-    $builder->set('Tipo', $tipo)
+    {
+        $builder = $this->db->table('tbl_participacao');
+        $builder->set('Tipo', $tipo)
             ->where('Id_Usuario', $usuarioId)
             ->where('Id_Equipe', $equipeId)
             ->update();
-}
-    
+    }
+
     public function existeVinculoEquipe($usuarioId)
     {
         // Verifica se existe um registro na tabela 'usuario_equipe' com o 'usuario_id' fornecido
@@ -35,7 +35,7 @@ class model_usuarioEquipe extends Model
         $query = $builder->get();
         return $query->getResultArray();
     }
-    
+
 
 
     public function getEquipeIdPorUsuario($usuarioId)
@@ -84,6 +84,22 @@ class model_usuarioEquipe extends Model
             ->findAll();
     }
 
-    
+    public function excluirParticipante($idUsuario)
+    {
+        // Verifica se o usuário tem permissão para excluir participantes
+        if ($this->session->userdata('Tipo') != 1) {
+            // Redireciona com uma mensagem de erro, caso o usuário não tenha permissão
+            return redirect()->to('/equipe/gerenciar')->with('error', 'Você não tem permissão para excluir participantes.');
+        }
 
+        // Obtém o ID da equipe do usuário logado
+        $equipeId = $this->session->userdata('Id_Equipe');
+
+        // Remove o usuário da equipe
+        $participacaoModel = new model_usuarioEquipe();
+        $participacaoModel->removerParticipante($idUsuario, $equipeId);
+
+        // Redireciona com uma mensagem de sucesso
+        return redirect()->to('/equipe/gerenciar')->with('success', 'Participante removido com sucesso.');
+    }
 }

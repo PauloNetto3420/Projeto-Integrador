@@ -59,6 +59,7 @@ $routes->post('/partidas/criar', 'controller_partida::criarPartida');
 $routes->get('partidas/entrar/(:num)', 'controller_partida::entrarPartida/$1');
 $routes->get('/partidas/visualizar/(:num)', 'controller_partida::visualizarPartida/$1');
 $routes->get('/partidas/finalizar/(:num)', 'controller_partida::finalizarPartida/$1');
+$routes->get('equipe/excluir-participante/(:num)', 'controller_equipe::excluirParticipante/$1');
 
 
 

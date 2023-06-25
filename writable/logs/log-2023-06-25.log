@@ -1043,3 +1043,327 @@ INFO - 2023-06-25 02:51:21 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-06-25 02:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-25 02:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-25 02:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:27:40 --> Call to undefined method App\Models\model_agenda::getPartidasAtivasEquipe
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\controller_partida.php(63): CodeIgniter\Model->__call('getPartidasAtivasEquipe', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:28:46 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:29:17 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:29:19 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:29:23 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:33:46 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:33:46 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:33:47 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:33:47 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:33:47 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:33:57 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:34:00 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:34:40 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:34:41 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:35:08 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:36:01 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:36:02 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:36:02 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:36:03 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:36:03 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 03:36:03 --> Undefined array key "Tipo_Jogo"
+in APPPATH\Views\view_listar_partidas.php on line 16.
+ 1 APPPATH\Views\view_listar_partidas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tipo_Jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-25 03:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 03:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 04:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

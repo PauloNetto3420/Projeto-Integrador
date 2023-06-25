@@ -19,6 +19,15 @@ class model_agenda extends Model
     }
 
 
+    public function getPartidasAtivasEquipe($equipeId)
+{
+    return $this->db->table('tbl_agenda')
+        ->join('tbl_partida', 'tbl_partida.id_partida = tbl_agenda.id_partida')
+        ->where('tbl_agenda.id_equipe', $equipeId)
+        ->where('tbl_agenda.status', 1)
+        ->get()
+        ->getResultArray();
+}
     public function findPartidaByEquipe($idPartida, $idEquipe)
     {
         return $this->where('Id_Partida', $idPartida)->where('Id_Equipe', $idEquipe)->first();
