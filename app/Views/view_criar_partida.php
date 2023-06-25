@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Criar Partida</title>
-    <!-- Inclua os arquivos CSS do Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css">
-</head>
-<body>
+<?php $session = session(); ?>
+<main class="content">    
     <div class="container">
         <h1>Criar Partida</h1>
         <?php if (session()->getFlashdata('errors')): ?>
@@ -34,8 +28,4 @@
             <button type="submit" class="btn btn-primary">Criar Partida</button>
         </form>
     </div>
-
-    <!-- Inclua os arquivos JavaScript do Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+</main>

@@ -12,7 +12,7 @@ class controller_partida extends BaseController
 
     function viewP(){
 
-        echo view('view_criar_partida');
+        echo view('view_header').view('view_criar_partida').view('view_footer');
 
     }
 
