@@ -9,7 +9,7 @@
             <div class="row" style="margin-bottom: 64px;">
                 
                 <div class="d-flex justify-content-center">
-                    <div class="col-md-5 d-flex justify-content-center align-items-center">
+                    <div class="col-md-5 d-flex  align-items-center">
                         <li>
                             <p><strong>Nome da Equipe:</strong> <?php echo $equipe['Nome']; ?></p>
                             <p><strong>Descrição:</strong> <?php echo $equipe['Descricao']; ?></p>
