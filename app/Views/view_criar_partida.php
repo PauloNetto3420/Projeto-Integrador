@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Criar Partida - Colaborahub</title>
+    <title>Criar Partida</title>
     <!-- Inclua os arquivos CSS do Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css">
 </head>
@@ -11,10 +11,15 @@
 
         <form action="<?= base_url('public/partidas/criar'); ?>" method="post">
             <div class="mb-3">
-                <label for="Tipo_Jogo" class="form-label">Tipo de Jogo</label>
-                <input type="text" class="form-control" id="Tipo_Jogo" name="Tipo_Jogo" required>
+                <label for="Tipo_Jogo" class="form-label">Tipo de Jogo:</label>
+                <select class="form-select" name="Tipo_Jogo" id="Tipo_Jogo">
+                    <option value="Warzone 2.0">Warzone 2.0</option>
+                    <option value="Fortnite">Fortnite</option>
+                    <option value="League of Legends">League of Legends</option>
+                    <option value="Overwatch 2">Overwatch 2</option>
+                    <option value="Rocket League">Rocket League</option>
+                </select>
             </div>
-
             <button type="submit" class="btn btn-primary">Criar Partida</button>
         </form>
     </div>

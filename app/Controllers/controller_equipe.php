@@ -96,13 +96,12 @@ class controller_equipe extends BaseController
                 ];
 
 
-
                 $usuarioEquipeModel->insert($usuarioEquipeData);
-                $equipeId = $usuarioEquipeModel->getEquipeIdPorUsuario($user['Id_Usuario']);
-                $session->set('Id_Equipe', $equipeId);
+                //$equipeId = $usuarioEquipeModel->getEquipeIdPorUsuario($user['Id_Usuario']);
+               
 
                 // Grava o ID da equipe na sessão do usuário
-                //session()->set('id_equipe', $equipeId);
+                session()->set('Id_Equipe', $equipeId);
 
                 // Redireciona para a página de sucesso ou exibe uma mensagem
                 return redirect()->to('equipes/sucesso');
@@ -206,6 +205,7 @@ class controller_equipe extends BaseController
             'jogadoresCandidatos' => $jogadoresCandidatos,
             'equipeId' => $equipeId // Adiciona o ID da equipe ao array
         ]);
+        
     }
     public function solicitarEntrarEquipe($equipeId)
     {
@@ -245,7 +245,7 @@ class controller_equipe extends BaseController
         $usuarioEquipeModel->insert($dadosVinculo);
 
         // Redireciona para uma página de sucesso ou exibe uma mensagem de sucesso
-        return redirect()->to('outra_pagina')->with('success', 'Você entrou na equipe com sucesso');
+        return redirect()->to('home')->with('success', 'Você entrou na equipe com sucesso');
     }
 
     public function aprovar()

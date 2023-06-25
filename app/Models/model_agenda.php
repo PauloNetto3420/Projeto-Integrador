@@ -18,9 +18,9 @@ class model_agenda extends Model
             ->findAll();
     }
 
+
     public function findPartidaByEquipe($idPartida, $idEquipe)
     {
         return $this->where('Id_Partida', $idPartida)->where('Id_Equipe', $idEquipe)->first();
     }
-
 }

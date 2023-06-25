@@ -7,11 +7,16 @@ use CodeIgniter\Model;
 class model_usuarioEquipe extends Model
 {
     protected $table = 'tbl_participacao';
-    protected $allowedFields = ['Id_Usuario', 'Id_Equipe', 'Tipo', 'Data_Entrada'];
+    protected $allowedFields = ['Id_Usuario', 'Id_Equipe', 'Data_Entrada', 'Tipo'];
 
-    
-
-    
+    public function updateTipo($usuarioId, $equipeId, $tipo)
+{
+    $builder = $this->db->table('tbl_participacao');
+    $builder->set('Tipo', $tipo)
+            ->where('Id_Usuario', $usuarioId)
+            ->where('Id_Equipe', $equipeId)
+            ->update();
+}
     
     public function existeVinculoEquipe($usuarioId)
     {
@@ -55,7 +60,7 @@ class model_usuarioEquipe extends Model
         $data = [
             'Id_Usuario' => $userId,
             'Id_Equipe' => $equipeId,
-            'Tipo' => '0' // ou qualquer outro status desejado
+            'Tipo' => 0 // ou qualquer outro status desejado
         ];
 
         $db = db_connect();

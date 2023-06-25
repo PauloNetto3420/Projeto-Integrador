@@ -54,7 +54,9 @@ $routes->get('equipe/solicitarEntrar/(:num)', 'controller_equipe::solicitarEntra
 $routes->get('equipe/gerenciar', 'controller_equipe::gerenciarEquipe');
 $routes->post('/equipe/aprovar', 'controller_equipe::aprovar');
 $routes->get('/partidas/listar', 'controller_partida::listarPartidas');
-$routes->get('/partidas/entrar/(:num)', 'controller_partida::entrarPartida/$1');
+$routes->get('/partidas/criar', 'controller_partida::ver');
+$routes->post('/partidas/criar', 'controller_partida::criarPartida');
+$routes->get('partidas/entrar/(:num)', 'controller_partida::entrarPartida/$1');
 $routes->get('/partidas/visualizar/(:num)', 'controller_partida::visualizarPartida/$1');
 $routes->get('/partidas/finalizar/(:num)', 'controller_partida::finalizarPartida/$1');
 

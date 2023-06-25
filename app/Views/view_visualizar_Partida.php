@@ -24,48 +24,18 @@
         p {
             color: #000000;
         }
-
-        .participant-list {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .participant-item {
-            background-color: #f8f9fa;
-            border-radius: 4px;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Detalhes da Partida</h1>
-        <p>Aqui estão os detalhes da partida:</p>
-
-        <div class="row">
-            <div class="col-md-6">
-                <h5>Dados da Partida:</h5>
-                <p><strong>Tipo de Jogo:</strong> <?= $partida['Tipo_Jogo']; ?></p>
-                <p><strong>Quantidade de Jogadores:</strong> <?= $partida['Qntd_Jogadores']; ?></p>
-            </div>
-        </div>
-
-        <div class="mt-4">
-            <h5>Participantes:</h5>
-            <?php if (!empty($participantes)) : ?>
-                <ul class="participant-list">
-                    <?php foreach ($participantes as $participante) : ?>
-                        <li class="participant-item">
-                            <strong>Nome:</strong> <?= $participante['nome']; ?><br>
-                            <strong>Email:</strong> <?= $participante['email']; ?><br>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
-            <?php else : ?>
-                <p>Nenhum participante encontrado.</p>
-            <?php endif; ?>
-        </div>
+        <p><strong>Tipo de Jogo:</strong> <?= $partida['Tipo_Jogo']; ?></p>
+        <p><strong>Jogadores:</strong> <?= $partida['Qntd_Jogadores']; ?>/5</p>
+        <!-- Exiba outros detalhes da partida -->
+        
+        <h2>Código da Partida</h2>
+        <p><?= $codigo; ?></p>
+        <!-- Exiba o código da partida -->
     </div>
 
     <!-- Inclua os arquivos JavaScript do Bootstrap -->

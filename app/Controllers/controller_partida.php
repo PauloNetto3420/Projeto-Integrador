@@ -11,47 +11,81 @@ class controller_partida extends BaseController
 
 {
 
-    function viewP()
+    function ver()
     {
 
         echo view('view_criar_partida');
     }
 
+    public function criarPartida()
+    {
+        // Verifica se o usuário está logado
+        if (!session()->get('Id_Usuario')) {
+            // Redireciona para a página de login
+            return redirect()->to('login');
+        }
+
+        // Obtém os dados da partida enviados pelo formulário
+        $tipoJogo = $this->request->getPost('Tipo_Jogo');
+
+        // Cria um código aleatório para a partida
+
+        // Define a quantidade inicial de jogadores como zero
+        $quantidadeJogadores = 0;
+
+        // Insere a nova partida no banco de dados
+        $partidaModel = new model_partida();
+        $partidaId = $partidaModel->insert([
+            'Tipo_Jogo' => $tipoJogo,
+            'Qntd_Jogadores' => $quantidadeJogadores
+        ]);
+
+        // Cria a relação entre a equipe e a partida
+        $partidaEquipeModel = new model_agenda();
+        $partidaEquipeModel->insert([
+            'Id_Equipe' => session()->get('Id_Equipe'),
+            'Id_Partida' => $partidaId,
+            'Status' => 1 // Define o status como ativo (1)
+        ]);
+
+        // Redireciona de volta para a página de partidas
+        return redirect()->to('partida/listar');
+    }
+
+
     public function listarPartidas()
     {
-        $partidaModel = new model_partida();
-        $partidas = $partidaModel->getPartidasDisponiveis();
+        // Obtém a lista de partidas ativas
+        $partidaEquipeModel = new model_partida();
+        $partidas = $partidaEquipeModel->getPartidasAtivas();
 
+        // Carrega a view com a lista de partidas
         return view('view_listar_partidas', ['partidas' => $partidas]);
     }
 
     public function entrarPartida($idPartida)
     {
+        // Verifica se o usuário está logado
+        if (!session()->get('Id_Usuario')) {
+            // Redireciona para a página de login
+            return redirect()->to('login');
+        }
+
+        // Obtém a partida pelo ID
         $partidaModel = new model_partida();
         $partida = $partidaModel->find($idPartida);
 
-        if (!$partida) {
-            return redirect()->back()->with('error', 'Partida não encontrada.');
+        // Verifica se a partida existe e tem vagas disponíveis
+        if ($partida && $partida['Qntd_Jogadores'] < 5) {
+            // Incrementa a quantidade de jogadores da partida
+            $partidaModel->update($idPartida, ['Qntd_Jogadores' => $partida['Qntd_Jogadores'] + 1]);
+
+            // Redireciona para a página de sucesso ou outra ação desejada
+            return redirect()->to('/partidas/visualizar/' . $idPartida);
+        } else {
+            // Redireciona para a página de erro ou outra ação desejada
+            return redirect()->to('partidas/listar');
         }
-
-        $equipePartidaModel = new model_agenda();
-        $equipePartida = $equipePartidaModel->findPartidaByEquipe($idPartida, session()->get('Id_Equipe'));
-
-        if ($equipePartida) {
-            return redirect()->back()->with('error', 'Sua equipe já está participando dessa partida.');
-        }
-
-        $partidaModel->incrementarQuantidadeJogadores($idPartida);
-
-        $data = [
-            'Id_Equipe' => session()->get('Id_Equipe'),
-            'Id_Partida' => $idPartida,
-            'Status' => 1
-        ];
-
-        $equipePartidaModel->insert($data);
-
-        return redirect()->to('/partida/visualizar/' . $idPartida);
     }
 
     public function visualizarPartida($idPartida)
@@ -66,7 +100,28 @@ class controller_partida extends BaseController
         $equipePartidaModel = new model_agenda();
         $participantes = $equipePartidaModel->getParticipantes($idPartida);
 
-        return view('view_visualizar_partida', ['partida' => $partida, 'participantes' => $participantes]);
+        // Gerar código aleatório de 15 caracteres
+        $codigo = $this->generateRandomCode(25);
+
+        return view('view_visualizar_partida', [
+            'partida' => $partida,
+            'participantes' => $participantes,
+            'codigo' => $codigo
+        ]);
+    }
+
+    private function generateRandomCode($length)
+    {
+        $keyspace = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()';
+        $str = '';
+
+        $max = mb_strlen($keyspace, '8bit') - 1;
+        for ($i = 0; $i < $length; ++$i) {
+            $index = random_int(0, $max);
+            $str .= $keyspace[$index];
+        }
+
+        return $str;
     }
 
     public function finalizarPartida($idPartida)
@@ -97,9 +152,4 @@ class controller_partida extends BaseController
         // Caso contrário, redirecione para a página de erro ou faça o tratamento adequado
         return redirect()->to('pagina_de_erro');
     }
-    public function ver()
-    {
-        echo view('view_visualizar_Partida');
-    }
-
 }
