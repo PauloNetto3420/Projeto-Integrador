@@ -165,7 +165,7 @@
 
 <section class="sec6 d-flex justify-content-center">
 
-  <form action="equipe/pesquisar">
+  <form action="equipes/cadastrarEquipe" method="POST">
     <button type="submit" class="btn-criar-equipe"><strong>Criar equipe</strong></button>
   </form>
   

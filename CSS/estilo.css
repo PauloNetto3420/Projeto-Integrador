@@ -556,6 +556,21 @@ body * {
     font-size: 12pt;
 }
 
+.form-editar-perfil2 > label{
+    font-size: 16pt;
+    font-weight: 800;
+    color: #201B2C;
+}
+
+.form-editar-perfil2 > input{
+    width: 880px;
+    height: 200px;
+    border-radius: 30px;
+    color: #15C75C;
+    padding-left: 4%;
+    font-size: 12pt;
+}
+
 .form-editar-perfil > select{
     width: 400px;
     height: 56px;
