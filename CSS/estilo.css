@@ -542,7 +542,7 @@ body * {
 }
 
 .form-editar-perfil > input{
-    width: 280px;
+    width: 400px;
     height: 56px;
     border-radius: 30px;
     color: #15C75C;
@@ -551,7 +551,7 @@ body * {
 }
 
 .form-editar-perfil > select{
-    width: 280px;
+    width: 400px;
     height: 56px;
     border-radius: 30px;
     color: #15C75C;
@@ -559,11 +559,18 @@ body * {
     font-size: 12pt;
 }
 
-.form-editar-perfil > option{
-    width: 360px;
-    height: 56px;
+.btn-atualizar-perfil{
+    margin-top: 56px;
+    margin-bottom: 48px;
+    width: 368px;
+    height: 64px;
+    color: #FFFFFF;
+    background-color: #15C75C;
+    border: none;
+    border-radius: 30px;
+    font-size: 20pt;
+    font-weight: 800;
 }
-
 
 @media only screen and (max-width: 1450px){
     
