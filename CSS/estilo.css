@@ -494,19 +494,19 @@ body * {
 
 .btn-editar-equipe{
     width: 304px;
-    background-color: #201B2C;
+    background-color: #725F9E;
     color: #FFFFFF;
     border-radius: 50px;
 }
 
 .btn:hover{
-    background-color: #514869;
+    background-color: #A587EE;
     color: white;
 }
 
 .btn-excluir-equipe{
     width: 152px;
-    background-color: #201B2C;
+    background-color: #725F9E;
     color: #FFFFFF;
     border-radius: 50px;
 }

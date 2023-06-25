@@ -61,12 +61,13 @@
 
         <div class="col-md-8" style="padding: 32px; border: 2px solid #201B2C; border-radius: 50px;">
 
-                <p class="info-user"><strong>Nome:</strong> <?php echo $usuario['Nome']; ?></p>
-                <p class="info-user"><strong>Email:</strong> <?php echo $usuario['Email']; ?></p>
-                <p class="info-user"><strong>Login:</strong> <?php echo $usuario['Login']; ?></p>
-                <p class="info-user"><strong>Data de nascimento:</strong> <?php echo $usuario['Data_Nasc']; ?></p>                
-                <p class="info-user"><strong>Gênero:</strong> <?php echo $usuario['Genero']; ?></p>
-
+        <h3><strong>Informações pessoais</strong></h3>
+            <p class="info-user" style="margin-top: 32px;"><strong>Nome:</strong> <?php echo $usuario['Nome']; ?></p>
+            <p class="info-user"><strong>Email:</strong> <?php echo $usuario['Email']; ?></p>
+            <p class="info-user"><strong>Login:</strong> <?php echo $usuario['Login']; ?></p>
+            <p class="info-user"><strong>Data de nascimento:</strong> <?php echo $usuario['Data_Nasc']; ?></p>
+            <p class="info-user"><strong>Gênero:</strong> <?php echo $usuario['Genero']; ?></p>
+        
         </div>
       
     </div>

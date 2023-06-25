@@ -1,19 +1,15 @@
 <?php $session = session(); ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Colaborahub - Editar Perfil</title>
-    <!-- Inclua os arquivos CSS do Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css">
 
-</head>
-<body>
-    
+<main class="content">
     <div class="container">
-        <h1>Editar Perfil</h1>
+        
+        <div class="row">
+            <h1 class="text-center" style="font-size: 40pt;"><strong>Editar Perfil</strong></h1>
+        </div>
+
         <form action="<?php echo base_url('public/perfil/atualizar'); ?>" method="post" enctype="multipart/form-data">
             <div class="mb-3">
-                <label for="nome" class="form-label">Nome</label>
+                <label for="nome" class="form-label">Nome completo</label>
                 <input type="text" class="form-control" id="nome" name="nome" value="<?php echo $session->get('Nome'); ?>">
             </div>
             <div class="mb-3">
@@ -42,6 +38,4 @@
             <button type="submit" class="btn btn-primary">Atualizar</button>
         </form>
     </div>
-
-    <!-- Inclua os arquivos JavaScript do Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle
+</main>
