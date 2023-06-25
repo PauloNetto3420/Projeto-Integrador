@@ -38,10 +38,18 @@
             <ul>
             <?php foreach ($participantes as $participante) : ?>
                     <li>
+<<<<<<< HEAD
                         <?php echo $participante['Nome']; ?>
                         <form action="<?php echo base_url('public/equipe/aprovar'); ?>" method="post" style="display: inline;">
                             <input type="hidden" name="usuarioId" value="<?php echo $participante['Id_Usuario']; ?>">
                             <input type="hidden" name="equipeId" value="<?php echo $equipe['Id_Equipe']; ?>"> 
+=======
+                        
+                        <form action="<?php echo base_url('public/equipe/aprovar'); ?>" method="post" style="display: inline;">
+                            <input type="hidden" name="Id_Usuario" value="<?php echo $jogador['Id_Usuario']; ?>">
+                            <input type="hidden" name="Id_Equipe" value="<?php echo $equipeId; ?>">
+                            <?php var_dump($equipeId); ?>
+>>>>>>> front
                             <button type="submit" class="btn btn-primary">Aprovar</button>
                         </form>
                     </li>

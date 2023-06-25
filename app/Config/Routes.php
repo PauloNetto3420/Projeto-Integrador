@@ -33,6 +33,11 @@ $routes->get('/', 'Home::index');
 $routes->get('/cadastrar', 'controller_Cad::cadastrar');
 $routes->post('/cadastrar', 'controller_Cad::cadastrar');
 $routes->get('/home', 'Home_controller::homepage');
+$routes->get('/overwatch2', 'Home_controller::overwatch');
+$routes->get('/sobre-nos', 'Home_controller::sobrenos');
+$routes->get('/lol',  'Home_controller::lol');
+$routes->get('/fornite',  'Home_controller::fortnite');
+$routes->get('/rocket',  'Home_controller::rocket');
 $routes->get('/login', 'controller_login::login');
 $routes->post('/login', 'controller_login::login');
 $routes->match(['get', 'post'], 'logout', 'controller_login::logout');
@@ -44,14 +49,22 @@ $routes->get('equipes', 'controller_equipe::homeEquipe');
 $routes->get('equipes/cadastrar', 'controller_equipe::cadastrarEquipe');
 $routes->post('equipes/cadastrarEquipe', 'controller_equipe::cadastrarEquipe');
 $routes->get('equipes/sucesso', 'controller_equipe::sucesso');
-$routes->get('equipe/perfil', 'controller_equipe::perfil');
+$routes->get('equipes/perfil', 'controller_equipe::perfil');
 $routes->get('/equipe/pesquisar', 'controller_equipe::pesquisarEquipes');
 $routes->get('equipe/solicitarEntrar/(:num)', 'controller_equipe::solicitarEntrarEquipe/$1');
 $routes->get('equipe/gerenciar', 'controller_equipe::gerenciarEquipe');
 $routes->post('/equipe/aprovar', 'controller_equipe::aprovar');
-$routes->get('partidas/criar', 'controller_partida::viewP');
-$routes->get('partidas/criar', 'controller_partida::criar');
-$routes->post('partidas/criar', 'controller_partida::criar');
+$routes->get('/partidas/listar', 'controller_partida::listarPartidas');
+$routes->get('/partidas/criar', 'controller_partida::ver');
+$routes->post('/partidas/criar', 'controller_partida::criarPartida');
+$routes->get('partidas/entrar/(:num)', 'controller_partida::entrarPartida/$1');
+$routes->get('/partidas/visualizar/(:num)', 'controller_partida::visualizarPartida/$1');
+$routes->get('/partidas/finalizar/(:num)', 'controller_partida::finalizarPartida/$1');
+$routes->get('equipe/excluir-participante/(:num)', 'controller_equipe::excluirParticipante/$1');
+
+
+
+$routes->get('equipe/ver-perfil/(:num)', 'controller_equipe::verPerfil/$1');
 
 
 

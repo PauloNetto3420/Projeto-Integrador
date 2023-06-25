@@ -3,6 +3,8 @@
 <html>
 <head>
     <title>Cadastrar Equipe</title>
+    <!-- Inclua os arquivos CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css">
 </head>
 <body>
     <h1>Cadastrar Equipe</h1>
@@ -27,21 +29,32 @@
         <label for="Foto">Foto:</label>
         <input type="file" name="Foto" id="Foto">
         <br>
-
-        <label for="Quantidade">Quantidade da Equipe:</label>
-        <select name="Quantidade" id="Quantidade">
-            <option value="5">5</option>
-            <option value="10">10</option>
-            <option value="15">15</option>
-            <option value="20">20</option>
-            <option value="25">25</option>
-            <option value="30">30</option>
-        </select>
-        <br>
         
         <input type="hidden" name="Tipo" id="Tipo" value="1">
 
-        <input type="submit" value="Cadastrar Equipe">
+        <input type="button" value="Cadastrar Equipe" data-bs-toggle="modal" data-bs-target="#confirmationModal">
     </form>
+
+    <!-- Modal de Confirmação -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">Confirmação de Cadastro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Deseja realmente cadastrar a equipe?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inclua os arquivos JavaScript do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

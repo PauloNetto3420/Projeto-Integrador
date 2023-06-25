@@ -37,7 +37,6 @@ class controller_equipe extends BaseController
                 'Nome' => 'required|is_unique[tbl_equipe.nome]',
                 'Descricao' => 'required',
                 'Contato' => 'required',
-                'Quantidade' => 'required',
                 'Foto' => 'uploaded[Foto]|max_size[Foto,2048]|is_image[Foto]'
             ];
 
@@ -52,10 +51,6 @@ class controller_equipe extends BaseController
                 ],
                 'Contato' => [
                     'required' => 'Você precisa pelo menos colocar uma forma de contato'
-
-                ],
-                'Quantidade' => [
-                    'required' => 'Você precisa espeficar quantas pessoas sua equipe terá'
 
                 ],
 
@@ -81,7 +76,7 @@ class controller_equipe extends BaseController
                     'Nome' => $this->request->getPost('Nome'),
                     'Descricao' => $this->request->getPost('Descricao'),
                     'Contato' => $this->request->getPost('Contato'),
-                    'Quantidade' => $this->request->getPost('Quantidade'),
+                    'Quantidade' => 1,
                     'Url_Foto' => $newName,
                 ];
                 $equipeId = $equipeModel->insert($equipeData);
@@ -96,13 +91,12 @@ class controller_equipe extends BaseController
                 ];
 
 
-
                 $usuarioEquipeModel->insert($usuarioEquipeData);
-                $equipeId = $usuarioEquipeModel->getEquipeIdPorUsuario($user['Id_Usuario']);
-                $session->set('Id_Equipe', $equipeId);
+                //$equipeId = $usuarioEquipeModel->getEquipeIdPorUsuario($user['Id_Usuario']);
+
 
                 // Grava o ID da equipe na sessão do usuário
-                //session()->set('id_equipe', $equipeId);
+                session()->set('Id_Equipe', $equipeId);
 
                 // Redireciona para a página de sucesso ou exibe uma mensagem
                 return redirect()->to('equipes/sucesso');
@@ -113,20 +107,22 @@ class controller_equipe extends BaseController
         }
 
         // Carrega a view do formulário de cadastro da equipe
-        echo view('view_header');
-        echo view('view_cadastrar_equipe', $data);
+        echo view('view_header', $data) . view('view_cadastrar_equipe', $data) . view('view_footer', $data);
     }
 
     public function homeEquipe()
     {
-        echo view('view_header');
-        echo view('view_hubequipes');
+        echo view('view_header') . view('view_hubequipes') . view('view_footer');
     }
 
     public function sucesso()
     {
+<<<<<<< HEAD
 
         return view('view_sucesso_equipe');
+=======
+        return view('view_header') . view('view_sucesso_equipe') . view('view_footer');
+>>>>>>> front
     }
 
     public function perfil()
@@ -175,8 +171,7 @@ class controller_equipe extends BaseController
         $equipes = $equipeModel->getEquipesDisponiveisParaUsuario($userId);
 
         // Carregue a view responsável por exibir as equipes disponíveis
-        echo view('view_header');
-        echo view('view_pesquisarEquipes', ['equipes' => $equipes]);
+        echo view('view_header') . view('view_pesquisarEquipes', ['equipes' => $equipes]) . view('view_footer');
     }
 
     public function gerenciarEquipe()
@@ -217,10 +212,16 @@ class controller_equipe extends BaseController
         return view('view_gerenciar_equipe', [
             'equipe' => $equipe,
             'jogadoresCandidatos' => $jogadoresCandidatos,
+<<<<<<< HEAD
             'participantes' => $participantesFiltrados
         ]);
     }
 
+=======
+            'equipeId' => $equipeId // Adiciona o ID da equipe ao array
+        ]);
+    }
+>>>>>>> front
     public function solicitarEntrarEquipe($equipeId)
     {
         // Verifica se o usuário está logado
@@ -259,7 +260,11 @@ class controller_equipe extends BaseController
         $usuarioEquipeModel->insert($dadosVinculo);
 
         // Redireciona para uma página de sucesso ou exibe uma mensagem de sucesso
+<<<<<<< HEAD
         return redirect()->to('outra_pagina')->with('success', 'Você entrou na equipe com sucesso');
+=======
+        return redirect()->to('home')->with('success', 'Você entrou na equipe com sucesso');
+>>>>>>> front
     }
 
     public function aprovar()
@@ -268,6 +273,7 @@ class controller_equipe extends BaseController
         $usuarioId = $this->request->getPost('Id_Usuario');
         $equipeId = $this->request->getPost('Id_Equipe');
 
+<<<<<<< HEAD
         // Atualiza o tipo do jogador no banco de dados
         $participacaoModel = new model_usuarioEquipe();
         $participacaoModel->updateTipo($usuarioId, $equipeId, 2);
@@ -275,4 +281,46 @@ class controller_equipe extends BaseController
         // Redireciona de volta para a página de gerenciamento da equipe
         return redirect()->to('/equipe/gerenciar')->with('success', 'Jogador aprovado com sucesso.');
     }
+=======
+        // Verifica se o usuário e a equipe existem
+        $usuarioModel = new model_Cad();
+        $equipeModel = new model_equipe();
+        $usuario = $usuarioModel->find($usuarioId);
+        $equipe = $equipeModel->find($equipeId);
+
+        if (!$usuario || !$equipe) {
+            return redirect()->back()->with('error', 'Usuário ou equipe não encontrados.');
+        }
+
+        // Atualiza o tipo do jogador no banco de dados
+        $usuarioEquipeModel = new model_usuarioEquipe();
+        $usuarioEquipe = $usuarioEquipeModel->getParticipacao($usuarioId, $equipeId);
+
+        if (!$usuarioEquipe) {
+            return redirect()->back()->with('error', 'Participação do jogador não encontrada.');
+        }
+
+        $usuarioEquipe['Tipo'] = 2; // Defina o tipo apropriado de acordo com a sua lógica
+        $usuarioEquipeModel->update($usuarioEquipe['Id_Usuario'], $usuarioEquipe);
+
+        // Incrementa a quantidade de jogadores da equipe
+        $equipe['Quantidade'] += 1;
+        $equipeModel->update($equipeId, $equipe);
+
+        // Redireciona de volta para a página de gerenciamento da equipe
+        return redirect()->to('/equipe/gerenciar')->with('success', 'Jogador aprovado com sucesso.');
+    }
+
+
+    public function verPerfil($id)
+    {
+        $usuarioModel = new model_Cad();
+
+        // Obtém os dados do usuário com base no ID fornecido
+        $usuario = $usuarioModel->getUsuarioById($id);
+
+        // Carrega a view com os dados do perfil do usuário
+        return view('view_perfil_Usuario', ['usuario' => $usuario]);
+    }
+>>>>>>> front
 }

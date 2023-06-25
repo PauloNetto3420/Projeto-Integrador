@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    
+<main class="content">
     <div class="container">
         <h1>Meu Perfil</h1>
         <div class="row">
@@ -33,7 +33,7 @@
             <a href="perfil/excluir" class="btn btn-danger">Excluir Perfil</a>        
         </div>
     </div>
-
+</main>
     <!-- Inclua os arquivos JavaScript do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

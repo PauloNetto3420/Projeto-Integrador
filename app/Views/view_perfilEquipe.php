@@ -35,7 +35,27 @@
             border-radius: 4px;
             padding: 10px;
             margin-bottom: 10px;
+            position: relative;
         }
+
+        .participant-profile-link {
+            position: absolute;
+            top: 50%;
+            right: 70px;
+            transform: translateY(-50%);
+        }
+
+        .participant-delete-link {
+            position: absolute;
+            top: 50%;
+            right: 140px;
+            transform: translateY(-50%);
+        }
+
+        .participant-links {
+        display: flex;
+        justify-content: flex-end;
+}
     </style>
 </head>
 <body>
@@ -49,24 +69,34 @@
                 <p><strong>Nome da Equipe:</strong> <?= $equipe['Nome']; ?></p>
                 <p><strong>Contato:</strong> <?= $equipe['Contato']; ?></p>
                 <p><strong>Quantidade de Membros:</strong> <?= $equipe['Quantidade']; ?></p>
+                <a href="<?= base_url('public/partidas/listar/'); ?>" class="btn btn-primary">Ver Partidas Disponíveis</a>
+                <a href="<?= base_url('public/partidas/criar'); ?>" class="btn btn-primary">Criar Partida</a>
             </div>
         </div>
 
         <div class="mt-4">
-            <h5>Participantes:</h5>
-            <?php if (!empty($participantes)) : ?>
-                <ul class="participant-list">
-                    <?php foreach ($participantes as $participante) : ?>
-                        <li class="participant-item">
-                            <strong>Nome:</strong> <?= $participante['Nome']; ?><br>
-                            <strong>Email:</strong> <?= $participante['Email']; ?><br>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
-            <?php else : ?>
-                <p>Nenhum participante encontrado.</p>
-            <?php endif; ?>
-        </div>
+    <h5>Participantes:</h5>
+    <?php if (!empty($participantes)) : ?>
+        <ul class="participant-list">
+            <?php foreach ($participantes as $participante) : ?>
+                <li class="participant-item">
+                    <div>
+                        <strong>Nome:</strong> <?= $participante['Nome']; ?><br>
+                        <strong>Email:</strong> <?= $participante['Email']; ?>
+                    </div>
+                    <div class="participant-links">
+                        <a href="<?= base_url('public/equipe/ver-perfil/' . $participante['Id_Usuario']); ?>" class="participant-profile-link">Ver Perfil</a>
+                        <?php if ($tipoUsuario == 1): ?>
+                            <a href="<?= base_url('public/equipe/excluir-participante/' . $participante['Id_Usuario']); ?>" class="participant-delete-link">Excluir Participante</a>
+                        <?php endif; ?>
+                    </div>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    <?php else : ?>
+        <p>Nenhum participante encontrado.</p>
+    <?php endif; ?>
+</div>
 
         <?php if ($tipoUsuario == 1): ?>
             <a href="<?= base_url('public/equipe/gerenciar'); ?>" class="btn btn-primary">Gerenciar Equipe</a>

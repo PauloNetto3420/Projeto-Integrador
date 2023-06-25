@@ -1,0 +1,972 @@
+INFO - 2023-06-24 17:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 17:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 17:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 17:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 17:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 17:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 18:07:25 --> Undefined array key "Foto"
+in APPPATH\Views\view_perfil_Usuario.php on line 32.
+ 1 APPPATH\Views\view_perfil_Usuario.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Foto"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil_Usuario.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_perfil_Usuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_perfil_Usuario', [], true)
+ 5 APPPATH\Controllers\controller_equipe.php(273): view('view_perfil_Usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_equipe->verPerfil('8')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_equipe))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 18:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 18:20:52 --> Class "App\Controllers\PartidaModel" not found
+in APPPATH\Controllers\controller_partida.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->criar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 18:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 18:33:05 --> Undefined variable $partida
+in APPPATH\Views\view_visualizar_Partida.php on line 69.
+ 1 APPPATH\Views\view_visualizar_Partida.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $partida', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_Partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(98): view('view_visualizar_Partida')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->ver()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 18:35:31 --> Undefined variable $partidas
+in APPPATH\Views\view_visualizar_Partida.php on line 68.
+ 1 APPPATH\Views\view_visualizar_Partida.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $partidas', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_Partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(98): view('view_visualizar_Partida')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->ver()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 18:35:47 --> syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\view_visualizar_Partida.php on line 83.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_Partida', [], true)
+ 3 APPPATH\Controllers\controller_partida.php(98): view('view_visualizar_Partida')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->ver()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 18:35:56 --> syntax error, unexpected token "endif", expecting end of file
+in APPPATH\Views\view_visualizar_Partida.php on line 85.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_Partida', [], true)
+ 3 APPPATH\Controllers\controller_partida.php(98): view('view_visualizar_Partida')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->ver()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 18:36:01 --> Undefined variable $partidas
+in APPPATH\Views\view_visualizar_Partida.php on line 68.
+ 1 APPPATH\Views\view_visualizar_Partida.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $partidas', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_Partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(98): view('view_visualizar_Partida')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->ver()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 18:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 18:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-24 19:41:59 --> mysqli_sql_exception: Column 'Tipo_Jogo' cannot be null in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ColaboraHub\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_partida.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_partida->criarPartida()
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+#10 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-24 19:41:59 --> Column 'Tipo_Jogo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_partida` (`Tipo_Jogo`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_partida` (`Tipo_Jogo`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_partida` (`Tipo_Jogo`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_partida` (`Tipo_Jogo`) VALUES (:Tipo_Jogo:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controller_partida.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->criarPartida()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 19:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 19:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-24 19:42:12 --> mysqli_sql_exception: Column 'Tipo_Jogo' cannot be null in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ColaboraHub\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_partida.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_partida->criarPartida()
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+#10 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-24 19:42:12 --> Column 'Tipo_Jogo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_partida` (`Tipo_Jogo`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_partida` (`Tipo_Jogo`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_partida` (`Tipo_Jogo`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_partida` (`Tipo_Jogo`) VALUES (:Tipo_Jogo:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controller_partida.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->criarPartida()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 19:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-24 19:43:35 --> mysqli_sql_exception: Column 'Tipo_Jogo' cannot be null in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ColaboraHub\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_partida.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_partida->criarPartida()
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+#10 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-24 19:43:35 --> Column 'Tipo_Jogo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_partida` (`Tipo_Jogo`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_partida` (`Tipo_Jogo`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_partida` (`Tipo_Jogo`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_partida` (`Tipo_Jogo`) VALUES (:Tipo_Jogo:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\controller_partida.php(34): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->criarPartida()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 19:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 19:45:41 --> Call to undefined method App\Models\model_agenda::getParticipantes
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\controller_partida.php(62): CodeIgniter\Model->__call('getParticipantes', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:47:46 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Views\view_visualizar_Partida.php on line 81.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 3 APPPATH\Controllers\controller_partida.php(64): view('view_visualizar_partida', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:49:42 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Views\view_visualizar_Partida.php on line 81.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 3 APPPATH\Controllers\controller_partida.php(64): view('view_visualizar_partida', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:50:05 --> Undefined array key "Qtnd_Jogadores"
+in APPPATH\Views\view_visualizar_Partida.php on line 58.
+ 1 APPPATH\Views\view_visualizar_Partida.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Qtnd_Jogadores"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(64): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:50:47 --> Undefined array key "Qtnd_Jogadores"
+in APPPATH\Views\view_visualizar_Partida.php on line 58.
+ 1 APPPATH\Views\view_visualizar_Partida.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Qtnd_Jogadores"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(64): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:50:48 --> Undefined array key "Qtnd_Jogadores"
+in APPPATH\Views\view_visualizar_Partida.php on line 58.
+ 1 APPPATH\Views\view_visualizar_Partida.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Qtnd_Jogadores"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(64): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:51:03 --> Undefined array key "Status"
+in APPPATH\Views\view_visualizar_Partida.php on line 59.
+ 1 APPPATH\Views\view_visualizar_Partida.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(64): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:51:53 --> Undefined array key "Nome"
+in APPPATH\Views\view_visualizar_Partida.php on line 68.
+ 1 APPPATH\Views\view_visualizar_Partida.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(64): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:55:32 --> Undefined array key "Id_Usuario"
+in APPPATH\Controllers\controller_partida.php on line 66.
+ 1 APPPATH\Controllers\controller_partida.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_Usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:56:23 --> Undefined array key "Id_Usuario"
+in APPPATH\Controllers\controller_partida.php on line 66.
+ 1 APPPATH\Controllers\controller_partida.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_Usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:58:36 --> Undefined array key "Id_Usuario"
+in APPPATH\Controllers\controller_partida.php on line 66.
+ 1 APPPATH\Controllers\controller_partida.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_Usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:58:37 --> Undefined array key "Id_Usuario"
+in APPPATH\Controllers\controller_partida.php on line 66.
+ 1 APPPATH\Controllers\controller_partida.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_Usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:58:37 --> Undefined array key "Id_Usuario"
+in APPPATH\Controllers\controller_partida.php on line 66.
+ 1 APPPATH\Controllers\controller_partida.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_Usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:58:37 --> Undefined array key "Id_Usuario"
+in APPPATH\Controllers\controller_partida.php on line 66.
+ 1 APPPATH\Controllers\controller_partida.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_Usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 19:58:50 --> Undefined array key "Nome"
+in APPPATH\Views\view_visualizar_Partida.php on line 68.
+ 1 APPPATH\Views\view_visualizar_Partida.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(66): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-24 19:59:57 --> mysqli_sql_exception: Not unique table/alias: 'tbl_usuario' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_usu...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usu...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usu...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usu...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\app\Models\model_agenda.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_partida.php(62): App\Models\model_agenda->getParticipantes('4')
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-24 19:59:57 --> Not unique table/alias: 'tbl_usuario'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_usuario`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_agenda`.`id_equipe`
+WHERE `tbl_agenda`.`id_partida` = \'4\'
+AND `tbl_agenda`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_usuario`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_agenda`.`id_equipe`
+WHERE `tbl_agenda`.`id_partida` = \'4\'
+AND `tbl_agenda`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_usuario`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_agenda`.`id_equipe`
+WHERE `tbl_agenda`.`id_partida` = \'4\'
+AND `tbl_agenda`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_usuario`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_agenda`.`id_equipe`
+WHERE `tbl_agenda`.`id_partida` = :tbl_agenda.id_partida:
+AND `tbl_agenda`.`status` = :tbl_agenda.status:', [...], false)
+ 5 APPPATH\Models\model_agenda.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\controller_partida.php(62): App\Models\model_agenda->getParticipantes('4')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-24 20:02:31 --> mysqli_sql_exception: Not unique table/alias: 'tbl_usuario' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_usu...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usu...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usu...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usu...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\app\Models\model_agenda.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_partida.php(63): App\Models\model_agenda->getParticipantes('4')
+#6 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-24 20:02:31 --> Not unique table/alias: 'tbl_usuario'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_usuario`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_agenda`.`id_equipe`
+WHERE `tbl_agenda`.`id_partida` = \'4\'
+AND `tbl_agenda`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_usuario`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_agenda`.`id_equipe`
+WHERE `tbl_agenda`.`id_partida` = \'4\'
+AND `tbl_agenda`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_usuario`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_agenda`.`id_equipe`
+WHERE `tbl_agenda`.`id_partida` = \'4\'
+AND `tbl_agenda`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_usuario`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_agenda`.`id_equipe`
+WHERE `tbl_agenda`.`id_partida` = :tbl_agenda.id_partida:
+AND `tbl_agenda`.`status` = :tbl_agenda.status:', [...], false)
+ 5 APPPATH\Models\model_agenda.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\controller_partida.php(63): App\Models\model_agenda->getParticipantes('4')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:02:41 --> Undefined array key "Id_Usuario"
+in APPPATH\Controllers\controller_partida.php on line 68.
+ 1 APPPATH\Controllers\controller_partida.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_Usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:04:06 --> Undefined array key "Id_Usuario"
+in APPPATH\Controllers\controller_partida.php on line 68.
+ 1 APPPATH\Controllers\controller_partida.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_Usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:04:07 --> Undefined array key "Id_Usuario"
+in APPPATH\Controllers\controller_partida.php on line 68.
+ 1 APPPATH\Controllers\controller_partida.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_Usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:04:32 --> Undefined array key "id_usuario"
+in APPPATH\Controllers\controller_partida.php on line 68.
+ 1 APPPATH\Controllers\controller_partida.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:04:33 --> Undefined array key "id_usuario"
+in APPPATH\Controllers\controller_partida.php on line 68.
+ 1 APPPATH\Controllers\controller_partida.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:04:43 --> Undefined variable $usuario
+in APPPATH\Controllers\controller_partida.php on line 69.
+ 1 APPPATH\Controllers\controller_partida.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:05:16 --> Undefined variable $usuario
+in APPPATH\Controllers\controller_partida.php on line 69.
+ 1 APPPATH\Controllers\controller_partida.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:05:21 --> Undefined array key "Id_Usuario"
+in APPPATH\Controllers\controller_partida.php on line 68.
+ 1 APPPATH\Controllers\controller_partida.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_Usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:05:56 --> Undefined array key "Id_Usuario"
+in APPPATH\Controllers\controller_partida.php on line 68.
+ 1 APPPATH\Controllers\controller_partida.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_Usuario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:16:58 --> Invalid file: "visualizar_partida.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualizar_partida.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('visualizar_partida', [], true)
+ 3 APPPATH\Controllers\controller_partida.php(53): view('visualizar_partida', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:20:08 --> Undefined array key "Qtnd_Jogadores"
+in APPPATH\Views\view_visualizar_Partida.php on line 9.
+ 1 APPPATH\Views\view_visualizar_Partida.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Qtnd_Jogadores"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(53): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:20:35 --> Undefined array key "Nome"
+in APPPATH\Views\view_visualizar_Partida.php on line 14.
+ 1 APPPATH\Views\view_visualizar_Partida.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(53): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:21:01 --> Undefined array key "Status"
+in APPPATH\Views\view_visualizar_Partida.php on line 20.
+ 1 APPPATH\Views\view_visualizar_Partida.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(53): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-24 20:22:04 --> mysqli_sql_exception: Unknown column 'tbl_agenda.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '4')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_partida.php(47): CodeIgniter\BaseModel->find('4')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-24 20:22:04 --> Unknown column 'tbl_agenda.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = :tbl_agenda.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '4')
+ 7 APPPATH\Controllers\controller_partida.php(47): CodeIgniter\BaseModel->find('4')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-24 20:24:09 --> mysqli_sql_exception: Unknown column 'tbl_agenda.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '4')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_partida.php(47): CodeIgniter\BaseModel->find('4')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-24 20:24:09 --> Unknown column 'tbl_agenda.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = :tbl_agenda.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '4')
+ 7 APPPATH\Controllers\controller_partida.php(47): CodeIgniter\BaseModel->find('4')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-24 20:24:12 --> mysqli_sql_exception: Unknown column 'tbl_agenda.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '4')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_partida.php(47): CodeIgniter\BaseModel->find('4')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-24 20:24:12 --> Unknown column 'tbl_agenda.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = :tbl_agenda.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '4')
+ 7 APPPATH\Controllers\controller_partida.php(47): CodeIgniter\BaseModel->find('4')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-24 20:24:13 --> mysqli_sql_exception: Unknown column 'tbl_agenda.id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '4')
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_partida.php(47): CodeIgniter\BaseModel->find('4')
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-24 20:24:13 --> Unknown column 'tbl_agenda.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_agenda`
+WHERE `tbl_agenda`.`id` = :tbl_agenda.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '4')
+ 7 APPPATH\Controllers\controller_partida.php(47): CodeIgniter\BaseModel->find('4')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:24:22 --> Undefined array key "Status"
+in APPPATH\Views\view_visualizar_Partida.php on line 20.
+ 1 APPPATH\Views\view_visualizar_Partida.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(53): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:25:05 --> Undefined array key "Status"
+in APPPATH\Views\view_visualizar_Partida.php on line 20.
+ 1 APPPATH\Views\view_visualizar_Partida.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(53): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:34:07 --> Undefined array key "Status"
+in APPPATH\Views\view_visualizar_Partida.php on line 20.
+ 1 APPPATH\Views\view_visualizar_Partida.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(53): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-24 20:42:01 --> mysqli_sql_exception: Unknown column 'tbl_partida.id_partida' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_usu...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usu...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usu...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usu...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ColaboraHub\app\Models\model_agenda.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_partida.php(67): App\Models\model_agenda->getParticipantes('4')
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+#10 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-24 20:42:01 --> Unknown column 'tbl_partida.id_partida' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_agenda`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_partida`.`id_equipe`
+WHERE `tbl_partida`.`id_partida` = \'4\'
+AND `tbl_partida`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_agenda`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_partida`.`id_equipe`
+WHERE `tbl_partida`.`id_partida` = \'4\'
+AND `tbl_partida`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_agenda`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_partida`.`id_equipe`
+WHERE `tbl_partida`.`id_partida` = \'4\'
+AND `tbl_partida`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_agenda`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_partida`.`id_equipe`
+WHERE `tbl_partida`.`id_partida` = :tbl_partida.id_partida:
+AND `tbl_partida`.`status` = :tbl_partida.status:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\model_agenda.php(18): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\controller_partida.php(67): App\Models\model_agenda->getParticipantes('4')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('4')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 20:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 20:42:59 --> Invalid file: "view_listar_partidas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_listar_partidas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 3 APPPATH\Controllers\controller_partida.php(25): view('view_listar_partidas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:43:12 --> Undefined array key "tipo_jogo"
+in APPPATH\Views\view_listar_partidas.php on line 62.
+ 1 APPPATH\Views\view_listar_partidas.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_jogo"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(25): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:43:51 --> Undefined array key "qQntd_Jogadores"
+in APPPATH\Views\view_listar_partidas.php on line 63.
+ 1 APPPATH\Views\view_listar_partidas.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qQntd_Jogadores"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_listar_partidas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_listar_partidas', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(25): view('view_listar_partidas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->listarPartidas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 20:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 20:46:34 --> Undefined property: App\Controllers\controller_partida::$session
+in APPPATH\Controllers\controller_partida.php on line 38.
+ 1 APPPATH\Controllers\controller_partida.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\controller_partida::$session', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->entrarPartida('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:47:05 --> Undefined variable $session
+in APPPATH\Controllers\controller_partida.php on line 38.
+ 1 APPPATH\Controllers\controller_partida.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->entrarPartida('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:47:10 --> Undefined property: App\Controllers\controller_partida::$session
+in APPPATH\Controllers\controller_partida.php on line 38.
+ 1 APPPATH\Controllers\controller_partida.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\controller_partida::$session', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->entrarPartida('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 20:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 20:47:50 --> Undefined property: App\Controllers\controller_partida::$session
+in APPPATH\Controllers\controller_partida.php on line 47.
+ 1 APPPATH\Controllers\controller_partida.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\controller_partida::$session', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->entrarPartida('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 20:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 20:47:53 --> Undefined property: App\Controllers\controller_partida::$session
+in APPPATH\Controllers\controller_partida.php on line 47.
+ 1 APPPATH\Controllers\controller_partida.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\controller_partida::$session', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_partida.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->entrarPartida('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 20:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 20:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-24 20:50:53 --> mysqli_sql_exception: Unknown column 'tbl_partida.id_partida' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_usu...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usu...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usu...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usu...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ColaboraHub\app\Models\model_agenda.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_partida.php(67): App\Models\model_agenda->getParticipantes('2')
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('2')
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+#10 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-24 20:50:53 --> Unknown column 'tbl_partida.id_partida' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_agenda`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_partida`.`id_equipe`
+WHERE `tbl_partida`.`id_partida` = \'2\'
+AND `tbl_partida`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_agenda`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_partida`.`id_equipe`
+WHERE `tbl_partida`.`id_partida` = \'2\'
+AND `tbl_partida`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_agenda`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_partida`.`id_equipe`
+WHERE `tbl_partida`.`id_partida` = \'2\'
+AND `tbl_partida`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_usuario`.`nome`, `tbl_usuario`.`email`
+FROM `tbl_agenda`
+JOIN `tbl_usuario` ON `tbl_usuario`.`id_usuario` = `tbl_partida`.`id_equipe`
+WHERE `tbl_partida`.`id_partida` = :tbl_partida.id_partida:
+AND `tbl_partida`.`status` = :tbl_partida.status:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\model_agenda.php(18): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\controller_partida.php(67): App\Models\model_agenda->getParticipantes('2')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('2')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:56:22 --> Undefined array key "Status"
+in APPPATH\Views\view_visualizar_Partida.php on line 20.
+ 1 APPPATH\Views\view_visualizar_Partida.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(69): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:57:33 --> Undefined array key "Quantidade_Jogadores"
+in APPPATH\Views\view_visualizar_Partida.php on line 17.
+ 1 APPPATH\Views\view_visualizar_Partida.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Quantidade_Jogadores"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(69): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 20:57:52 --> Undefined array key "Status"
+in APPPATH\Views\view_visualizar_Partida.php on line 18.
+ 1 APPPATH\Views\view_visualizar_Partida.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(69): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-24 21:00:12 --> Undefined array key "Nome"
+in APPPATH\Views\view_visualizar_Partida.php on line 60.
+ 1 APPPATH\Views\view_visualizar_Partida.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nome"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ColaboraHub\\app\\Views\\view_visualizar_Partida.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_visualizar_partida', [], true)
+ 5 APPPATH\Controllers\controller_partida.php(69): view('view_visualizar_partida', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_partida->visualizarPartida('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_partida))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-24 23:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 23:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
