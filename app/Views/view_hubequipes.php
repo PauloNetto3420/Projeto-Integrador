@@ -21,9 +21,9 @@
             <p>Você está atualmente na equipe <?php echo $session->get('Nome'); ?>.</p>
             <p>Selecione uma opção:</p>
             <ul>
-                <li><a href="equipe/perfil">Perfil da Equipe</a></li>
+                <li><a href="equipes/perfil">Perfil da Equipe</a></li>
 
-                <li><a href="equipe/pesquisar">Procurar Equipes</a></li>
+                <li><a href="equipes/pesquisar">Procurar Equipes</a></li>
                 <?php endif; ?>
             </ul>
     </div>

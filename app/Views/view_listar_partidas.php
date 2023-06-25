@@ -13,6 +13,9 @@
             <?php endif; ?>
         <?php endforeach; ?>
     </ul>
+    
 <?php else : ?>
     <p>Nenhuma partida disponível.</p>
 <?php endif; ?>
+
+<a href="<?= base_url('public/equipes/perfil'); ?>" class="btn btn-primary">Voltar ao Menu de Equipes</a>

@@ -126,7 +126,7 @@ class controller_partida extends BaseController
         ]);
         $footer = view('view_footer');
 
-        return $header . $content . $footer;
+        return view('view_header') . view('view_visualizar_partida', ['partida' => $partida,'participantes' => $participantes, 'codigo' => $codigo]). view('view_footer');
     
     }
 
