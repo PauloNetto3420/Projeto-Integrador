@@ -307,6 +307,7 @@ body * {
 
 #info-cadastro{
     margin-top: 32px;
+    margin-bottom: 16px;
     width: 440px;
     color: white;
 }
@@ -577,6 +578,30 @@ body * {
 
     .card-login > h1{
         font-size: 32pt;
+    }
+
+    .textfield > input{
+        width: 280px;
+        height: 40px;
+    }
+
+    .linha{
+        width: 280px;
+        
+    }
+
+    .btn-login{
+        width: 280px;
+        height: 40px;
+    }
+
+    .btn-cadastro{
+        width: 280px;
+        height: 40px;
+    }
+
+    #info-cadastro{
+        width: 280px;
     }
 }
 
