@@ -30,10 +30,7 @@
                 </select>
             </div>
 
-            <div class="form-editar-perfil" style="margin-left: 40px;">
-                <label for="Qntd_Jogadores" class="form-label" style="font-size: 12pt;">Qtd de Jogadores (min de 5)</label>
-                <input type="number" class="form-control" id="Qntd_Jogadores" name="Qntd_Jogadores" style="box-shadow: 5px 5px 10px #C2C2C2;" value=5>
-            </div>
+            
 
         </div> 
 

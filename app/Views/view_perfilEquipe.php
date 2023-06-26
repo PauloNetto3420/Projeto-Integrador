@@ -41,6 +41,8 @@
                 <?php else : ?>
                     <p>Nenhum participante encontrado.</p>
                 <?php endif; ?>
+                <a href="<?= base_url('public/partidas/listar/'); ?>" class="btn btn-primary">Ver Partidas Disponíveis</a>
+                <a href="<?= base_url('public/partidas/criar'); ?>" class="btn btn-primary">Criar Partida</a>
         </div>
     </div>
 
