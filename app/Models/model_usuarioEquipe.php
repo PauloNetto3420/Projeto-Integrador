@@ -7,6 +7,7 @@ use CodeIgniter\Model;
 class model_usuarioEquipe extends Model
 {
     protected $table = 'tbl_participacao';
+    protected $primaryKey = 'Id_Usuario';
     protected $allowedFields = ['Id_Usuario', 'Id_Equipe', 'Data_Entrada', 'Tipo'];
 
     public function updateTipo($usuarioId, $equipeId, $tipo)
@@ -35,6 +36,15 @@ class model_usuarioEquipe extends Model
         $query = $builder->get();
         return $query->getResultArray();
     }
+
+    public function getParticipacao1($idUsuario, $idEquipe)
+{
+    return $this->db->table('tbl_participacao')
+                    ->where('Id_Usuario', $idUsuario)
+                    ->where('Id_Equipe', $idEquipe)
+                    ->get()
+                    ->getResultArray(); // ou ->getResultObject()
+}
 
 
     public function getParticipacao($usuarioId, $equipeId)

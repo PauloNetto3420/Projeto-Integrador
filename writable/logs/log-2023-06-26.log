@@ -276,3 +276,520 @@ in SYSTEMPATH\Database\BaseBuilder.php on line 2767.
  5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
  6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-26 01:14:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`colaborahub`.`tbl_participacao`, CONSTRAINT `tbl_participacao_ibfk_1` FOREIGN KEY (`Id_Usuario`) REFERENCES `tbl_usuario` (`Id_Usuario`)) in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php(201): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-26 01:14:39 --> Cannot delete or update a parent row: a foreign key constraint fails (`colaborahub`.`tbl_participacao`, CONSTRAINT `tbl_participacao_ibfk_1` FOREIGN KEY (`Id_Usuario`) REFERENCES `tbl_usuario` (`Id_Usuario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tbl_usuario`
+WHERE `Id_Usuario` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_usuario`
+WHERE `Id_Usuario` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_usuario`
+WHERE `Id_Usuario` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_usuario`
+WHERE `Id_Usuario` IN :Id_Usuario:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\controller_login.php(201): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 01:18:18 --> Too few arguments to function App\Controllers\controller_login::excluir(), 0 passed in C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\controller_login.php on line 195.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:20:30 --> Too few arguments to function App\Models\model_usuarioEquipe::getParticipacao(), 1 passed in C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php on line 202 and exactly 2 expected
+in APPPATH\Models\model_usuarioEquipe.php on line 40.
+ 1 APPPATH\Controllers\controller_login.php(202): App\Models\model_usuarioEquipe->getParticipacao('2')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:20:33 --> Too few arguments to function App\Models\model_usuarioEquipe::getParticipacao(), 1 passed in C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php on line 202 and exactly 2 expected
+in APPPATH\Models\model_usuarioEquipe.php on line 40.
+ 1 APPPATH\Controllers\controller_login.php(202): App\Models\model_usuarioEquipe->getParticipacao('2')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:21:36 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\controller_login.php on line 207.
+ 1 APPPATH\Controllers\controller_login.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 207)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:22:22 --> Class "App\Controllers\model_usuario" not found
+in APPPATH\Controllers\controller_login.php on line 208.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-26 01:22:57 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`colaborahub`.`tbl_participacao`, CONSTRAINT `tbl_participacao_ibfk_1` FOREIGN KEY (`Id_Usuario`) REFERENCES `tbl_usuario` (`Id_Usuario`)) in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php(209): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-26 01:22:57 --> Cannot delete or update a parent row: a foreign key constraint fails (`colaborahub`.`tbl_participacao`, CONSTRAINT `tbl_participacao_ibfk_1` FOREIGN KEY (`Id_Usuario`) REFERENCES `tbl_usuario` (`Id_Usuario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tbl_usuario`
+WHERE `Id_Usuario` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_usuario`
+WHERE `Id_Usuario` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_usuario`
+WHERE `Id_Usuario` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_usuario`
+WHERE `Id_Usuario` IN :Id_Usuario:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\controller_login.php(209): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:23:38 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\controller_login.php on line 207.
+ 1 APPPATH\Controllers\controller_login.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 207)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 01:26:37 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\controller_login.php on line 208.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\controller_login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\controller_login')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\controller_login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:27:22 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\controller_login.php on line 207.
+ 1 APPPATH\Controllers\controller_login.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 207)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:27:56 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\controller_login.php on line 207.
+ 1 APPPATH\Controllers\controller_login.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 207)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:28:08 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\controller_login.php on line 207.
+ 1 APPPATH\Controllers\controller_login.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 207)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:31:12 --> Class "App\Controllers\model_usuario" not found
+in APPPATH\Controllers\controller_login.php on line 201.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:31:28 --> Too few arguments to function App\Models\model_usuarioEquipe::getParticipacao(), 1 passed in C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php on line 210 and exactly 2 expected
+in APPPATH\Models\model_usuarioEquipe.php on line 40.
+ 1 APPPATH\Controllers\controller_login.php(210): App\Models\model_usuarioEquipe->getParticipacao('2')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:31:44 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\controller_login.php on line 214.
+ 1 APPPATH\Controllers\controller_login.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:33:33 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\controller_login.php on line 214.
+ 1 APPPATH\Controllers\controller_login.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:34:48 --> Cannot access offset of type string on string
+in APPPATH\Controllers\controller_login.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:35:00 --> Cannot access offset of type string on string
+in APPPATH\Controllers\controller_login.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-26 01:36:25 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-26 01:36:25 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-26 01:38:41 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-26 01:38:41 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-26 01:38:44 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-26 01:38:44 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 01:40:01 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\controller_login.php on line 215.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\controller_login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\controller_login')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\controller_login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:40:08 --> Undefined array key "Id_UsuarioId_Equipe"
+in APPPATH\Controllers\controller_login.php on line 215.
+ 1 APPPATH\Controllers\controller_login.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_UsuarioId_Equipe"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:40:18 --> Undefined array key 1
+in APPPATH\Controllers\controller_login.php on line 215.
+ 1 APPPATH\Controllers\controller_login.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:41:27 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php on line 215
+in SYSTEMPATH\BaseModel.php on line 1042.
+ 1 APPPATH\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete('2', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:41:46 --> Array to string conversion
+in APPPATH\Controllers\controller_login.php on line 215.
+ 1 APPPATH\Controllers\controller_login.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-26 01:41:58 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-26 01:41:58 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-26 01:43:48 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-26 01:43:48 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-26 01:43:51 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-26 01:43:51 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-26 01:45:08 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-26 01:45:08 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:46:10 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\model_usuarioEquipe.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ColaboraHub\\app\\Models\\model_usuarioEquipe.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\model_usuarioEquipe')
+ 3 APPPATH\Controllers\controller_login.php(209): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\model_usuarioEquipe')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:46:18 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\controller_login.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:46:41 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\controller_login.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-26 01:47:15 --> Undefined array key "Id_Usario"
+in APPPATH\Controllers\controller_login.php on line 215.
+ 1 APPPATH\Controllers\controller_login.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id_Usario"', 'C:\\xampp\\htdocs\\ColaboraHub\\app\\Controllers\\controller_login.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-26 01:47:28 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ColaboraHub\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\ColaboraHub\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\ColaboraHub\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\ColaboraHub\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ColaboraHub\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\ColaboraHub\app\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+#8 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+#9 C:\xampp\htdocs\ColaboraHub\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ColaboraHub\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-26 01:47:28 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_participacao`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_participacao`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\controller_login.php(215): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controller_login->excluir()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controller_login))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-26 01:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

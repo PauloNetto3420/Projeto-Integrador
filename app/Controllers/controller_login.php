@@ -191,19 +191,37 @@ class controller_login extends BaseController
 
         
     }
+
     public function excluir()
     {
-        // Recupere o ID do usuário logado da sessão
-        $userID = session()->get('id_usuario');
 
-        // Exclua o perfil do usuário usando o ID
-        $userModel = new model_Cad();
-        $userModel->delete($userID);
+    $idUsuario = session()->get('Id_Usuario');
+    $equipeId = session()->get('Id_Equipe');
 
-        // Limpe a sessão e redirecione para a página de login
-        session()->destroy();
-        return redirect()->to('view_login');
+    $usuarioModel = new model_Cad();
+    $usuario = $usuarioModel->find($idUsuario);
+
+    if (!$usuario) {
+        return redirect()->back()->with('error', 'Usuário não encontrado.');
     }
+
+    // Verificar se o usuário está associado a uma equipe
+    $usuarioEquipeModel = new model_usuarioEquipe();
+    $participacao = $usuarioEquipeModel->getParticipacao1($idUsuario, $equipeId);
+
+    if ($participacao) {
+        // Excluir a participação do usuário nas equipes
+        foreach ($participacao as $participacaoEquipe) {
+            $usuarioEquipeModel->delete($participacaoEquipe['Id_Usuario']);
+        }
+    }
+
+    // Excluir o usuário
+    $usuarioModel->delete($idUsuario);
+    session()->destroy();
+    
+    return redirect()->to('http://localhost/ColaboraHub/public/home')->with('success', 'Usuário excluído com sucesso.');
+}
 
     public function logout()
     {
