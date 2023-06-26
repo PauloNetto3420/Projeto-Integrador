@@ -54,7 +54,24 @@
 
             </div>
             <div class="d-flex justify-content-center">
-                <button type="submit" class="btn-atualizar-perfil">Atualizar</button>
+                <button type="button" class="btn-atualizar-perfil" data-bs-toggle="modal" data-bs-target="#modalatt">Atualizar</button>
+                <div style="margin-right: 16px; " class="justify-content-end">
+                        <div class="modal fade" id="modalatt" tabindex="-1" aria-labelledby="modalatt" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modalatt">Confirmação</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Deseja mesmo alterar suas informações ? Se sim você será redirecionado para página principal para fazer novamente login</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">Sim</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
             </div>
         </form>
 

@@ -93,6 +93,7 @@ class controller_login extends BaseController
                 // Se a validação falhar, exibe os erros de validação
                 $data['validation'] = $this->validator;
             }
+            
         }
 
         // Carrega a view do formulário de login
@@ -184,10 +185,11 @@ class controller_login extends BaseController
             // Se a validação falhar, exibe os erros de validação
             $data['validation'] = $this->validator;
         }
+        session()->destroy();
     }
 
     // Carrega a view do formulário de edição do perfil
-    echo view('view_header').view('view_editar_perfil', $data).view('view_footer');
+    echo view('view_header').view('view_pagina_inicial', $data).view('view_footer');
 
         
     }

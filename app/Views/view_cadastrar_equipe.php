@@ -53,7 +53,25 @@
         </div>
         
         <div class="d-flex justify-content-center">
-            <input type="submit" value="Criar Equipe" class="btn-atualizar-perfil">
+            <input type="button" value="Criar Equipe" class="btn-atualizar-perfil">
+            <div style="margin-right: 16px; " class="justify-content-end">
+                        <div class="modal fade" id="modalcriar" tabindex="-1" aria-labelledby="modalcriar" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modalcriar">Confirmação</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Deseja mesmo criar uma equipe ?</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">Sim</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
         </div>
 
     </form>

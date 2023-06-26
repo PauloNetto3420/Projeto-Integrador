@@ -53,6 +53,7 @@
 
                 <div class="d-flex justify-content-center info-perfil">
                     <a href="perfil/excluir" class="btn btn-excluir-equipe">Excluir Perfil</a>
+                    
                 </div>
 
             <?php endif; ?>
