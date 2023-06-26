@@ -1,7 +1,7 @@
 <main class="content">
     <div class="container">
 
-    <h1 class="text-center" style="font-size: 40pt; margin-bottom: 64px;"><strong>Lista de Equipes</strong></h1>
+    <h1 class="text-center" style="font-size: 40pt; margin-bottom: 64px;"><strong>Lista de Partidas</strong></h1>
 
     <?php if (!empty($partidas)) : ?>
         <ul style="list-style: none;">
@@ -14,7 +14,6 @@
 
                         <li>
                             <strong>Tipo de Jogo:</strong> <?= $partida['Tipo_Jogo']; ?><br>
-                            <strong>Código da Partida:</strong> <?= $partida['Id_Partida']; ?><br>
                             <strong>Quantidade de Jogadores:</strong> <?= $partida['Qntd_Jogadores']; ?><br>
                         </li>
                     </div>

@@ -16,7 +16,7 @@
 
       <div class="row">
         <article class="col-md-12">
-          <h2 style="margin-bottom: 16px; margin-top: 32px;"class="text-center"><strong>Explore e busque por equipes</strong></h2>
+          <h2 style="margin-bottom: 32px; margin-top: 32px;"class="text-center"><strong>Explore e busque por equipes</strong></h2>
         </article>
       </div>
 
@@ -44,20 +44,16 @@
       </div>
    
       <div class="row">
-        <article style="margin-top: 16px; margin-bottom: 112px;" class="col-md-12">
-          <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis
-                        blanditiis, officiis aperiam ea magnam nisi accusamus accusantium est consequatur corrupti quam modi
-                        perferendis quisquam earum facilis consequuntur? Assumenda, quo?</p>
+        <article style="margin-top: 16px; margin-bottom: 64px;" class="col-md-12">
+          <p class="text-center">Essas equipes são compostas por jogadores talentosos e apaixonados que buscam alcançar o sucesso e o reconhecimento em sua respectiva área de especialização.</p>
         </article>
       </div>
     </section>
 
     <section id="sec1" class="row">
         <article id="art1" class="col-md-12">
-          <h2 class="text-center"><strong>Procure seu jogo favorito</strong></h2>
-          <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis
-            blanditiis, officiis aperiam ea magnam nisi accusamus accusantium est consequatur corrupti quam modi
-            perferendis quisquam earum facilis consequuntur? Assumenda, quo?</p>
+          <h2 class="text-center" style="margin-bottom: 32px;"><strong>Procure seu jogo favorito</strong></h2>
+          <p class="text-center">Descubra um mundo de emoção e desafio nos jogos online! Libere seu espírito competitivo e mergulhe em experiências virtuais cheias de adrenalina. Com inúmeras opções de jogos disponíveis, há algo para todos os gostos e estilos.</p>
         </article>
       </section>
 
@@ -102,7 +98,7 @@
 
     </div>
 
-<div class="container-fluid" style="background: linear-gradient(to bottom, #201B2C, #0A080D, #201B2C); margin-bottom: 48px;">
+<div class="container-fluid" style="background: linear-gradient(to bottom, #201B2C, #0A080D, #201B2C); margin-bottom: 32px;">
 
     <section id="sec4" class="container">
 
@@ -143,10 +139,9 @@
 
 </div>
 
-<article style="margin-top: 40px; color: #201B2C;" >
-  <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis
-                    blanditiis, officiis aperiam ea magnam nisi <br>accusamus accusantium est consequatur corrupti quam modi
-                    perferendis quisquam earum facilis consequuntur? Assumenda, quo?</p>
+<article style="color: #201B2C;" >
+    <p class="text-center">Jogar jogos online é muito divertido, mas a verdadeira mágica acontece quando você se conecta com outros jogadores apaixonados. <br>Encontre sua tribo virtual e descubra a alegria de jogar em equipe!</p>
+    <p class="text-center">Ao buscar por jogadores de jogos online, você terá a oportunidade de construir amizades duradouras e compartilhar experiências incríveis. <br>Juntos, vocês poderão enfrentar desafios mais difíceis, conquistar objetivos ambiciosos e criar memórias inesquecíveis.</p>
 </article>
 
 <section class="sec5 d-flex justify-content-center">
