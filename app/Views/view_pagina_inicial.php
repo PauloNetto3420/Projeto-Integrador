@@ -155,7 +155,24 @@
 <section class="sec6 d-flex justify-content-center">
 
   <form action="equipes/cadastrarEquipe" method="POST">
-    <button type="submit" class="btn-criar-equipe"><strong>Criar equipe</strong></button>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#modalSair" class="btn-criar-equipe"><strong>Criar equipe</strong></button>
+
+    <div class="modal fade" id="modalSair" tabindex="-1" aria-labelledby="modalSair" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalLogout">Confirmação</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+             <p>Deseja mesmo sair?</p>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">Sim</button>
+        </div>
+        </div>
+    </div>
+      </div>
   </form>
   
 </section>

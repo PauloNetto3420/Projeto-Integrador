@@ -12,11 +12,13 @@
   <body>
     <nav id="head" class="navbar navbar-expand-lg header">
         <div class="container">
-           <a href="http://localhost/ColaboraHub/public/home"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="72" height="72" alt="Logo"></a>
+           <a href="http://localhost/ColaboraHub/public/home"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="64" height="64 " alt="Logo"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            
 
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
@@ -59,7 +61,25 @@
             <?php if ($session->get('Login')) : ?>
                 <div style="margin-right: 16px; "class="justify-content-end">
                     <form action="http://localhost/ColaboraHub/public/logout" method="post">
-                        <button type="submit" class="button-logout" name="button-logout">SAIR</button>
+                        <button type="button" class="button-logout" data-bs-toggle="modal" data-bs-target="#modalLogout" name="button-logout">SAIR</button>
+
+                    <div class="modal fade" id="modalLogout" tabindex="-1" aria-labelledby="modalLogout" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="modalLogout">Confirmação</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Deseja mesmo fazer logout?</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">Sim</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
                     </form>
                 </div>
             <?php endif; ?>
@@ -72,3 +92,4 @@
             
         </div>
     </nav>
+    
