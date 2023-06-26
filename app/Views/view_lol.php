@@ -7,10 +7,11 @@
 
 </div>
 
+<main class="content">
 
 <div class="container" style="background-color: #f3f1f1;">
     <div class="row d-flex">
-        <h1 class="text-center" style="margin-top: 20px;"><strong>Conheça o jogo</strong></h1>
+        <h1 class="text-center" style="margin-top: 32px; margin-bottom: 32px;"><strong>Conheça o jogo</strong></h1>
         <div class="col-md-12 justify-content-center">
             <p class="text-center">League of Legends é um jogo online multiplayer de batalha em equipe, lançado em
                 2009. Nele, os jogadores controlam campeões com habilidades únicas e competem em mapas estratégicos.
@@ -22,14 +23,14 @@
     </div>
 
     <div class="row" style="background-color: #f3f1f1">
-        <h1 class="text-center" style="margin-top: 20px;"><strong>Campeões e suas Rotas</strong></h1>
+        <h2 class="text-center" style="margin-top: 24px; margin-bottom: 32px;"><strong>Campeões e suas Rotas</strong></h2>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
             <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/Sett_0.jpg'); ?>' alt="" style="padding-top: 10px;">
         </div>
-        <div class="col-md-10" style="background-color: #e5e5e5;">
-            <h2 style="padding-top: 20px;"><strong>SETT</strong></h2>
+        <div class="col-md-10" style="background-color: #e5e5e5;" >
+            <h2 style="padding-top: 24px;"><strong>SETT</strong></h2>
             <p> Sett é um campeão do jogo League of Legends que se destaca na rota do topo. Ele é um lutador
                 poderoso e de origem misteriosa. Sua história envolve uma infância difícil nas lutas de pit e seu
                 ascenso ao posto de líder do Pitão, um império criminoso. Com sua força bruta e punhos poderosos,
@@ -38,7 +39,7 @@
                 ataques básicos. Sett é um adversário formidável e imponente no campo de batalha.</P>
         </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
             <h2 style="text-align: right;"><strong>LEE-SIN</strong></h2>
             <p style="text-align: right;">Lee Sin é um campeão de League of Legends especializado na rota da selva.
@@ -54,7 +55,7 @@
             <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/LeeSin_31.jpg'); ?>' alt="">
         </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
             <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/Yasuo_0.jpg'); ?>' style="padding-top: 10px;">
         </div>
@@ -71,7 +72,7 @@
         </div>
     </div>
 
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
             <h2 style="text-align: right;"><strong>JINX</strong></h2>
             <p style="text-align: right;">Jinx, a Louca do Pó, é uma campeã de League of Legends que atua na rota
@@ -87,7 +88,7 @@
         </div>
     </div>
 
-    <div class="row align-items-center" style="padding-bottom: 20px;">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
             <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/Leona_0.jpg'); ?>' alt="" style="padding-top: 10px;">
         </div>
@@ -105,7 +106,8 @@
             </p>
         </div>
     </div>
-    <h1 class="text-center" style="margin-bottom: 10px;"> <strong>Os Mapas</strong></h1>
+
+    <h2 class="text-center" style="margin-bottom: 32px;"><strong>Os Mapas</strong></h2>
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -124,7 +126,7 @@
             </button>
         </div>
 
-        <p class="text-center" style="margin-top: 10px; margin-bottom: 15px;">Overwatch 2 apresenta uma variedade de
+        <p class="text-center" style="padding: 24px;">Overwatch 2 apresenta uma variedade de
             mapas em diferentes locais ao redor do mundo. Esses mapas oferecem ambientes únicos e desafiadores para
             os jogadores explorarem e competirem. Cada mapa tem seu próprio estilo arquitetônico, clima e objetivos
             específicos. Os jogadores podem se aventurar em cidades futurísticas, paisagens naturais, bases
@@ -132,6 +134,6 @@
             intensos e jogabilidade dinâmica. Com uma ampla seleção de mapas, Overwatch 2 proporciona uma
             experiência variada e empolgante para os jogadores.</p>
 
-
     </div>
 </div>
+</main>
