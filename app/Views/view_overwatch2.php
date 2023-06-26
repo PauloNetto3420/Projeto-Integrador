@@ -1,4 +1,3 @@
-
 <div class="container-fluid">
 
     <div class="row">
@@ -9,9 +8,11 @@
 
 </div>
 
-<div class="container" style="background-color: #f3f1f1;">
+<main class="content">
+
+<div class="container">
     <div class="row d-flex">
-        <h1 class="text-center" style="margin-top: 20px;"><strong>Conheça o jogo</strong></h1>
+        <h1 class="text-center" style="margin-top: 32px; margin-bottom: 32px;"><strong>Conheça o jogo</strong></h1>
         <div class="col-md-12 justify-content-center">
             <p class="">Overwatch 2 é um jogo de tiro em primeira pessoa desenvolvido pela Blizzard
                 Entertainment e é a sequência direta do popular jogo Overwatch. Lançado em 2023, o Overwatch 2
@@ -21,14 +22,14 @@
     </div>
 
     <div class="row" style="background-color: #f3f1f1">
-        <h1 class="text-center" style="margin-top: 20px;"><strong>Herois</strong></h1>
+        <h1 class="text-center" style="margin-top: 24px; margin-bottom: 32px;"><strong>Herois</strong></h1>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
             <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/avatar-01.png'); ?>' alt="" style="padding-top: 10px;">
         </div>
-        <div class="col-md-10" style="background-color: #e5e5e5;">
-            <h2 style="padding-top: 20px;"><strong>D.VA</strong></h2>
+        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 32px;">
+            <h2 style="padding-top: 24px;"><strong>D.VA</strong></h2>
             <p> Seu nome real é Hana Song e ela é uma ex-progamer profissional da Coreia do Sul. D.Va é
                 frequentemente
                 escolhida pelos jogadores por sua alta mobilidade, capacidade de defesa e habilidades ofensivas. Ela
@@ -41,7 +42,7 @@
         </div>
     </div>
 
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-10" style="background-color: #e5e5e5;">
             <h2 style="text-align: right;"><strong>GENJI</strong></h2>
             <p style="text-align: right;">Ele é um ninja cibernético do Japão, que recebeu melhorias cibernéticas
@@ -57,12 +58,12 @@
         </div>
     </div>
 
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
             <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/avatar-03.png'); ?>' alt="" style="padding-top: 10px;">
         </div>
-        <div class="col-md-10" style="background-color: #e5e5e5 ; margin-top: 10px;">
-            <h2 style="padding-top: 20px;"><strong>CASSIDY</strong></h2>
+        <div class="col-md-10" style="background-color: #e5e5e5 ; margin-top: 32px;">
+            <h2 style="padding-top: 24px;"><strong>CASSIDY</strong></h2>
             <p> Ele é um pistoleiro durão e habilidoso, com um estilo inspirado nos clássicos filmes de faroeste.
                 McCree
                 é um ex-membro da gangue Deadlock, assim como Ashe, antes de se juntar à organização Overwatch.
@@ -78,7 +79,7 @@
     </div>
 
     <div class="row align-items-center" style="padding-bottom: 20px; margin-top: 20px;">
-        <div class="col-md-10" style="background-color: #e5e5e5;">
+        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 32px;">
             <h2 style="text-align: right;"> <strong>LUCIO</strong></h2>
             <p style="text-align: right;">Conhecido como um suporte ágil e carismático. Ele é um músico brasileiro
                 que usa sua música e suas habilidades sônicas para curar aliados e causar impacto no campo de
@@ -91,12 +92,12 @@
         </div>
     </div>
 
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
             <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/2508ddd39a178d5f6ae993ab43eeb3e7961e5a54a9507e6ae347381193f28943.png'); ?>' alt="" style="padding-top: 10px;">
         </div>
-        <div class="col-md-10" style="background-color: #e5e5e5;">
-            <h2 style="padding-top: 20px;"><strong>MERCY</strong></h2>
+        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 32px;">
+            <h2 style="padding-top: 24px;"><strong>MERCY</strong></h2>
             <p> Mercy é uma heroína de suporte em Overwatch. Ela é uma médica suíça com habilidades de cura e
                 ressurreição. Mercy pode curar aliados com seu Caduceus Staff, voar em direção a aliados com sua
                 habilidade Angelic Descent e usar a ultimate Valkyrie para aumentar suas habilidades de cura e dar
@@ -106,7 +107,7 @@
     </div>
 
 
-    <h1 class="text-center" style="margin-bottom: 10px;"> <strong>Os Mapas</strong></h1>
+    <h1 class="text-center" style="margin-bottom: 32px;"> <strong>Os Mapas</strong></h1>
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -125,7 +126,7 @@
             </button>
         </div>
 
-        <p class="text-center" style="margin-top: 10px; margin-bottom: 15px;">Overwatch 2 apresenta uma variedade de
+        <p class="text-center" style="padding: 24px;">Overwatch 2 apresenta uma variedade de
             mapas em diferentes locais ao redor do mundo. Esses mapas oferecem ambientes únicos e desafiadores para
             os jogadores explorarem e competirem. Cada mapa tem seu próprio estilo arquitetônico, clima e objetivos
             específicos. Os jogadores podem se aventurar em cidades futurísticas, paisagens naturais, bases
@@ -135,4 +136,7 @@
 
 
     </div>
+    <span class="sec7"></span>
 </div>
+
+</main>

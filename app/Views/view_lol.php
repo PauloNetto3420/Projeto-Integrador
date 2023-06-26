@@ -9,7 +9,7 @@
 
 <main class="content">
 
-<div class="container" style="background-color: #f3f1f1;">
+<div class="container">
     <div class="row d-flex">
         <h1 class="text-center" style="margin-top: 32px; margin-bottom: 32px;"><strong>Conheça o jogo</strong></h1>
         <div class="col-md-12 justify-content-center">
@@ -73,7 +73,7 @@
     </div>
 
     <div class="row align-items-center" style="margin-bottom: 64px;">
-        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
+        <div class="col-md-10" style="background-color: #e5e5e5;">
             <h2 style="text-align: right;"><strong>JINX</strong></h2>
             <p style="text-align: right;">Jinx, a Louca do Pó, é uma campeã de League of Legends que atua na rota
                 inferior. Sua história é a de uma psicopata impulsiva e caótica, obcecada por destruição. Com seu
@@ -92,8 +92,8 @@
         <div class="col-md-2">
             <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/Leona_0.jpg'); ?>' alt="" style="padding-top: 10px;">
         </div>
-        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
-            <h2 style="padding-top: 20px;"><strong>LEONA</strong></h2>
+        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 32px;">
+            <h2 style="padding-top: 24px;"><strong>LEONA</strong></h2>
             <p>
                 Leona, a Alvorada Radiante, é uma campeã de League of Legends que desempenha o papel de suporte. Sua
                 história remete a uma guerreira solari que busca proteger o mundo da escuridão. Com habilidades como
