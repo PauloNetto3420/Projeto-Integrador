@@ -7,9 +7,11 @@
 
 </div>
 
-<div class="container" style="background-color: #f3f1f1;">
+<main class="content">
+
+<div class="container">
     <div class="row d-flex">
-        <h2 class="text-center" style="margin-top: 20px;"><strong>Conheça o jogo</strong></h2>
+        <h1 class="text-center" style="margin-top: 32px; margin-bottom: 32px;"><strong>Conheça o jogo</strong></h1>
         <div class="col-md-12 justify-content-center">
             <p class="">Rocket League é um jogo de esportes eletrônicos frenético e divertido, onde carros equipados
                 com foguetes competem em partidas de futebol. Com gráficos cativantes e controles intuitivos,
@@ -20,24 +22,23 @@
     </div>
 
     <div class="row" style="background-color: #f3f1f1">
-        <h1 class="text-center" style="margin-top: 20px;"><strong>Carros</strong></h1>
+        <h2 class="text-center" style="margin-top: 24px; margin-bottom: 32px;"><strong>Carros</strong></h2>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
         <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/rocket-league-octane-hitbox.jpeg'); ?>' alt="" style="padding-top: 10px;">
         </div>
-        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
-            <h2 style="padding-top: 20px;"><strong>OCTANE</strong></h2>
-            <p>
-                O Octane é um dos carros mais icônicos e populares do Rocket League. Com sua forma aerodinâmica e
+        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 32px;">
+            <h2 style="padding-top: 24px;"><strong>OCTANE</strong></h2>
+            <p>O Octane é um dos carros mais icônicos e populares do Rocket League. Com sua forma aerodinâmica e
                 equilibrada, é um favorito entre os jogadores. Sua hitbox versátil e manobrabilidade ágil o tornam
                 adequado para dribles, acrobacias e jogadas de precisão. O Octane é a escolha de muitos jogadores
                 profissionais devido à sua capacidade de se adaptar a diferentes estilos de jogo.</P>
         </div>
     </div>
 
-    <div class="row align-items-center">
-        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
+        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 32px;">
             <h2 style="text-align: right;"><strong>MERC</strong></h2>
             <p style="text-align: right;">O Merc é um carro robusto e imponente do Rocket League. Com sua carroceria
                 larga e alta, ele se destaca pela sua presença física no campo. Embora seja menos ágil do que outros
@@ -49,12 +50,12 @@
         <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/merc01.jpg'); ?>' alt="" style="padding-top: 10px;">
         </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
         <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/breakout.jpg'); ?>' alt="" style="padding-top: 10px;">
         </div>
-        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
-            <h2 style="padding-top: 20px;"><strong>BREAKOUT</strong></h2>
+        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 32px;">
+            <h2 style="padding-top: 24px;"><strong>BREAKOUT</strong></h2>
             <p>O Breakout é um carro estilizado e elegante no Rocket League. Com uma forma esculpida e aerodinâmica,
                 ele se destaca pelo seu design distintivo. O Breakout oferece uma combinação equilibrada de controle
                 e velocidade, sendo adequado para jogadores que valorizam a precisão e a agilidade nos movimentos.
@@ -64,8 +65,8 @@
         </div>
     </div>
 
-    <div class="row align-items-center">
-        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
+        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 32px;">
             <h2 style="text-align: right;"><strong>BACKFIRE</strong></h2>
             <p style="text-align: right;">O Backfire é um carro ágil e compacto no Rocket League. Com um design
                 aerodinâmico e esportivo, ele possui uma aparência moderna e agressiva. Apesar de ser um dos carros
@@ -78,12 +79,12 @@
             <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/backfire01.jpg'); ?>' alt="" style="padding-top: 10px;">
         </div>
 
-        <div class="row align-items-center">
+        <div class="row align-items-center" style="margin-bottom: 64px;">
             <div class="col-md-2">
             <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/Roadhog1.jpg'); ?>' alt="" style="padding-top: 10px;">
             </div>
             <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
-                <h2 style="padding-top: 20px;"><strong>ROAD HOG</strong></h2>
+                <h2 style="padding-top: 24px;"><strong>ROAD HOG</strong></h2>
                 <p>O Road Hog é um carro robusto e resistente no Rocket League. Com uma carroceria ampla e
                     imponente, ele transmite uma sensação de poder no campo. O Road Hog é conhecido por sua
                     capacidade de empurrar e desviar os oponentes com facilidade devido ao seu tamanho e peso. Sua
@@ -95,7 +96,7 @@
         </div>
 
 
-        <h1 class="text-center" style="margin-bottom: 10px;"><strong>Os Mapas</strong></h1>
+        <h1 class="text-center" style="margin-bottom: 32px;"><strong>Os Mapas</strong></h1>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -114,14 +115,14 @@
                 </button>
             </div>
 
-            <p class="text-center" style="margin-top: 10px; margin-bottom: 15px;">Rocket League apresenta uma
+            <p class="text-center" style="padding: 24px;">Rocket League apresenta uma
                 variedade de mapas emocionantes. O estádio padrão, "DFH Stadium", é um campo aberto clássico.
                 "Mannfield" tem uma estética mais urbana, enquanto "Beckwith Park" possui uma atmosfera rústica. Há
                 também mapas temáticos como "Aquadome" subaquático e "Neo Tokyo" futurista. Cada mapa oferece
                 diferentes configurações e obstáculos, proporcionando experiências únicas em partidas casuais e
                 competitivas. A diversidade dos mapas mantém o jogo dinâmico e desafiador.</p>
-
-
-        </div>
+            </div>
     </div>
+    <span class="sec7"></span>
 </div>
+</main>

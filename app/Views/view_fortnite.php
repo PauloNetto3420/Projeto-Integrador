@@ -7,11 +7,13 @@
 
 </div>
 
+<main class="content">
+
 <div class="container" style="background-color: #f3f1f1;">
     <div class="row d-flex">
-        <h1 class="text-center" style="margin-top: 20px;"><strong>Conheça o jogo</strong></h1>
+        <h1 class="text-center" style="margin-top: 32px; margin-bottom: 32px;"><strong>Conheça o jogo</strong></h1>
         <div class="col-md-12 justify-content-center">
-            <p class="">Fortnite, desenvolvido pela Epic Games, é um jogo de battle royale e construção lançado em
+            <p class="text-center">Fortnite, desenvolvido pela Epic Games, é um jogo de battle royale e construção lançado em
                 2017. Com sua jogabilidade inovadora, conquistou milhões de jogadores ao redor do mundo. Com modos
                 Solo, Duplas e Esquadrões, oferece intensas batalhas de 100 jogadores em um mapa em constante
                 redução. Além disso, eventos colaborativos com franquias famosas como Marvel e Star Wars adicionam
@@ -21,14 +23,14 @@
     </div>
 
     <div class="row" style="background-color: #f3f1f1">
-        <h1 class="text-center" style="margin-top: 20px;"><strong>Skins Marcantes</strong></h1>
+        <h2 class="text-center" style="margin-top: 24px; margin-bottom: 32px;"><strong>Skins Marcantes</strong></h2>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
         <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/atemporal.png'); ?>' alt="" style="padding-top: 10px;">
         </div>
-        <div class="col-md-10" style="background-color: #e5e5e5; margin-bottom: 30px;">
-            <h2 style="padding-top: 20px;"><strong>ATEMPORAL</strong></h2>
+        <div class="col-md-10" style="background-color: #e5e5e5; ">
+            <h2 style="padding-top: 24px;"><strong>ATEMPORAL</strong></h2>
             <p>
                 A skin Atemporal chegou ao jogo na Capítulo 1-Temporada 4,é um traje lendário que transcende o
                 tempo. Com um design único
@@ -40,7 +42,7 @@
         </div>
     </div>
 
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-10" style="background-color: #e5e5e5;">
             <h2 style="text-align: right;"><strong>RAVEN</strong></h2>
             <p style="text-align: right;">A skin Raven, do jogo Fortnite, é uma das skins mais icônicas e populares.
@@ -56,7 +58,7 @@
         </div>
     </div>
 
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
         <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/cuddleteam.jpg'); ?>' alt="" style="padding-top: 10px;">
         </div>
@@ -71,7 +73,7 @@
         </div>
     </div>
 
-    <div class="row align-items-center" style="padding-bottom: 20px;">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
             <h2 style="text-align: right;"><strong>RED KNIGHT</strong></h2>
             <p style="text-align: right;">A skin Red Knight, do jogo Fortnite, é uma armadura lendária com um visual
@@ -81,16 +83,16 @@
                 skin se tornou um símbolo de destaque e respeito dentro do jogo.</p>
         </div>
         <div class="col-md-2" style="padding-top: 10px;">
-        <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/red-knight.jpg'); ?>' alt="" style="padding-top: 10px;">
+            <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/red-knight.jpg'); ?>' alt="" style="padding-top: 10px;">
         </div>
     </div>
 
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
         <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/WILDCARD.jpg'); ?>' alt="" style="padding-top: 10px;">
         </div>
-        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
-            <h2 style="padding-top: 20px;"><strong>WILD CARD</strong></h2>
+        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 32px;">
+            <h2 style="padding-top: 24px;"><strong>WILD CARD</strong></h2>
             <p> A skin Wild Card, do jogo Fortnite, é uma figura misteriosa e astuta. Com seu traje de ladrão
                 elegante e máscara de cartas, ela transmite um ar de habilidade e sagacidade. A skin Wild Card é uma
                 escolha popular entre os jogadores que buscam um visual sofisticado e enigmático. Com seu design
@@ -120,7 +122,7 @@
             </button>
         </div>
 
-        <p class="text-center" style="margin-top: 10px; margin-bottom: 15px;">
+        <p class="text-center" style="padding: 24px;">
             O mapa de Fortnite passou por transformações significativas entre os capítulos, impulsionadas pelos
             eventos do jogo. Do Capítulo 1 ao Capítulo 2, testemunhamos a destruição de locais icônicos, como Tilted
             Towers, e a introdução de novas áreas, como Salty Springs e Pleasant Park. Eventos épicos, como o
@@ -130,4 +132,8 @@
 
 
     </div>
+
+    <span class="sec7"></span>
+
 </div>
+</main>

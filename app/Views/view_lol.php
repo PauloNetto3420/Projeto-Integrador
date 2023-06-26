@@ -29,7 +29,7 @@
         <div class="col-md-2">
             <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/Sett_0.jpg'); ?>' alt="" style="padding-top: 10px;">
         </div>
-        <div class="col-md-10" style="background-color: #e5e5e5;" >
+        <div class="col-md-10" style="background-color: #e5e5e5;">
             <h2 style="padding-top: 24px;"><strong>SETT</strong></h2>
             <p> Sett é um campeão do jogo League of Legends que se destaca na rota do topo. Ele é um lutador
                 poderoso e de origem misteriosa. Sua história envolve uma infância difícil nas lutas de pit e seu
@@ -40,7 +40,7 @@
         </div>
     </div>
     <div class="row align-items-center" style="margin-bottom: 64px;">
-        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
+        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 32px;">
             <h2 style="text-align: right;"><strong>LEE-SIN</strong></h2>
             <p style="text-align: right;">Lee Sin é um campeão de League of Legends especializado na rota da selva.
                 Sua história é marcada por um trágico acidente que o deixou cego, mas lhe concedeu habilidades
@@ -59,8 +59,8 @@
         <div class="col-md-2">
             <img class="img-fluid avatar d-none d-sm-block" src='<?php echo base_url('arquivo/Avatar/Yasuo_0.jpg'); ?>' style="padding-top: 10px;">
         </div>
-        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
-            <h2 style="padding-top: 20px;"><strong>YASUO</strong></h2>
+        <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 32px;">
+            <h2 style="padding-top: 24px;"><strong>YASUO</strong></h2>
             <p> Yasuo, o Ronin do Vento, é um campeão de League of Legends que atua na rota do meio. Sua história
                 envolve uma traição, onde foi acusado injustamente da morte de seu mestre. Ele busca redenção
                 enquanto desafia o vento com suas lâminas. Com habilidades como "Tempestade de aço" e "Parede de
@@ -135,5 +135,7 @@
             experiência variada e empolgante para os jogadores.</p>
 
     </div>
+
+    <span class="sec7"></span>
 </div>
 </main>
