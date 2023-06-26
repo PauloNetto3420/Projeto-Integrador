@@ -231,4 +231,44 @@ class controller_login extends BaseController
         // Redirecione o usuário para a página de login ou qualquer outra página desejada
         return redirect()->to('home');
     }
+
+    public function resetPassword()
+    {
+        // Verifique se o formulário foi enviado
+        if ($this->request->getMethod() === 'post') {
+            // Obtenha os valores do formulário
+            $email = $this->request->getPost('Email');
+            $newPassword = $this->request->getPost('new_password');
+
+            // Verifique se a redefinição de senha foi bem-sucedida
+            if ($this->doResetPassword($email, $newPassword)) {
+                return redirect()->route('reset-password')->with('success', 'Senha redefinida com sucesso.');
+            } else {
+                return redirect()->route('reset-password')->with('error', 'Erro ao redefinir a senha.');
+            }
+        }
+
+        // Carregue a view de redefinição de senha
+        return view('reset_password');
+    }
+
+    private function doResetPassword($email, $newPassword)
+    {
+        // Verifique se o usuário com o email fornecido existe
+        $userModel = new model_Cad();
+        $user = $userModel->where('Email', $email)->first();
+
+        if (!$user) {
+            return false; // Usuário não encontrado
+        }
+
+        // Gere um hash da nova senha
+        $passwordHash = password_hash($newPassword, PASSWORD_DEFAULT);
+
+        // Atualize a senha do usuário no banco de dados
+        $userModel->update($user['Id_Usuario'], ['Senha' => $passwordHash]);
+
+        return true; // Senha redefinida com sucesso
+    }
+
 }

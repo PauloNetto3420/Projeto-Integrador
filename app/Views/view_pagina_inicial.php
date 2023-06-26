@@ -4,7 +4,6 @@
     <h1 class="text-center titulo">ColaboraHub</h1>
     <p class="text-center subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ducimus iste blanditiis similique odit suscipit harum accusantium distinctio ad dignissimos itaque hic, <br>repellendus voluptatibus amet aliquam, iure atque vero, soluta aut.</p>    
     <p class="text-center subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ducimus iste blanditiis similique odit suscipit harum accusantium distinctio ad dignissimos itaque hic, <br>repellendus voluptatibus amet aliquam, iure atque vero, soluta aut.</p>    
-
 </section>
 
 <main class="content">
@@ -71,13 +70,13 @@
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img style="border-radius: 150px;" src="<?php echo base_url('arquivo/equipes/Equipes_01.jpeg'); ?>" class="d-block w-100" alt="...">
+            <img  src="<?php echo base_url('arquivo/equipes/Equipes_01.jpeg'); ?>" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img style="border-radius: 150px;" src="<?php echo base_url('arquivo/equipes/Equipes_02.jpg'); ?>" class="d-block w-100" alt="...">
+            <img  src="<?php echo base_url('arquivo/equipes/Equipes_02.jpg'); ?>" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img style="border-radius: 150px;" src="<?php echo base_url('arquivo/equipes/Equipes_03.jpg'); ?>" class="d-block w-100" alt="...">
+            <img src="<?php echo base_url('arquivo/equipes/Equipes_03.jpg'); ?>" class="d-block w-100" alt="...">
           </div>
         </div>
 
@@ -126,13 +125,6 @@
                 <div class="persona">
                     <h5 class="text-center"><strong>Julia Alves</strong></h5>
                     <img style="border: 2px solid white;" src="<?php echo base_url('arquivo/jogadores/model_01.jpg'); ?>" class="img-fluid rounded-circle" alt="...">
-                </div>
-            </div>
-
-            <div class="col d-flex align-items-center justify-content-center">
-                <div class="persona">
-                    <h5 class="text-center"><strong>Maria Eduarda</strong></h5>
-                    <img style="border: 2px solid white;" src="<?php echo base_url('arquivo/jogadores/model_04.jpg'); ?>" class="img-fluid rounded-circle" alt="...">
                 </div>
             </div>
 

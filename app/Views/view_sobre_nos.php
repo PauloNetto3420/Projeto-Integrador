@@ -1,3 +1,5 @@
+<main class="content">
+
 <div class="container-fluid">
 
     <div class="row">
@@ -19,38 +21,11 @@
 </div>
 
 <div class="container">
-    <h1 class="text-center">Criadores do site </h1>
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-            <button style="background-color: black;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button style="background-color: black;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
 
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active align-items-center">
-                <img style="margin-bottom: 130px;" src='<?php echo base_url('arquivo/Avatar/paulo.jpg'); ?>' class="d-block persona" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 style="color: black;">Paulo Netto</h5>
-                    <p style="color: black;">Back-End e integração com o front-end</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img style="margin-bottom: 130px;" src='<?php echo base_url('arquivo/Avatar/avatar-01.png'); ?>' class="d-block persona" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 style="color: black;">João Henrique</h5>
-                    <p style="color: black;">Front-end e integração com o back-end</p>
-                </div>
-            </div>
+    <h1 class="text-center" style="font-size: 32pt; margin-top: 64px;"><strong>Criadores</strong></h1>
 
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" style="color: black;" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+    <div class="d-flex justify-content-center" style="border: 2px solid black;">
+        <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Overwatch_02.jpeg'); ?>" alt="Background">
     </div>
 
     <div class="row align-items-center">
@@ -112,3 +87,5 @@
 
 
 </div>
+
+</main>

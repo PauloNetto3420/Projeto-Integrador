@@ -53,6 +53,7 @@
 
         <span class="linha"></span>
         <p id="info-cadastro">Não tem cadastro?</p>
+        <a href="reset-password">Esqueceu sua senha?</a>
         
         <form action="cadastrar">
             <button type="submit" class="btn-cadastro">CADASTRAR</button>
