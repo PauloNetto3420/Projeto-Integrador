@@ -8,8 +8,8 @@
 
         <div class="col-md-8">
             <h1 class="text-center titulo-perfil">Minha Equipe</h1>
+        
         </div>
-
     </div>
 
     <div class="row" style="margin-bottom: 16px;">
@@ -35,7 +35,13 @@
             
         </div>
 
-        <div class="col-md-8" style="padding: 32px; border: 2px solid #201B2C; border-radius: 50px;">   
+        <div class="col-md-8" style="padding: 32px; border: 2px solid #201B2C; border-radius: 50px;">
+        <h5> <strong>Dados da Equipe</strong></h5>   
+        <p><strong>Nome da Equipe:</strong> <?= $equipe['Nome']; ?></p>
+                <p><strong>Contato:</strong> <?= $equipe['Contato']; ?></p>
+                <p><strong>Descrição</strong> <?= $equipe['Descricao']; ?></p>
+                <p><strong>Quantidade de Membros:</strong> <?= $equipe['Quantidade']; ?></p>
+                <br>
             <h5><strong>Participantes:</strong></h5>
                 <?php if (!empty($participantes)) : ?>
                     <ul class="participant-list">
