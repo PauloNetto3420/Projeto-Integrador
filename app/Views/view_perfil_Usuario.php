@@ -1,41 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Perfil do Usuário</title>
-    <!-- Inclua os arquivos CSS do Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css">
-    <style>
-        body {
-            background-color: #f2f2f2;
-        }
+<main class="content">
 
-        .container {
-            padding: 40px;
-            margin-top: 40px;
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
+<div class="container">
 
-        h1 {
-            color: #5e50ff;
-        }
+    <div class="row">
+        <div class="col-md-4"></div>
 
-        p {
-            color: #000000;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Perfil do Usuário</h1>
-        <p><strong>Foto</strong> <?= $usuario['Url_Foto']; ?></p>
-        <p><strong>Nome:</strong> <?= $usuario['Nome']; ?></p>
-        <p><strong>Email:</strong> <?= $usuario['Email']; ?></p>
-        <!-- Exiba outros dados do perfil do usuário -->
+        <div class="col-md-8">
+            <h1 class="text-center titulo-perfil">Perfil usuário</h1>
+        </div>
+
     </div>
 
-    <!-- Inclua os arquivos JavaScript do Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    <div class="row" style="margin-bottom: 16px;">
+
+        <div class="col-md-4">
+
+            <h1 class="text-center titulo-perfil"><?= $usuario['Nome']; ?></h1>
+            <div class="d-flex justify-content-center align-items-center" style="margin-bottom: 16px;">
+                <p><strong>Foto</strong> <?= $usuario['Url_Foto']; ?></p>
+        </div>
+
+    </div>
+    
+    <div class="col-md-8" style="padding: 32px; border: 2px solid #201B2C; border-radius: 50px;">
+
+        <h3><strong>Informações pessoais: </strong></h3>
+            <p><strong>Nome:</strong> <?= $usuario['Nome']; ?></p>
+            <p><strong>Email:</strong> <?= $usuario['Email']; ?></p>
+    </div>
+
+    </div>
+
+    <span class="sec10"></span>
+</div>
+
+</main>

@@ -296,6 +296,6 @@ class controller_equipe extends BaseController
         $usuario = $usuarioModel->getUsuarioById($id);
 
         // Carrega a view com os dados do perfil do usuário
-        return view('view_perfil_Usuario', ['usuario' => $usuario]);
+        return view('view_header').view('view_perfil_Usuario', ['usuario' => $usuario]).view('view_footer');
     }
 }

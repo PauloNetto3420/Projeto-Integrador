@@ -72,22 +72,8 @@
       
     </div>
 
-    <div class="row" style="margin-top: 64px;">
-
-        <div class="d-flex justify-content-center">
-            <h1 id="subtitulo-equipe">Minha equipe</h1>
-        </div>
-
-        <p id="info-equipe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet sit perspiciatis qui asperiores culpa velit, recusandae tenetur, ipsam reprehenderit dicta quia unde. Ipsa optio laudantium, nemo aliquid quidem molestiae delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore dolore aut suscipit eaque! Aspernatur, odit laudantium qui vel aliquam accusamus corporis doloribus expedita delectus impedit laborum sapiente commodi aperiam.</p>
-
-        <div class="d-flex justify-content-center" style="margin-bottom: 48px;">
-            <div class="d-flex justify-content-center" style="width:720px; border: 2px solid #201B2C; border-radius: 50px;">
-                <img src="<?php echo base_url('arquivo/icones/default_team_.png'); ?>" alt="Foto de equipe" class="img-equipe">
-            </div>
-        </div>
-
-    </div>
-
+    
+<span class="sec7"></span>
     </div>
 </main>
 
