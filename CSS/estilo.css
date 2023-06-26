@@ -10,6 +10,175 @@ body * {
     box-sizing: border-box;
 }
 
+/*CADASTRO*/
+
+.cad{
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-cad{
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-cad > h1{
+    font-size: 40pt;
+    color: #FFFFFF;
+}
+
+.left-img-cad{
+    width: 25vw;
+}
+
+.right-cad{
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-cad{
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+}
+
+.card-cad > h1{
+    display: flex;
+    justify-content: center;
+    color: #00ff88;
+    margin-bottom: 48px;
+    font-size: 40pt;
+}
+
+.line{
+    margin-bottom: 32px;
+}
+
+.col1{
+    margin-right: 56px;
+    display: inline-block;
+}
+
+.col1 > input{
+    width: 280px;
+    height: 56px;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.col2 > input{
+    width: 280px;
+    height: 56px;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffff;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.col1 > input::placeholder{
+    color: #f0ffff;
+    text-align: center; 
+}
+
+.col2 > input::placeholder{
+    color: #ffffff;
+    text-align: center; 
+}
+
+.col1 > label{
+    display: block;
+    color: #08F185;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.col2{
+    display: inline-block;
+    
+}
+
+.col2 > input{
+    color: #ffffff;
+    text-align: center;     
+}
+
+.col2 > label{
+    display: block;
+    color: #08F185;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+#combo-fundo{
+    width: 280px;
+    height: 56px; 
+    background-color: #514869; 
+    border-radius: 50px;
+    display: flex; 
+    justify-content: center;
+}
+
+#combo{
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    width: 140px;
+    height: 56px;
+    text-align: center;
+    outline: none;
+    background-color: #514869;
+    color: white;
+}
+
+.btn-cad{
+    margin-top: 24px;
+    width: 440px;
+    height: 56px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-weight: 800;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+}
+
+.btn-cad:hover{
+    opacity: 0.8;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
 /*LOGIN*/
 
 .login{
@@ -121,7 +290,6 @@ body * {
 
 
 .btn-cadastro{
-    margin-top: 24px;
     width: 440px;
     height: 56px;
     border-radius: 30px;
@@ -139,12 +307,14 @@ body * {
 
 #info-cadastro{
     margin-top: 32px;
+    margin-bottom: 16px;
     width: 440px;
     color: white;
 }
 
 
 /* HEADER   */
+
 
 .header{
     background-color: #201B2C;
@@ -173,11 +343,34 @@ body * {
     background-color: #08F185;
 }
 
+.button-cadastrar{
+    color: #FFFFFF;
+    background: none;
+    font-size: 10pt;
+    width: 112px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    font-weight: 800;
+}
+
 .button-login{
+    font-size: 10pt;
     width: 112px;
     height: 40px;
     border-radius: 50px;
     border: none;
+    font-weight: 800;
+}
+
+.button-logout{
+    color: #FFFFFF;
+    background: none;
+    font-size: 10pt;
+    width: 112px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
     font-weight: 800;
 }
 
@@ -254,6 +447,174 @@ body * {
     color: #FFFFFF;
 }
 
+.btn-buscar-equipe{
+    width: 368px;
+    height: 80px;
+    font-size: 32px;
+    color: #FFFFFF;
+    background-color: #15C75C;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-criar-equipe{
+    width: 264px;
+    height: 80px;
+    font-size: 24px;
+    color: #15C75C;
+    background-color: none;
+    border: 2px solid #15C75C;
+    border-radius: 5px;
+}
+
+.sec5{
+    margin-top: 112px;
+}
+
+.sec6{
+    margin-top: 40px;
+
+}
+
+.sec7{
+    content: "";
+    display: inline-block;
+    margin-top: 75px;
+}
+
+.sec8{
+    content: "";
+    display: inline-block;
+    margin-top: 75px;
+}
+
+.sec9{
+    content: "";
+    display: inline-block;
+    margin-top: 210px;
+}
+
+.sec10{
+    content: "";
+    display: inline-block;
+    margin-top: 400px;
+}
+
+.card{
+    border-radius: 25px;
+}
+
+.titulo-perfil{
+    font-size: 40pt;
+    font-weight: 800;
+    margin-bottom: 48px;
+}
+
+.btn-editar-equipe{
+    width: 304px;
+    background-color: #725F9E;
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    background-color: #A587EE;
+    color: white;
+}
+
+.btn-excluir-equipe{
+    width: 152px;
+    background-color: #725F9E;
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.info-perfil{
+    margin-bottom: 16px;
+}
+
+.info-user{
+    font-size: 16pt;
+}
+
+.img-equipe{
+    width: 500px;
+    height: 500px;
+}
+
+#subtitulo-equipe{
+    font-size: 32pt;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+#info-equipe{
+    font-size: 12pt;
+    margin-bottom: 32px;
+}
+
+.form-editar-perfil > label{
+    font-size: 16pt;
+    font-weight: 800;
+    color: #201B2C;
+}
+
+.form-editar-perfil > input{
+    width: 400px;
+    height: 56px;
+    border-radius: 30px;
+    color: #15C75C;
+    padding-left: 4%;
+    font-size: 12pt;
+}
+
+.form-editar-perfil2 > label{
+    font-size: 16pt;
+    font-weight: 800;
+    color: #201B2C;
+}
+
+.form-editar-perfil2 > input{
+    width: 880px;
+    height: 200px;
+    border-radius: 30px;
+    color: #15C75C;
+    padding-left: 4%;
+    font-size: 12pt;
+}
+
+.form-editar-perfil > select{
+    width: 400px;
+    height: 56px;
+    border-radius: 30px;
+    color: #15C75C;
+    padding-left: 4%;
+    font-size: 12pt;
+}
+
+.btn-atualizar-perfil{
+    margin-top: 56px;
+    margin-bottom: 48px;
+    width: 368px;
+    height: 64px;
+    color: #FFFFFF;
+    background-color: #15C75C;
+    border: none;
+    border-radius: 30px;
+    font-size: 20pt;
+    font-weight: 800;
+}
+
+.btn-entrar-equipe{
+    background-color: #201B2C;
+    color: white;
+    width: 128px;
+    height: 40px;
+    font-size: 12pt;
+    font-weight: 800;
+    
+}
+
 @media only screen and (max-width: 1450px){
     
     .card-login{
@@ -298,6 +659,30 @@ body * {
     .card-login > h1{
         font-size: 32pt;
     }
+
+    .textfield > input{
+        width: 280px;
+        height: 40px;
+    }
+
+    .linha{
+        width: 280px;
+        
+    }
+
+    .btn-login{
+        width: 280px;
+        height: 40px;
+    }
+
+    .btn-cadastro{
+        width: 280px;
+        height: 40px;
+    }
+
+    #info-cadastro{
+        width: 280px;
+    }
 }
 
 .background-banner{
@@ -318,3 +703,158 @@ body * {
     margin-right: auto;
     margin-left: auto;
 }
+
+@media only screen and (max-width: 1730px){
+    
+    .right-cad{
+        width: 55vw;
+    }
+
+    .left-cad{
+        width: 35vw;
+    }
+
+}
+
+
+@media only screen and (max-width: 1400px){
+    
+    .right-cad{
+        width: 65vw;
+    }
+
+    .left-cad{
+        width: 25vw;
+    }
+
+    #teste{
+        font-size: 20pt;
+    }
+
+}
+
+@media only screen and (max-width: 1200px){
+    
+    .right-cad{
+        width: 100vw;
+    }
+
+    .left-cad{
+        width: 0vw;
+        opacity: 0.0;
+    }
+
+    .card-cad > h1{
+        font-size: 32pt;
+    }
+
+    .col1 > input{
+        width: 180px;
+        font-size: 8pt;
+    }
+
+    .col2 > input{
+        width: 180px;
+        font-size: 8pt;
+    }
+
+    #combo-fundo{
+        width: 180px;
+    }
+
+    #combo{
+        font-size: 8pt;
+        width: 140px;
+    }
+    
+}
+
+@media only screen and (max-width: 550px){
+    
+    .right-cad{
+        width: 100vw;
+    }
+
+    .left-cad{
+        width: 0vw;
+    }
+
+    .card-cad > h1{
+        font-size: 24pt;
+    }
+
+    .col1 > input{
+        width: 140px;
+        height: 32px;
+        font-size: 8pt;
+    }
+
+    .col2 > input{
+        width: 140px;
+        height: 32px;
+        font-size: 8pt;
+    }
+
+    #combo-fundo{
+        width: 140px;
+        height: 32px;
+    }
+
+    #combo{
+        font-size: 8pt;
+        width: 140px;
+        height: 32px;
+    }
+
+    .btn-cad{
+        width: 280px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 430px){
+    
+    .right-cad{
+        width: 100vw;
+    }
+
+    .left-cad{
+        width: 0vw;
+    }
+
+    .col1{
+        margin-right: 16px;
+    }
+
+    .card-cad{
+        padding: 25px 15px;
+    }
+
+    #combo{
+        height: 32px;
+    }
+
+    #combo-fundo{
+        height: 32px;
+    }
+
+    .col1 > input{
+        height: 32px;    
+    }
+
+    .col2 > input{
+        height: 32px;
+    }
+
+    .col1 > label{
+        font-size: 8pt;
+    }
+
+    .col2 > label{
+        font-size: 8pt;
+    }
+
+}
+
+

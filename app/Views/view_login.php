@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <!-- Inclua os arquivos CSS do Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo base_url('CSS/estilo.css') ?>">
+    <link rel="icon" href="<?=base_url()?>arquivo/icones/logo.png" type="image/png">
 </head>
 <body>
     
@@ -15,7 +17,6 @@
     <img src="<?php echo base_url('arquivo/login/cute-alien-animate.svg') ?>" class="left-img-login" alt="">
 
 </div>
-    <div class="container">
 
         <?php if (isset($error)): ?>
             <div class="alert alert-danger">
@@ -31,32 +32,36 @@
 
         <form action="" method="post">
         <div class="right-login">
-
+        
             <div class="card-login">
 
-                <h1>Fazer login</h1>
+            <h1>Fazer login</h1>
                 
 
             <div class="textfield">
-                <input type="text" name="login" placeholder="Usuário ou E-Mail">
+                <input type="text" name="login" placeholder="Usuário ou Email">
             </div>
     
             <div class="textfield">
             <input type="password" name="senha" placeholder="Senha">
             </div>
 
-            <span class="linha"></span>
-         <button type="submit" class="btn-login">Entrar</button>
+           
+         <button type="submit" class="btn-login">ENTRAR</button>
 
+        </form>
 
-        </div>
+        <span class="linha"></span>
+        <p id="info-cadastro">Não tem cadastro?</p>
+        
+        <form action="cadastrar">
+            <button type="submit" class="btn-cadastro">CADASTRAR</button>
+        </form>
 
         </div>
         
-        </form>
     </div>
     </main>
-    <!-- Inclua os arquivos JavaScript do Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

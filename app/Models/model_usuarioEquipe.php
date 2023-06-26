@@ -37,6 +37,21 @@ class model_usuarioEquipe extends Model
     }
 
 
+    public function getParticipacao($usuarioId, $equipeId)
+    {
+    // Ajuste o nome da tabela e dos campos conforme sua estrutura de banco de dados
+    $builder = $this->db->table('tbl_participacao');
+    $builder->select('Tipo');
+    $builder->where('Id_Usuario', $usuarioId);
+    $builder->where('Id_Equipe', $equipeId);
+    $query = $builder->get();
+
+    if ($query->getRow()) {
+        return $query->getRow()->Tipo;
+    } else {
+        return null;
+    }
+    }
 
     public function getEquipeIdPorUsuario($usuarioId)
     {
@@ -84,18 +99,7 @@ class model_usuarioEquipe extends Model
             ->findAll();
     }
 
-<<<<<<< HEAD
-    public function updateTipo($usuarioId, $equipeId, $tipo){
     
-        $data = [
-        'Tipo' => $tipo
-        ];
-
-    $this->db->table('tbl_participacao')
-        ->where('Id_Usuario', 'Id_Equipe', $usuarioId, $equipeId)
-        ->update($data);
-}
-=======
     public function excluirParticipante($idUsuario)
     {
         // Verifica se o usuário tem permissão para excluir participantes
@@ -103,7 +107,6 @@ class model_usuarioEquipe extends Model
             // Redireciona com uma mensagem de erro, caso o usuário não tenha permissão
             return redirect()->to('/equipe/gerenciar')->with('error', 'Você não tem permissão para excluir participantes.');
         }
->>>>>>> front
 
         // Obtém o ID da equipe do usuário logado
         $equipeId = $this->session->userdata('Id_Equipe');

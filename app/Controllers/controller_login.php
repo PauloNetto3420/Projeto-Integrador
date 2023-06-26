@@ -187,8 +187,7 @@ class controller_login extends BaseController
     }
 
     // Carrega a view do formulário de edição do perfil
-    echo view('view_header');
-    echo view('view_editar_perfil', $data);
+    echo view('view_header').view('view_editar_perfil', $data).view('view_footer');
 
         
     }

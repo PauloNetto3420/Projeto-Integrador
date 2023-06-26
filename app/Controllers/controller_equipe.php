@@ -117,12 +117,7 @@ class controller_equipe extends BaseController
 
     public function sucesso()
     {
-<<<<<<< HEAD
-
-        return view('view_sucesso_equipe');
-=======
         return view('view_header') . view('view_sucesso_equipe') . view('view_footer');
->>>>>>> front
     }
 
     public function perfil()
@@ -149,11 +144,11 @@ class controller_equipe extends BaseController
             });
 
             // Carregue a view 'view_perfilEquipe' e passe os dados da equipe e participantes para a view
-            return view('view_perfilEquipe', [
+            return view('view_header').view('view_perfilEquipe', [
                 'equipe' => $equipe,
                 'participantes' => $participantesFiltrados,
                 'tipoUsuario' => $tipoUsuario
-            ]);
+            ]).view('view_footer');
         } else {
             // A equipe não foi encontrada, redirecione para uma página de erro ou exiba uma mensagem de erro
             return redirect()->to('pagina_de_erro');
@@ -209,19 +204,13 @@ class controller_equipe extends BaseController
         $jogadoresCandidatos = $usuarioEquipeModel->getJogadoresCandidatos($equipeId);
 
         // Carrega a view de gerenciamento da equipe
-        return view('view_gerenciar_equipe', [
+        return view('view_header').view('view_gerenciar_equipe', [
             'equipe' => $equipe,
             'jogadoresCandidatos' => $jogadoresCandidatos,
-<<<<<<< HEAD
             'participantes' => $participantesFiltrados
-        ]);
+        ]).view('view_footer');
     }
 
-=======
-            'equipeId' => $equipeId // Adiciona o ID da equipe ao array
-        ]);
-    }
->>>>>>> front
     public function solicitarEntrarEquipe($equipeId)
     {
         // Verifica se o usuário está logado
@@ -260,11 +249,7 @@ class controller_equipe extends BaseController
         $usuarioEquipeModel->insert($dadosVinculo);
 
         // Redireciona para uma página de sucesso ou exibe uma mensagem de sucesso
-<<<<<<< HEAD
-        return redirect()->to('outra_pagina')->with('success', 'Você entrou na equipe com sucesso');
-=======
         return redirect()->to('home')->with('success', 'Você entrou na equipe com sucesso');
->>>>>>> front
     }
 
     public function aprovar()
@@ -273,15 +258,6 @@ class controller_equipe extends BaseController
         $usuarioId = $this->request->getPost('Id_Usuario');
         $equipeId = $this->request->getPost('Id_Equipe');
 
-<<<<<<< HEAD
-        // Atualiza o tipo do jogador no banco de dados
-        $participacaoModel = new model_usuarioEquipe();
-        $participacaoModel->updateTipo($usuarioId, $equipeId, 2);
-
-        // Redireciona de volta para a página de gerenciamento da equipe
-        return redirect()->to('/equipe/gerenciar')->with('success', 'Jogador aprovado com sucesso.');
-    }
-=======
         // Verifica se o usuário e a equipe existem
         $usuarioModel = new model_Cad();
         $equipeModel = new model_equipe();
@@ -300,8 +276,8 @@ class controller_equipe extends BaseController
             return redirect()->back()->with('error', 'Participação do jogador não encontrada.');
         }
 
-        $usuarioEquipe['Tipo'] = 2; // Defina o tipo apropriado de acordo com a sua lógica
-        $usuarioEquipeModel->update($usuarioEquipe['Id_Usuario'], $usuarioEquipe);
+        $usuarioEquipeModel = new model_usuarioEquipe();
+        $usuarioEquipeModel->updateTipo($usuarioId, $equipeId, 2);
 
         // Incrementa a quantidade de jogadores da equipe
         $equipe['Quantidade'] += 1;
@@ -322,5 +298,4 @@ class controller_equipe extends BaseController
         // Carrega a view com os dados do perfil do usuário
         return view('view_perfil_Usuario', ['usuario' => $usuario]);
     }
->>>>>>> front
 }

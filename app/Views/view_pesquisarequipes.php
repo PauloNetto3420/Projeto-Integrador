@@ -1,35 +1,38 @@
 <?php $session = session(); ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Pesquisar equipes</title>
-    <!-- Inclua os arquivos CSS do Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css">
-    
-</head>
-<body>
 
 <main class="content">
     <div class="container">
-    <?php $session = session(); ?>
-    <h1>Pesquisar Equipes Disponíveis</h1>
+    <h1 class="text-center" style="font-size: 40pt; margin-bottom: 64px;"><strong>Equipes Disponíveis</strong></h1>
 
-    <ul>
+    <ul style="list-style: none;">
         <?php foreach ($equipes as $equipe) : ?>
-            <li>
-                <strong>Nome da Equipe:</strong> <?php echo $equipe['Nome']; ?><br>
-                <strong>Descrição:</strong> <?php echo $equipe['Descricao']; ?><br>
-                <!-- Adicione outras informações relevantes sobre a equipe -->
-                <a href="solicitarEntrar/<?php echo $equipe['Id_Equipe']; ?>">Entrar</a>
-            </li>
+            <div class="row" style="margin-bottom: 64px;">
+                
+                <div class="d-flex justify-content-center">
+                    <div class="col-md-5 d-flex  align-items-center">
+                        <li>
+                            <p><strong>Nome da Equipe:</strong> <?php echo $equipe['Nome']; ?></p>
+                            <p><strong>Descrição:</strong> <?php echo $equipe['Descricao']; ?></p>
+                            <p><strong>Contato:</strong> <?php echo $equipe['Contato']; ?></p>
+                        </li>
+                    </div>
+
+                    <div class="col-md-5 d-flex justify-content-center align-items-center">
+
+                        <a class="btn btn-entrar-equipe" href="solicitarEntrar/<?php echo $equipe['Id_Equipe']; ?>">Entrar</a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+
         <?php endforeach; ?>
     </ul>
+
+    <span class="sec8"></span>
     </div>
 </main>
-    <!-- Inclua os arquivos JavaScript do Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+
 
 
 
