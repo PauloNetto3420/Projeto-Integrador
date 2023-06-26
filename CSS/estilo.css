@@ -19,6 +19,7 @@ body * {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .left-cad{
@@ -311,7 +312,6 @@ body * {
     width: 440px;
     color: white;
 }
-
 
 /* HEADER   */
 

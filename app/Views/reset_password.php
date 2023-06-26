@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Redefinir Senha</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="<?php echo base_url('CSS/estilo.css') ?>">
+    <link rel="icon" href="<?=base_url()?>arquivo/icones/logo.png" type="image/png">
 </head>
 <body>
-    <h1>Redefinir Senha</h1>
+    
+<main class="login">
+
+<div class="left-login">
+
+    <img src="<?php echo base_url('arquivo/login/cute-alien-animate.svg') ?>" class="left-img-login" alt="">
+
+</div>
 
     <?php if (session()->has('success')) : ?>
         <div class="alert alert-success"><?= session('success') ?></div>
@@ -15,14 +27,32 @@
     <?php endif; ?>
 
     <form method="post" action="<?= route_to('public/reset-password') ?>">
-        <label for="Email">Email:</label>
-        <input type="Email" name="Email" required>
+        <div class="right-login">
+            <div class="card-login">
 
-        <label for="new_password">Nova Senha:</label>
-        <input type="password" name="new_password" required>
+            <h1>Redefinir senha</h1>
 
-        <button type="submit">Redefinir Senha</button>
-        <a href="login">Voltar</a>
+             <div class="textfield">
+                <input type="Email" name="Email" placeholder="Email" required>
+            </div>
+
+            <div class="textfield">
+                <input type="password" name="new_password" placeholder="Senha" required>
+            </div>
+
+            <button type="submit" class="btn-login" style="margin-bottom: 32px;">REDEFINIR SENHA</button>
+
+            
+
     </form>
+
+    <form action="login">
+        <button type="submit" class="btn-cadastro">VOLTAR</button>
+    </form>
+
+        </div>
+    </div>
+    </main>
+
 </body>
 </html>

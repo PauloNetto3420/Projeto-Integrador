@@ -43,7 +43,7 @@
             </div>
     
             <div class="textfield">
-            <input type="password" name="senha" placeholder="Senha">
+                <input type="password" name="senha" placeholder="Senha">
             </div>
 
            
@@ -52,13 +52,13 @@
         </form>
 
         <span class="linha"></span>
+        
         <p id="info-cadastro">Não tem cadastro?</p>
-        <a href="reset-password">Esqueceu sua senha?</a>
         
         <form action="cadastrar">
             <button type="submit" class="btn-cadastro">CADASTRAR</button>
         </form>
-
+            <a href="reset-password" style="color: white; margin-top: 32px;">Esqueceu sua senha?</a>
         </div>
         
     </div>
