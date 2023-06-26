@@ -2,81 +2,34 @@
 
 <section class="background-home" style="background-image: url('<?php echo base_url('arquivo/background/2560x1440.jpg'); ?>');">
     <h1 class="text-center titulo">ColaboraHub</h1>
-    <p class="text-center subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ducimus iste blanditiis similique odit suscipit harum accusantium distinctio ad dignissimos itaque hic, <br>repellendus voluptatibus amet aliquam, iure atque vero, soluta aut.</p>    
-    <p class="text-center subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ducimus iste blanditiis similique odit suscipit harum accusantium distinctio ad dignissimos itaque hic, <br>repellendus voluptatibus amet aliquam, iure atque vero, soluta aut.</p>    
-</section>
+    <p class="text-center subtitulo">Colabora Hub, idealizado por João Henrique e Paulo Netto,<br>é um site
+                de encontro de equipes para gamers que revolucionou a forma como os jogadores se conectam.<br> Com
+                uma história inspiradora, a plataforma nasceu da paixão de João e Paulo pelo mundo dos games <br>e
+                sua visão de criar um espaço inclusivo e colaborativo.</p>
+    </section>
 
 <main class="content">
 
     <div class="container">
 
-    <section id="sec1" class="row">
-        <article id="art1" class="col-md-12">
-          <h2 class="text-center"><strong>Procure seu jogo favorito</strong></h2>
-          <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis
-            blanditiis, officiis aperiam ea magnam nisi accusamus accusantium est consequatur corrupti quam modi
-            perferendis quisquam earum facilis consequuntur? Assumenda, quo?</p>
-        </article>
-      </section>
-
-      <section id="sec2" class="row" style="margin-top: 32px; margin-bottom: 115px;">
-
-        <div class="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center">
-          <div class="card" style="width: 20rem;">
-          <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Overwatch_02.jpeg'); ?>" alt="Background">
-            <div class="card-body card-fundo">
-              <h5 class="text-center"><strong>Overwatch 2</strong></h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center">
-          <div class="card" style="width: 20rem;">
-          <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/LeagueOfLegends_02.jpeg'); ?>" alt="Background">
-            <div class="card-body card-fundo">
-              <h5 class="text-center"><strong>League of Legends</strong></h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center">
-          <div class="card" style="width: 20rem;">
-          <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/RocketLeague_01.jpeg'); ?>" alt="Background">
-            <div class="card-body card-fundo">
-              <h5 class="text-center"><strong>Rocket League</strong></h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center">
-          <div class="card" style="width: 20rem;">
-          <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Fortnite_02.jpeg'); ?>" alt="Background">
-            <div class="card-body card-fundo">
-              <h5 class="text-center"><strong>Fortnite</strong></h5>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
       <section id="sec3">
 
       <div class="row">
         <article class="col-md-12">
-          <h2 style="margin-bottom: 16px;"class="text-center"><strong>Explore e busque por equipes</strong></h2>
+          <h2 style="margin-bottom: 16px; margin-top: 32px;"class="text-center"><strong>Explore e busque por equipes</strong></h2>
         </article>
       </div>
 
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img  src="<?php echo base_url('arquivo/equipes/Equipes_01.jpeg'); ?>" class="d-block w-100" alt="...">
+            <img  style="border-radius: 35px;" src="<?php echo base_url('arquivo/equipes/Equipes_01.jpeg'); ?>" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img  src="<?php echo base_url('arquivo/equipes/Equipes_02.jpg'); ?>" class="d-block w-100" alt="...">
+            <img  style="border-radius: 35px;" src="<?php echo base_url('arquivo/equipes/Equipes_02.jpg'); ?>" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="<?php echo base_url('arquivo/equipes/Equipes_03.jpg'); ?>" class="d-block w-100" alt="...">
+            <img style="border-radius: 35px;" src="<?php echo base_url('arquivo/equipes/Equipes_03.jpg'); ?>" class="d-block w-100" alt="...">
           </div>
         </div>
 
@@ -98,6 +51,54 @@
         </article>
       </div>
     </section>
+
+    <section id="sec1" class="row">
+        <article id="art1" class="col-md-12">
+          <h2 class="text-center"><strong>Procure seu jogo favorito</strong></h2>
+          <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis
+            blanditiis, officiis aperiam ea magnam nisi accusamus accusantium est consequatur corrupti quam modi
+            perferendis quisquam earum facilis consequuntur? Assumenda, quo?</p>
+        </article>
+      </section>
+
+      <section id="sec2" class="row" style="margin-top: 32px; margin-bottom: 115px;">
+
+        <div class="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center">
+          <div class="card" style="width: 20rem;">
+          <a href="http://localhost/ColaboraHub/public/overwatch2"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Overwatch_02.jpeg'); ?>" alt="Background"></a>
+            <div class="card-body card-fundo">
+              <h5 class="text-center"><strong>Overwatch 2</strong></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center">
+          <div class="card" style="width: 20rem;">
+          <a href="http://localhost/ColaboraHub/public/lol"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/LeagueOfLegends_02.jpeg'); ?>" alt="Background"></a>
+            <div class="card-body card-fundo">
+              <h5 class="text-center"><strong>League of Legends</strong></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center">
+          <div class="card" style="width: 20rem;">
+          <a href="http://localhost/ColaboraHub/public/rocket"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/RocketLeague_01.jpeg'); ?>" alt="Background"></a>
+            <div class="card-body card-fundo">
+              <h5 class="text-center"><strong>Rocket League</strong></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center">
+          <div class="card" style="width: 20rem;">
+          <a href="http://localhost/ColaboraHub/public/fornite"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Fortnite_02.jpeg'); ?>" alt="Background"></a>
+            <div class="card-body card-fundo">
+              <h5 class="text-center"><strong>Fortnite</strong></h5>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </div>
 

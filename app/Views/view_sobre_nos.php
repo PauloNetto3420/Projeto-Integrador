@@ -1,5 +1,3 @@
-<main class="content">
-
 <div class="container-fluid">
 
     <div class="row">
@@ -19,18 +17,26 @@
     </div>
 
 </div>
-
+<main class="content">
 <div class="container">
 
-    <h1 class="text-center" style="font-size: 32pt; margin-top: 64px;"><strong>Criadores</strong></h1>
+    <h1 class="text-center" style="font-size: 32pt; margin-top: 64px; margin-bottom: 32px;"><strong>Criadores</strong></h1>
 
-    <div class="d-flex justify-content-center" style="border: 2px solid black;">
-        <img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Overwatch_02.jpeg'); ?>" alt="Background">
+    <div class="d-flex justify-content-center">
+        <img class="img-fluid" src="<?php echo base_url('arquivo/Avatar/Teste.jpg'); ?>" alt="Background">
     </div>
 
-    <div class="row align-items-center">
+    <div class="d-flex justify-content-center" style="margin-top: 16px;">
+        <h3><strong>Paulo e João</strong></h3>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <p>"Devthree"</p>
+    </div>
+
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
-            <img class="img-fluid  d-none d-sm-block" src='<?php echo base_url('arquivo/icones/missap.jpg'); ?>' alt="" style="padding-top: 10px;">
+            <img class="img-fluid  d-none d-sm-block" src='<?php echo base_url('arquivo/icones/missao.png'); ?>' alt="" width="256" height="256" style="padding-top: 10px;">
         </div>
         <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
             <h2 style="padding-top: 20px;"><strong>Missão</strong></h2>
@@ -42,9 +48,9 @@
         </div>
     </div>
 
-    <div class="row align-items-center">
+    <div class="row align-items-center" style="margin-bottom: 64px;">
         <div class="col-md-2">
-            <img class="img-fluid  d-none d-sm-block" src='<?php echo base_url('arquivo/icones/visao.jpg'); ?>' alt="" style="padding-top: 10px;">
+            <img class="img-fluid  d-none d-sm-block" src='<?php echo base_url('arquivo/icones/visao.png'); ?>' alt="" width="256" height="256" style="padding-top: 10px;">
         </div>
         <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
             <h2 style="padding-top: 20px;"><strong>Visão</strong></h2>
@@ -58,7 +64,7 @@
 
     <div class="row align-items-center">
         <div class="col-md-2">
-            <img class="img-fluid  d-none d-sm-block" src='<?php echo base_url('arquivo/icones/valores.jpg'); ?>' alt="" style="padding-top: 10px;">
+            <img class="img-fluid  d-none d-sm-block" src='<?php echo base_url('arquivo/icones/valores.png'); ?>' alt="" width="256" height="256" style="padding-top: 10px;">
         </div>
         <div class="col-md-10" style="background-color: #e5e5e5; margin-top: 30px;">
             <h2 style="padding-top: 20px;"><strong>Valores</strong></h2>
@@ -84,7 +90,7 @@
 
 </div>
 
-
+<span class="sec9"></span>
 
 </div>
 
