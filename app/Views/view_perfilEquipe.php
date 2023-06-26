@@ -19,12 +19,20 @@
                 <img src="<?php echo base_url('arquivo/icones/default_team_.png'); ?>" alt="Foto do Perfil" width="304" height="304" class=" rounded-circle" style="border: 2px solid #201B2C">
                 
             </div>
-            
-            <div class="d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center info-perfil">
+                <a href="<?= base_url('public/partidas/listar/'); ?>" class="btn btn-editar-equipe">Ver Partidas Disponíveis</a>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center info-perfil">
                 <?php if ($tipoUsuario == 1): ?>
-                    <a href="<?= base_url('public/equipe/gerenciar'); ?>" class="btn btn-editar-equipe">Gerenciar Equipe</a>
+                    <a href="<?= base_url('public/equipe/gerenciar'); ?>" class="btn btn-gerenciar-equipe">Gerenciar Equipe</a>
                 <?php endif; ?>
             </div>
+
+            <div class="d-flex justify-content-center info-perfil">
+                <a href="<?= base_url('public/partidas/criar'); ?>" class="btn btn-excluir-equipe">Criar Partida</a>
+            </div>
+            
         </div>
 
         <div class="col-md-8" style="padding: 32px; border: 2px solid #201B2C; border-radius: 50px;">   
@@ -41,8 +49,7 @@
                 <?php else : ?>
                     <p>Nenhum participante encontrado.</p>
                 <?php endif; ?>
-                <a href="<?= base_url('public/partidas/listar/'); ?>" class="btn btn-primary">Ver Partidas Disponíveis</a>
-                <a href="<?= base_url('public/partidas/criar'); ?>" class="btn btn-primary">Criar Partida</a>
+                
         </div>
     </div>
 

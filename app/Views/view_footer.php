@@ -23,10 +23,10 @@
                         <li style="margin-bottom: 12px;"><a class="link-footer" href="http://localhost/ColaboraHub/public/perfil">Meu perfil</a></li>
                         <?php if ($session->get('Id_Equipe')) : ?>
                             <li style="margin-bottom: 12px;">
-                                <a class="link-footer" href="http://localhost/ColaboraHub/public/equipe/perfil">Minha Equipe</a>
+                                <a class="link-footer" href="http://localhost/ColaboraHub/public/equipes/perfil">Minha Equipe</a>
                             </li>
                             <?php endif; ?>
-                        <li><a class="link-footer" href="sobre-nos">Sobre nós</a></li>
+                        <li><a class="link-footer" href="http://localhost/ColaboraHub/public/sobre-nos">Sobre nós</a></li>
                     </ul>
                 </div>
 

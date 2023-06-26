@@ -500,6 +500,12 @@ body * {
     margin-top: 400px;
 }
 
+.sec11{
+    content: "";
+    display: inline-block;
+    margin-top: 296px;
+}
+
 .card{
     border-radius: 25px;
 }
@@ -512,6 +518,13 @@ body * {
 
 .btn-editar-equipe{
     width: 304px;
+    background-color: #725F9E;
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.btn-gerenciar-equipe{
+    width: 240px;
     background-color: #725F9E;
     color: #FFFFFF;
     border-radius: 50px;

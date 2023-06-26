@@ -15,7 +15,7 @@
 
         <div class="d-flex justify-content-center" style="margin-bottom: 24px;">
             <div class="form-editar-perfil" style="margin-right: 40px;">
-                <label for="Tipo_Jogo" class="form-label" style="font-size: 12pt;">Jogo</label>
+                <label for="Tipo_Jogo" class="form-label" style="font-size: 16pt;">Jogo</label>
 
                 <select class="form-select" id="Tipo_Jogo" name="Tipo_Jogo" style="box-shadow: 5px 5px 10px #C2C2C2;">
                     <option value="League of Legends">League of Legends</option>
@@ -24,9 +24,6 @@
                     <option value="Rocket League">Rocket League</option>
                     <option value="Warzone 2.0">Warzone 2.0</option>
                     <option value="Fortnite">Fortnite</option>
-                    <option value="League of Legends">League of Legends</option>
-                    <option value="Overwatch 2">Overwatch 2</option>
-                    <option value="Rocket League">Rocket League</option>
                 </select>
             </div>
 
@@ -34,7 +31,7 @@
 
         </div> 
 
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center" style="margin-top: 112px;">
             <button type="submit" class="btn-atualizar-perfil">Criar partida</button>
         </div>
 
