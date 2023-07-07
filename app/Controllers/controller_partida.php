@@ -14,8 +14,7 @@ class controller_partida extends BaseController
     function ver()
     {
 
-        echo view('view_header').view('view_criar_partida').view('view_footer');
-
+        echo view('view_header') . view('view_criar_partida') . view('view_footer');
     }
 
     public function criarPartida()
@@ -25,6 +24,9 @@ class controller_partida extends BaseController
             // Redireciona para a página de login
             return redirect()->to('login');
         }
+
+        // Obtém o login do usuário
+        $login = session()->get('Login');
 
         // Obtém os dados da partida enviados pelo formulário
         $tipoJogo = $this->request->getPost('Tipo_Jogo');
@@ -38,7 +40,8 @@ class controller_partida extends BaseController
         $partidaModel = new model_partida();
         $partidaId = $partidaModel->insert([
             'Tipo_Jogo' => $tipoJogo,
-            'Qntd_Jogadores' => $quantidadeJogadores
+            'Qntd_Jogadores' => $quantidadeJogadores,
+            'Player_1' => $login
         ]);
 
         // Cria a relação entre a equipe e a partida
@@ -94,7 +97,11 @@ class controller_partida extends BaseController
         if ($partida && $partida['Qntd_Jogadores'] < 5) {
             // Incrementa a quantidade de jogadores da partida
             $partidaModel->update($idPartida, ['Qntd_Jogadores' => $partida['Qntd_Jogadores'] + 1]);
-
+        
+            // Adiciona o jogador ao campo player correspondente
+            $campoPlayer = 'player_' . ($partida['Qntd_Jogadores'] + 1);
+            $query = "UPDATE tbl_partida SET $campoPlayer = ? WHERE Id_Partida = ?";
+            $partidaModel->query($query, [session()->get('Login'), $idPartida]);
             // Redireciona para a página de sucesso ou outra ação desejada
             return redirect()->to('/partidas/visualizar/' . $idPartida);
         } else {
@@ -102,6 +109,7 @@ class controller_partida extends BaseController
             return redirect()->to('partidas/listar');
         }
     }
+
 
     public function visualizarPartida($idPartida)
     {
@@ -127,8 +135,7 @@ class controller_partida extends BaseController
         ]);
         $footer = view('view_footer');
 
-        return view('view_header') . view('view_visualizar_partida', ['partida' => $partida,'participantes' => $participantes, 'codigo' => $codigo]). view('view_footer');
-    
+        return view('view_header') . view('view_visualizar_partida', ['partida' => $partida, 'participantes' => $participantes, 'codigo' => $codigo]) . view('view_footer');
     }
 
     private function generateRandomCode($length)

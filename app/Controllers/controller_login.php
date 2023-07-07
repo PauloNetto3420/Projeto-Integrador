@@ -93,7 +93,6 @@ class controller_login extends BaseController
                 // Se a validação falhar, exibe os erros de validação
                 $data['validation'] = $this->validator;
             }
-            
         }
 
         // Carrega a view do formulário de login
@@ -185,45 +184,27 @@ class controller_login extends BaseController
             // Se a validação falhar, exibe os erros de validação
             $data['validation'] = $this->validator;
         }
-        session()->destroy();
     }
 
     // Carrega a view do formulário de edição do perfil
-    echo view('view_header').view('view_pagina_inicial', $data).view('view_footer');
+    echo view('view_header');
+    echo view('view_editar_perfil', $data);
 
         
     }
-
     public function excluir()
     {
+        // Recupere o ID do usuário logado da sessão
+        $userID = session()->get('Id_Usuario');
 
-    $idUsuario = session()->get('Id_Usuario');
-    $equipeId = session()->get('Id_Equipe');
+        // Exclua o perfil do usuário usando o ID
+        $userModel = new model_Cad();
+        $userModel->delete($userID);
 
-    $usuarioModel = new model_Cad();
-    $usuario = $usuarioModel->find($idUsuario);
-
-    if (!$usuario) {
-        return redirect()->back()->with('error', 'Usuário não encontrado.');
+        // Limpe a sessão e redirecione para a página de login
+        session()->destroy();
+        return redirect()->to('view_login');
     }
-
-    // Verificar se o usuário está associado a uma equipe
-    $usuarioEquipeModel = new model_usuarioEquipe();
-    $participacao = $usuarioEquipeModel->getParticipacao1($idUsuario, $equipeId);
-
-    if ($participacao) {
-        // Excluir a participação do usuário nas equipes
-        foreach ($participacao as $participacaoEquipe) {
-            $usuarioEquipeModel->delete($participacaoEquipe['Id_Usuario']);
-        }
-    }
-
-    // Excluir o usuário
-    $usuarioModel->delete($idUsuario);
-    session()->destroy();
-    
-    return redirect()->to('http://localhost/ColaboraHub/public/home')->with('success', 'Usuário excluído com sucesso.');
-}
 
     public function logout()
     {
@@ -233,44 +214,4 @@ class controller_login extends BaseController
         // Redirecione o usuário para a página de login ou qualquer outra página desejada
         return redirect()->to('home');
     }
-
-    public function resetPassword()
-    {
-        // Verifique se o formulário foi enviado
-        if ($this->request->getMethod() === 'post') {
-            // Obtenha os valores do formulário
-            $email = $this->request->getPost('Email');
-            $newPassword = $this->request->getPost('new_password');
-
-            // Verifique se a redefinição de senha foi bem-sucedida
-            if ($this->doResetPassword($email, $newPassword)) {
-                return redirect()->route('reset-password')->with('success', 'Senha redefinida com sucesso.');
-            } else {
-                return redirect()->route('reset-password')->with('error', 'Erro ao redefinir a senha.');
-            }
-        }
-
-        // Carregue a view de redefinição de senha
-        return view('reset_password');
-    }
-
-    private function doResetPassword($email, $newPassword)
-    {
-        // Verifique se o usuário com o email fornecido existe
-        $userModel = new model_Cad();
-        $user = $userModel->where('Email', $email)->first();
-
-        if (!$user) {
-            return false; // Usuário não encontrado
-        }
-
-        // Gere um hash da nova senha
-        $passwordHash = password_hash($newPassword, PASSWORD_DEFAULT);
-
-        // Atualize a senha do usuário no banco de dados
-        $userModel->update($user['Id_Usuario'], ['Senha' => $passwordHash]);
-
-        return true; // Senha redefinida com sucesso
-    }
-
 }

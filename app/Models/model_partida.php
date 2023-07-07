@@ -8,7 +8,7 @@ class model_partida extends Model
 {
     protected $table = 'tbl_partida';
     protected $primaryKey = 'Id_Partida';
-    protected $allowedFields = ['Tipo_Jogo', 'Qntd_Jogadores'];
+    protected $allowedFields = ['Tipo_Jogo', 'Qntd_Jogadores', 'Player_1'];
 
     public function getPartidasAtivasEquipe($equipeId)
 {

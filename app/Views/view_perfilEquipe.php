@@ -36,20 +36,20 @@
             </div>
 
             <div class="col-md-8" style="padding: 32px; border: 2px solid #201B2C; border-radius: 50px;">
-                <h5><strong>Dados da Equipe:</strong></h5><br>
+                <h5> <strong>Dados da Equipe</strong></h5>
                 <p><strong>Nome da Equipe:</strong> <?= $equipe['Nome']; ?></p>
                 <p><strong>Contato:</strong> <?= $equipe['Contato']; ?></p>
                 <p><strong>Descrição</strong> <?= $equipe['Descricao']; ?></p>
                 <p><strong>Quantidade de Membros:</strong> <?= $equipe['Quantidade']; ?></p>
                 <br>
-                <h5><strong>Participantes:</strong></h5><br>
+                <h5><strong>Participantes:</strong></h5>
                 <?php if (!empty($participantes)) : ?>
                     <ul class="participant-list">
                         <?php foreach ($participantes as $participante) : ?>
                             <li class="participant-item">
                                 <strong>Nome:</strong> <?= $participante['Nome']; ?><br>
-                                <strong>Email:</strong> <?= $participante['Email']; ?><a style="margin-left: 64px;" href="<?= base_url('public/equipe/ver-perfil/' . $participante['Id_Usuario']); ?>" class="btn btn-excluir-equipe">Ver Perfil</a><br><br>
-                                
+                                <strong>Email:</strong> <?= $participante['Email']; ?><br><br>
+                                <a href="<?= base_url('public/equipe/ver-perfil/' . $participante['Id_Usuario']); ?>" class="participant-profile-link">Ver Perfil</a>
                                 <?php if ($tipoUsuario == 1) : ?>
                                     <a href="<?= base_url('public/equipe/excluir-participante/' . $participante['Id_Usuario']); ?>" class="participant-delete-link">Excluir Participante</a>
                                 <?php endif; ?>
