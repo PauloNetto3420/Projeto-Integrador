@@ -41,7 +41,6 @@ class controller_partida extends BaseController
         $partidaId = $partidaModel->insert([
             'Tipo_Jogo' => $tipoJogo,
             'Qntd_Jogadores' => $quantidadeJogadores,
-            'Player_1' => $login
         ]);
 
         // Cria a relação entre a equipe e a partida
@@ -61,23 +60,41 @@ class controller_partida extends BaseController
     {
         // Obtém o ID da equipe do usuário
         $equipeId = session()->get('Id_Equipe');
-
+    
         // Obtém as partidas ativas da equipe do usuário
         $partidaEquipeModel = new model_agenda();
         $partidas = $partidaEquipeModel->getPartidasAtivasEquipe($equipeId);
-
+    
+        // Verifica se o login da sessão do usuário está presente nas partidas
+        $usuarioLogin = session()->get('Login');
+        $partidasFiltradas = [];
+        foreach ($partidas as $partida) {
+            $encontrado = false;
+            for ($i = 1; $i <= 5; $i++) {
+                $campoPlayer = 'Player_' . $i;
+                if ($partida[$campoPlayer] === $usuarioLogin) {
+                    $encontrado = true;
+                    break;
+                }
+            }
+            if (!$encontrado) {
+                $partidasFiltradas[] = $partida;
+            }
+        }
+    
         // Carrega a view header
         $header = view('view_header');
-
+    
         // Carrega a view footer
         $footer = view('view_footer');
-
+    
         // Carrega a view da lista de partidas, estendendo com header e footer
-        $content = view('view_listar_partidas', ['partidas' => $partidas]);
-
+        $content = view('view_listar_partidas', ['partidas' => $partidasFiltradas]);
+    
         // Retorna a view completa, com header, content e footer
         return $header . $content . $footer;
     }
+    
 
 
 

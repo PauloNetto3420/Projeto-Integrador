@@ -11,7 +11,7 @@ class model_agenda extends Model
 
     public function getParticipantes($idPartida)
     {
-        return $this->select('tbl_usuario.nome, tbl_usuario.email')
+        return $this->select('tbl_usuario.nome, tbl_usuario.email, tbl_usuario.login')
             ->join('tbl_usuario', 'tbl_usuario.id_usuario = tbl_agenda.id_equipe')
             ->where('tbl_agenda.id_partida', $idPartida)
             ->where('tbl_agenda.status', 1)
