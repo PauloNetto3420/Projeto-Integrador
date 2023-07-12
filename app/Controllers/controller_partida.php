@@ -96,8 +96,6 @@ class controller_partida extends BaseController
     }
     
 
-
-
     public function entrarPartida($idPartida)
     {
         // Verifica se o usuário está logado
