@@ -527,7 +527,7 @@ body * {
 }
 
 .btn-gerenciar-equipe{
-    width: 240px;
+    width: 304px;
     background-color: #725F9E;
     color: #FFFFFF;
     border-radius: 50px;
@@ -539,7 +539,7 @@ body * {
 }
 
 .btn-excluir-equipe{
-    width: 152px;
+    width: 304px;
     background-color: #725F9E;
     color: #FFFFFF;
     border-radius: 50px;

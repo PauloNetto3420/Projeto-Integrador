@@ -37,7 +37,7 @@
 
             <?php else : ?>
                 <div class="d-flex justify-content-center align-items-center" style="margin-bottom: 16px;">
-                    <img src="<?php echo base_url('arquivo/icones/default_profile.png'); ?>" alt="Foto do Perfil" width="304" height="304" class="thumbnail rounded-circle" style="border: 2px solid #201B2C">
+                    <img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" alt="Foto do Perfil" width="304" height="304" class="thumbnail rounded-circle" style="border: 2px solid #201B2C">
                 </div>
 
                     <div class="d-flex justify-content-center align-items-center">

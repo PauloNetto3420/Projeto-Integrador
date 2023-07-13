@@ -16,7 +16,7 @@
 
             <div class="col-md-4">
                 <div class="d-flex justify-content-center align-items-center" style="margin-bottom: 16px;">
-                    <img src="<?php echo base_url('arquivo/icones/default_team_.png'); ?>" alt="Foto do Perfil" width="304" height="304" class=" rounded-circle" style="border: 2px solid #201B2C">
+                    <img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" alt="Foto do Perfil" width="304" height="304" class=" rounded-circle" style="border: 2px solid #201B2C">
 
                 </div>
                 <div class="d-flex justify-content-center info-perfil">
@@ -25,12 +25,12 @@
 
                 <div class="d-flex justify-content-center align-items-center info-perfil">
                     <?php if ($tipoUsuario == 1) : ?>
-                        <a href="<?= base_url('public/equipe/gerenciar'); ?>" class="btn btn-gerenciar-equipe">Gerenciar Equipe</a>
+                        <a style="width: 304px;" href="<?= base_url('public/equipe/gerenciar'); ?>" class="btn btn-gerenciar-equipe">Gerenciar Equipe</a>
                     <?php endif; ?>
                 </div>
 
                 <div class="d-flex justify-content-center info-perfil">
-                    <a href="<?= base_url('public/partidas/criar'); ?>" class="btn btn-excluir-equipe">Criar Partida</a>
+                    <a style="width: 304px;" href="<?= base_url('public/partidas/criar'); ?>" class="btn btn-excluir-equipe">Criar Partida</a>
                 </div>
 
             </div>

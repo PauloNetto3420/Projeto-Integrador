@@ -9,7 +9,7 @@
 
   <div class="d-grid gap-2 col-2 mx-auto" style="margin-top: 35px;">
 
-    <button class="btn btn-primary btn-lg text-center" style="background-color: #15C75C; border: #0A080D;"><a href="cadastrar" style="color: #ffffff; text-decoration: none;">Colabora-se</a></button>
+    <button class="btn btn-primary btn-lg text-center" style="background-color: #15C75C; border: #0A080D;"><a href="cadastrar" style="color: #ffffff; text-decoration: none;">Seja parte do jogo</a></button>
   </div>
 </section>
 
