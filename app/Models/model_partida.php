@@ -28,4 +28,25 @@ class model_partida extends Model
     {
         $this->where('Id_Partida', $idPartida)->set('Status', 0)->update();
     }
+
+    public function getPartidasAtivasUsuario($loginUsuario)
+{
+    // Consulta para obter as partidas ativas do usuário
+    $sql = "SELECT p.* FROM tbl_partida as p
+            WHERE p.Qntd_Jogadores < 5
+            AND (p.Player_1 = '".$loginUsuario."'
+                 OR p.Player_2 = '".$loginUsuario."'
+                 OR p.Player_3 = '".$loginUsuario."'
+                 OR p.Player_4 = '".$loginUsuario."'
+                 OR p.Player_5 = '".$loginUsuario."')";
+
+    $query = $this->db->query($sql);
+
+    // Retorna as partidas ativas do usuário
+    return $query->getResultArray();
+}
+
+    
+    
+
 }

@@ -195,4 +195,33 @@ class controller_partida extends BaseController
         // Caso contrário, redirecione para a página de erro ou faça o tratamento adequado
         return redirect()->to('pagina_de_erro');
     }
+
+    public function minhasPartidas()
+{
+    // Verifica se o usuário está logado
+    if (!session()->get('Id_Usuario')) {
+        // Redireciona para a página de login
+        return redirect()->to('login');
+    }
+
+    // Obtém o login do usuário da sessão
+    $loginUsuario = session()->get('Login');
+
+    // Obtém as partidas ativas em que o usuário está participando e que ainda não estão completas
+    $partidaModel = new model_partida();
+    $partidas = $partidaModel->getPartidasAtivasUsuario($loginUsuario);
+
+    // Carrega a view header
+    $header = view('view_header');
+
+    // Carrega a view footer
+    $footer = view('view_footer');
+
+    // Carrega a view das partidas do usuário, estendendo com header e footer
+    $content = view('view_minhas_partidas', ['partidas' => $partidas]);
+
+    // Retorna a view completa, com header, content e footer
+    return $header . $content . $footer;
+}
+
 }

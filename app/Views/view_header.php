@@ -12,24 +12,19 @@
 </head>
 
 <body>
-    <nav id="head" class="navbar navbar-expand-lg header">
+    <nav id="head" class="navbar navbar-expand-lg navbar-dark header">
         <div class="container">
             <a href="http://localhost/ColaboraHub/public/home"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="64" height="64 " alt="Logo"></a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             </button>
+
 
 
 
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <form class="d-flex form-busca" role="search">
-                            <input class="form-control me-2 text-center input-busca" type="search" placeholder="Buscar" aria-label="Search">
-                            <span class="fundo-btn-busca"><button class="btn-busca" type="submit"><img src="<?php echo base_url('arquivo/icones/pesquisa.png'); ?>" width="20" height="20" alt="Logo"></button></span>
-                        </form>
-                    </li>
 
                     <li style="margin-right: 32px;">
                         <a href="http://localhost/ColaboraHub/public/home"><img src="<?php echo base_url('arquivo/icones/notificacao.png'); ?>" width="40" height="40" alt="Logo"></a>
@@ -58,8 +53,7 @@
                 </ul>
 
             </div>
-
-
+            
             <?php if ($session->get('Login')) : ?>
                 <div style="margin-right: 16px; " class="justify-content-end">
                     <form action="http://localhost/ColaboraHub/public/logout" method="post">
@@ -95,4 +89,5 @@
             <?php endif; ?>
 
         </div>
+
     </nav>

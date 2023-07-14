@@ -63,7 +63,7 @@ $routes->get('/partidas/finalizar/(:num)', 'controller_partida::finalizarPartida
 $routes->get('equipe/excluir-participante/(:num)', 'controller_equipe::excluirParticipante/$1');
 $routes->post('reset-password', 'controller_login::resetPassword', ['as' => 'reset-password']);
 $routes->get('reset-password', 'controller_login::resetPassword');
-
+$routes->get('partidas/minhas', 'controller_partida::minhasPartidas');
 
 $routes->get('equipe/ver-perfil/(:num)', 'controller_equipe::verPerfil/$1');
 
