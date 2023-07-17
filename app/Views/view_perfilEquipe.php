@@ -31,7 +31,7 @@
             </div>
 
             <div class="d-flex justify-content-center info-perfil">
-                <a style="width: 304px;" href="<?= base_url('public/partidas/minhas'); ?>" class="btn btn-entrar-equipe">Minhas Partidas</a>
+                <a style="width: 304px;" href="<?= base_url('public/partidas/minhas'); ?>" class="btn btn-excluir-equipe">Minhas Partidas</a>
             </div>
 
         </div>

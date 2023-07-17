@@ -23,18 +23,14 @@
 
 
 
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                 <ul class="navbar-nav">
 
-                    <li style="margin-right: 32px;">
-                        <a href="http://localhost/ColaboraHub/public/home"><img src="<?php echo base_url('arquivo/icones/notificacao.png'); ?>" width="40" height="40" alt="Logo"></a>
-                    </li>
-
-                    <li style="margin-right: 32px;">
+                    <li style="margin-right: 32px; margin-left: 40px;">
 
                         <?php if ($session->get('Login')) : ?>
                             <div class="justify-content-end">
-                                <a href="http://localhost/ColaboraHub/public/perfil"><img src="<?php echo base_url('arquivo/icones/perfil.png'); ?>" width="40" height="40" alt="Logo"></a>
+                                <a class="linkm" href="http://localhost/ColaboraHub/public/perfil">Perfil</a>
                             </div>
                         <?php endif; ?>
 
@@ -44,9 +40,26 @@
 
                         <?php if ($session->get('Id_Equipe')) : ?>
                             <div class="justify-content-end">
-                                <a href="http://localhost/ColaboraHub/public/equipes/perfil"><img src="<?php echo base_url('arquivo/icones/equipe.png'); ?>" width="40" height="40" alt="Logo"></a>
+                                <a class="linkm" style="margin-right: 30px;" href="http://localhost/ColaboraHub/public/equipes/perfil">Equipe</a>
                             </div>
                         <?php endif; ?>
+
+                    </li>
+
+                    <li>
+                            <div class="justify-content-end">
+                               <a class="linkm" href="colabora">O que é ?</a>
+                            </div>
+
+                    </li>
+
+                    <li>
+
+                        
+                            <div class="justify-content-end">
+                            <a class="linkm" href="colabora" style="margin-left: 30px;">Sobre nós</a>
+                            </div>
+                        
 
                     </li>
 
