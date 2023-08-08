@@ -2,7 +2,7 @@
     
     <div class="container">
         <h1 class="text-center" style="font-size: 40pt; margin-bottom: 64px;"><strong>Detalhes da Partida</strong></h1>
-
+    
         <div class="d-flex justify-content-center align-items-center" style="margin-bottom: 24px;">
         
             <div class="" style="margin-right: 80px;">

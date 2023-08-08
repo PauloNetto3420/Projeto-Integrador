@@ -178,8 +178,10 @@ class controller_login extends BaseController
             $session->set('Login', $this->request->getPost('login'));
             $session->set('Genero', $this->request->getPost('genero'));
             $session->set('Data_Nasc', $this->request->getPost('data_nasc'));
+            session()->destroy();
             // Redireciona para a página de sucesso ou exibe uma mensagem
-            return redirect()->to('perfil')->with('view_success','Informações atualizadas com sucesso.');
+            return redirect()->to('home')->with('view_success','Informações atualizadas com sucesso.');
+            
         } else {
             // Se a validação falhar, exibe os erros de validação
             $data['validation'] = $this->validator;
@@ -189,6 +191,7 @@ class controller_login extends BaseController
     // Carrega a view do formulário de edição do perfil
     echo view('view_header');
     echo view('view_editar_perfil', $data);
+    echo view('view_footer');
 
         
     }

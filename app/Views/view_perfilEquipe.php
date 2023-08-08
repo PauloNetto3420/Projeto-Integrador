@@ -49,8 +49,8 @@
                     <?php foreach ($participantes as $participante) : ?>
                         <li class="participant-item">
                             <strong>Nome:</strong> <?= $participante['Nome']; ?><br>
-                            <strong>Email:</strong> <?= $participante['Email']; ?><br><br>
-                            <a href="<?= base_url('public/equipe/ver-perfil/' . $participante['Id_Usuario']); ?>" class="participant-profile-link">Ver Perfil</a>
+                            <strong>Email:</strong> <?= $participante['Email']; ?><br>
+                            <a href="<?= base_url('public/equipe/ver-perfil/' . $participante['Id_Usuario']); ?>" class="participant-profile-link">Ver Perfil</a> <br>
                             <?php if ($tipoUsuario == 1) : ?>
                                 <a href="<?= base_url('public/equipe/excluir-participante/' . $participante['Id_Usuario']); ?>" class="participant-delete-link">Excluir Participante</a>
                             <?php endif; ?>

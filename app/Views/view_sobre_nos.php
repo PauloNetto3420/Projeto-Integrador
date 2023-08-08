@@ -1,7 +1,7 @@
 <div class="container-fluid">
 
     <div class="row">
-    <div class="col background-banner" style="padding: 0; background-image: url('<?php echo base_url('arquivo/Banner/banner03.jpg'); ?>');">
+    <div class="col background-banner" style="padding: 0; background-image: url('<?php echo base_url('arquivo/Banner/123.jpg'); ?>');">
             <h1 class="text-center titulo">Sobre nós</h1>
             <p class="text-center subtitulo">Colabora Hub, idealizado por João Henrique e Paulo Netto,<br>é um site
                 de encontro de equipes para gamers que revolucionou a forma como os jogadores se conectam.<br> Com
