@@ -1,0 +1,51 @@
+version: "3.8"
+
+services:
+  application_colaborahub:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    image: application_colaborahub
+    container_name: application_colaborahub
+    tty: true
+    ports:
+      - "9090:9000"
+    volumes:
+      - .:/var/www
+    networks:
+      - laravel_app
+    depends_on:
+      - mssql_colaborahub
+
+  nginx_colaborahub:
+    image: nginx:alpine
+    container_name: nginx_colaborahub
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - laravel_app
+    depends_on:
+      - application_colaborahub
+
+  mssql_colaborahub:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: mssql_colaborahub
+    environment:
+      SA_PASSWORD: "Junin@Padaria123"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssql_data:/var/opt/mssql
+    networks:
+      - laravel_app
+
+networks:
+  laravel_app:
+
+volumes:
+  mssql_data:
