@@ -1,4 +1,4 @@
-/writable/session/
-/writable/logs/
+/writeable/session/
+/writeable/logs/
 .env
 /vendor
