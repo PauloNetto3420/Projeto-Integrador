@@ -112,7 +112,7 @@ class controller_equipe extends BaseController
 
     public function homeEquipe()
     {
-        echo view('view_header') . view('view_hubequipes') . view('view_footer');
+        echo view('view_header') . view('view_hub_equipes') . view('view_footer');
     }
 
     public function sucesso()
@@ -144,7 +144,7 @@ class controller_equipe extends BaseController
             });
 
             // Carregue a view 'view_perfilEquipe' e passe os dados da equipe e participantes para a view
-            return view('view_header').view('view_perfilEquipe', [
+            return view('view_header').view('view_perfil_equipe', [
                 'equipe' => $equipe,
                 'participantes' => $participantesFiltrados,
                 'tipoUsuario' => $tipoUsuario
@@ -166,7 +166,7 @@ class controller_equipe extends BaseController
         $equipes = $equipeModel->getEquipesDisponiveisParaUsuario($userId);
 
         // Carregue a view responsável por exibir as equipes disponíveis
-        echo view('view_header') . view('view_pesquisarEquipes', ['equipes' => $equipes]) . view('view_footer');
+        echo view('view_header') . view('view_pesquisar_equipes', ['equipes' => $equipes]) . view('view_footer');
     }
 
     public function gerenciarEquipe()

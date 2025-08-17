@@ -20,13 +20,13 @@
 
                 <div class="col-md-3">
                     <ul style="list-style: none;">
-                        <li style="margin-bottom: 12px;"><a class="link-footer" href="http://localhost/ColaboraHub/public/perfil">Meu perfil</a></li>
+                        <li style="margin-bottom: 12px;"><a class="link-footer" href="http://localhost/perfil">Meu perfil</a></li>
                         <?php if ($session->get('Id_Equipe')) : ?>
                             <li style="margin-bottom: 12px;">
-                                <a class="link-footer" href="http://localhost/ColaboraHub/public/equipes/perfil">Minha Equipe</a>
+                                <a class="link-footer" href="http://localhost/equipes/perfil">Minha Equipe</a>
                             </li>
                             <?php endif; ?>
-                        <li><a class="link-footer" href="http://localhost/ColaboraHub/public/sobre-nos">Sobre nós</a></li>
+                        <li><a class="link-footer" href="http://localhost/sobre-nos">Sobre nós</a></li>
                     </ul>
                 </div>
 
@@ -47,7 +47,6 @@
         </div>
     </main>
 
-    <!-- Inclua os arquivos JavaScript do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

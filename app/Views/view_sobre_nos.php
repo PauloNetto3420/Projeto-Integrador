@@ -23,7 +23,7 @@
     <h1 class="text-center" style="font-size: 32pt; margin-top: 64px; margin-bottom: 32px;"><strong>Criadores</strong></h1>
 
     <div class="d-flex justify-content-center">
-        <img class="img-fluid" src="<?php echo base_url('arquivo/Avatar/Teste.jpg'); ?>" alt="Background">
+        <img class="img-fluid" src="<?php echo base_url('arquivo/Avatar/teste.jpg'); ?>" alt="Background">
     </div>
 
     <div class="d-flex justify-content-center" style="margin-top: 16px;">

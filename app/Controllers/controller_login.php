@@ -60,7 +60,7 @@ class controller_login extends BaseController
                         'Genero' => $user['Genero'],
                         'Email' => $user['Email'],
                         'Data_Nasc' => $user['Data_Nasc'],
-                        'Foto' => $user['Url_Foto']
+                        // 'Foto' => $user['Url_Foto'] -- Aqui tem um problema
                         // Adicione outros dados do usuário que você deseja armazenar na sessão
                     ];
                     $session->set($userData);

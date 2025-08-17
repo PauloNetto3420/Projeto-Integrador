@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Sucesso</title>
-    <!-- Inclua os arquivos CSS do Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css">
     <style>
         body {
@@ -30,11 +29,9 @@
     <div class="container">
         <h1>Sucesso!</h1>
         <p>A equipe foi criada com sucesso.</p>
-        <p>Clique aqui para voltar ao hub de equipes <a href="equipe">Equipes  </a></p>
-        <!-- Você pode adicionar mais informações ou personalizar a mensagem de sucesso aqui -->
+        <p>Clique aqui para voltar ao hub de equipes <a href="equipe">Equipes</a></p>
     </div>
 
-    <!-- Inclua os arquivos JavaScript do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

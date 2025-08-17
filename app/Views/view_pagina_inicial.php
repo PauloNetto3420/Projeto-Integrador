@@ -68,7 +68,7 @@
 
       <div class="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center">
         <div class="card" style="width: 20rem;">
-          <a href="http://localhost/ColaboraHub/public/overwatch2"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Overwatch_02.jpeg'); ?>" alt="Background"></a>
+          <a href="http://localhost/overwatch2"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Overwatch_02.jpeg'); ?>" alt="Background"></a>
           <div class="card-body card-fundo">
             <h5 class="text-center"><strong>Overwatch 2</strong></h5>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center">
         <div class="card" style="width: 20rem;">
-          <a href="http://localhost/ColaboraHub/public/lol"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/LeagueOfLegends_02.jpeg'); ?>" alt="Background"></a>
+          <a href="http://localhost/lol"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/LeagueOfLegends_02.jpeg'); ?>" alt="Background"></a>
           <div class="card-body card-fundo">
             <h5 class="text-center"><strong>League of Legends</strong></h5>
           </div>
@@ -86,7 +86,7 @@
 
       <div class="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center">
         <div class="card" style="width: 20rem;">
-          <a href="http://localhost/ColaboraHub/public/rocket"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/RocketLeague_01.jpeg'); ?>" alt="Background"></a>
+          <a href="http://localhost/rocket"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/RocketLeague_01.jpeg'); ?>" alt="Background"></a>
           <div class="card-body card-fundo">
             <h5 class="text-center"><strong>Rocket League</strong></h5>
           </div>
@@ -95,7 +95,7 @@
 
       <div class="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center">
         <div class="card" style="width: 20rem;">
-          <a href="http://localhost/ColaboraHub/public/fornite"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Fortnite_02.jpeg'); ?>" alt="Background"></a>
+          <a href="http://localhost/fornite"><img class="img-fluid" src="<?php echo base_url('arquivo/jogos/Fortnite_02.jpeg'); ?>" alt="Background"></a>
           <div class="card-body card-fundo">
             <h5 class="text-center"><strong>Fortnite</strong></h5>
           </div>

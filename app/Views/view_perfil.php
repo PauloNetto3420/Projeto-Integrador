@@ -28,7 +28,7 @@
                     </div>
 
                 <div class="d-flex justify-content-center info-perfil">
-                    <a href="<?php echo base_url('public/perfil/editar'); ?>" class="btn btn-editar-equipe">Editar Perfil</a>
+                    <a href="<?php echo base_url('perfil/editar'); ?>" class="btn btn-editar-equipe">Editar Perfil</a>
                 </div>
 
                 <div class="d-flex justify-content-center info-perfil">
@@ -48,7 +48,7 @@
                     </div>
                 
                 <div class="d-flex justify-content-center info-perfil">
-                    <a href="<?php echo base_url('public/perfil/editar'); ?>" class="btn btn-editar-equipe">Editar Perfil</a>
+                    <a href="<?php echo base_url('perfil/editar'); ?>" class="btn btn-editar-equipe">Editar Perfil</a>
                 </div>
 
                 <div class="d-flex justify-content-center info-perfil">

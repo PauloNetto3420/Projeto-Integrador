@@ -29,10 +29,9 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Home_controller::homepage');
 $routes->get('/cadastrar', 'controller_Cad::cadastrar');
 $routes->post('/cadastrar', 'controller_Cad::cadastrar');
-$routes->get('/home', 'Home_controller::homepage');
 $routes->get('/overwatch2', 'Home_controller::overwatch');
 $routes->get('/colabora', 'Home_controller::sobrenos');
 $routes->get('/lol',  'Home_controller::lol');
@@ -64,6 +63,7 @@ $routes->get('equipe/excluir-participante/(:num)', 'controller_equipe::excluirPa
 $routes->post('reset-password', 'controller_login::resetPassword', ['as' => 'reset-password']);
 $routes->get('reset-password', 'controller_login::resetPassword');
 $routes->get('partidas/minhas', 'controller_partida::minhasPartidas');
+$routes->get('sobre-nos', 'Home_controller::sobrenos');
 
 $routes->get('equipe/ver-perfil/(:num)', 'controller_equipe::verPerfil/$1');
 

@@ -14,7 +14,7 @@
 <body>
     <nav id="head" class="navbar navbar-expand-lg navbar-dark header">
         <div class="container">
-            <a href="http://localhost/ColaboraHub/public/home"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="64" height="64 " alt="Logo"></a>
+            <a href="http://localhost"><img src="<?php echo base_url('arquivo/logo/logo.png'); ?>" width="64" height="64 " alt="Logo"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@
 
                         <?php if ($session->get('Login')) : ?>
                             <div class="justify-content-end">
-                                <a class="linkm" href="http://localhost/ColaboraHub/public/perfil">Perfil</a>
+                                <a class="linkm" href="http://localhost/perfil">Perfil</a>
                             </div>
                         <?php endif; ?>
 
@@ -40,7 +40,7 @@
 
                         <?php if ($session->get('Id_Equipe')) : ?>
                             <div class="justify-content-end">
-                                <a class="linkm" style="margin-right: 30px;" href="http://localhost/ColaboraHub/public/equipes/perfil">Equipe</a>
+                                <a class="linkm" style="margin-right: 30px;" href="http://localhost/equipes/perfil">Equipe</a>
                             </div>
                         <?php endif; ?>
 
@@ -69,7 +69,7 @@
             
             <?php if ($session->get('Login')) : ?>
                 <div style="margin-right: 16px; " class="justify-content-end">
-                    <form action="http://localhost/ColaboraHub/public/logout" method="post">
+                    <form action="http://localhost/logout" method="post">
                         <button type="button" class="button-logout" data-bs-toggle="modal" data-bs-target="#modalLogout" name="button-logout">SAIR</button>
 
                         <div class="modal fade" id="modalLogout" tabindex="-1" aria-labelledby="modalLogout" aria-hidden="true">
@@ -95,7 +95,7 @@
             <?php if (!$session->get('Login')) : ?>
 
                 <div class="justify-content-end">
-                    <form action="http://localhost/ColaboraHub/public/login">
+                    <form action="http://localhost/login">
                         <button type="submit" class="button-login" name="button-login">LOGIN</button>
                     </form>
                 </div>
